@@ -1,0 +1,164 @@
+module PeachChristmas {
+  imports {
+      Base
+  }
+    item Trousers_Santa
+    {
+        Type = Clothing,
+        DisplayName = Santa Suit Pants,
+        ClothingItem = Trousers_Santa,
+        BodyLocation = Pants,
+        Icon = TrousersSantaRed,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+    item Trousers_SantaGReen
+    {
+        Type = Clothing,
+        DisplayName = Green Santa Suit Pants,
+        ClothingItem = Trousers_SantaGReen,
+        BodyLocation = Pants,
+        Icon = TrousersSantaGreen,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+item Trousers_SantaYellow
+    {
+        Type = Clothing,
+        DisplayName = Yellow Santa Suit Pants,
+        ClothingItem = Trousers_SantaYellow,
+        BodyLocation = Pants,
+        Icon = TrousersSantaYellow,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+
+	item Trousers_SantaWhite
+    {
+        Type = Clothing,
+        DisplayName = White Santa Suit Pants,
+        ClothingItem = Trousers_SantaWhite,
+        BodyLocation = Pants,
+        Icon = TrousersSantaWhite,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+	item Trousers_SantaTurquoise
+    {
+        Type = Clothing,
+        DisplayName = Turquoise Santa Suit Pants,
+        ClothingItem = Trousers_SantaTurquoise,
+        BodyLocation = Pants,
+        Icon = TrousersSantaTurquoise,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+	item Trousers_SantaPurple
+    {
+        Type = Clothing,
+        DisplayName = Purple Santa Suit Pants,
+        ClothingItem = Trousers_SantaPurple,
+        BodyLocation = Pants,
+        Icon = TrousersSantaPurple,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+    	item Trousers_SantaPink
+    {
+        Type = Clothing,
+        DisplayName = Pink Santa Suit Pants,
+        ClothingItem = Trousers_SantaPink,
+        BodyLocation = Pants,
+        Icon = TrousersSantaPink,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+	item Trousers_SantaOrange
+    {
+        Type = Clothing,
+        DisplayName = Orange Santa Suit Pants,
+        ClothingItem = Trousers_SantaOrange,
+        BodyLocation = Pants,
+        Icon = TrousersSantaOrange,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+
+	item Trousers_SantaGrey
+    {
+        Type = Clothing,
+        DisplayName = Grey Santa Suit Pants,
+        ClothingItem = Trousers_SantaGrey,
+        BodyLocation = Pants,
+        Icon = TrousersSantaGrey,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    }
+
+	item Trousers_SantaBlue
+    {
+        Type = Clothing,
+        DisplayName = Blue Santa Suit Pants,
+        ClothingItem = Trousers_SantaBlue,
+        BodyLocation = Pants,
+        Icon = TrousersSantaBlue,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    } 
+	item Trousers_SantaBluePattern
+    {
+        Type = Clothing,
+        DisplayName = Blue Festive Santa Suit Pants,
+        ClothingItem = Trousers_SantaBluePattern,
+        BodyLocation = Pants,
+        Icon = TrousersSantaBlue,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    } 
+	item Trousers_SantaBluePattern2
+    {
+        Type = Clothing,
+        DisplayName = Blue Moose Santa Suit Pants,
+        ClothingItem = Trousers_SantaBluePattern2,
+        BodyLocation = Pants,
+        Icon = TrousersSantaBlue,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+    } 
+}

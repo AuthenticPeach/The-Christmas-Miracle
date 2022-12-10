@@ -1,0 +1,9 @@
+Tooltip_EN = {
+
+	Tooltip_Grinch = "You can't help but notice an uncanny resemblance to yourself.",
+	Tooltip_ClausIncSuitcase = "After 25 Deliveries, you will recieve materials for a grand prize. -SC",
+	Tooltip_Puddle = "You feel it drip through your fingers",
+	Tooltip_IceShardClip1 = "Used for The Sleigher"
+	Tooltip_IceShardClip2 = "Used for The Bell Ringer",
+	Tooltip_CheesePizza = "Mr. McAllister, here's your very own Cheese Pizza.",
+	}

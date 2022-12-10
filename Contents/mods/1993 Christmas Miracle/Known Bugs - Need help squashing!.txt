@@ -1,0 +1,16 @@
+To whom it may be concerned, I will list the known current bugs here so that players would know the boundaries of the mod and 
+the code. It would be so great if anyone can help suggest and fix these bugs (I'll give you credit for it).
+
+----Known Bugs----
+-Christmas Miracle - 
+/// Starting a new save and not moving the inital truck, then quiting and loading back into the save will produce a second truck
+on top of the first one. Good luck moving that. 
+
+/// When Crafting the superweapons - the Bell Ringer and The Sleigher, there is a chance of it flagging an error. Disregard it, 
+its an intermittent thing, the recipe and function all work as intended. 
+
+/// When unwrapping the presents or opening the map capsule, there is - by my estimates - a 6.5% chance of it not producing 
+anything. This is why I provide a 2nd map capsule in the glovebox in the event of this. 
+
+This is also to say that this mod may conflict with other mods - if you want me to ATTEMPT to make things compatible. Send me
+a kind message via Discord - AuthenticPeach#6910.

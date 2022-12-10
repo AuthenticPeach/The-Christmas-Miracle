@@ -1,0 +1,397 @@
+module Base
+{
+    /************************Normal************************/
+
+   item SmallPresent
+	{
+		Weight	=	0.3,
+		Type	=	Normal,
+		DisplayName	=	Small Present,
+		Icon	=	Present3,
+	}
+   item MediumPresent
+	{
+		Weight	=	0.8,
+		Type	=	Normal,
+		DisplayName	=	Medium Present,
+		Icon	=	Present2,
+	}
+  item LargePresent
+	{
+		Weight	=	1.5,
+		Type	=	Normal,
+		DisplayName	=	Large Present,
+		Icon	=	Present6,
+	}
+  item Present4
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Present 4,
+		Icon	=	Present4,
+	}
+  item Present31
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Present 31,
+		Icon	=	Present31,
+	}
+   item Santa
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Santa Figurine,
+		Icon	=	SantaClause2,
+	}
+    item Nutcracker
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Nutcracker Figurine,
+		Icon	=	Nutcracker2,
+	}
+    item Grinch
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Grinch Figurine,
+		Icon	=	Grinch2,
+		Tooltip = Tooltip_Grinch,
+	}
+   item SantaSpiffo
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Santa Spiffo,
+		Icon	=	SantaSpiffo2,
+	}
+   item SnowGlobe1
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Snow Globe,
+		Icon	=	SnowGlobe1,
+}
+   item SnowGlobe2
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Snow Globe,
+		Icon	=	SnowGlobe2,
+}
+   item SnowGlobe3
+	{
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	Snow Globe,
+		Icon	=	SnowGlobe3,
+}
+	item Lighter2
+	{
+		LightDistance	=	2,
+		Weight	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	TRUE,
+		TorchCone	=	FALSE,
+		LightStrength	=	0.4,
+		DisplayName	=	Lighter,
+		ActivatedItem	=	TRUE,
+		Icon	=	Lighter2,
+		MetalValue = 1,
+		cantBeConsolided = TRUE,
+		StaticModel = Zippo,
+		ticksPerEquipUse = 110,
+	}
+    item MarchRidgeChristmasMap1
+    {
+        Type				=			Normal,
+        DisplayName			=		    March Ridge Delivery Map,
+        Icon				=			ChristmasMap1,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/marchridgemapChristmas1.png,
+    }
+    item MarchRidgeChristmasMap2
+    {
+        Type				=			Normal,
+        DisplayName			=		    March Ridge Delivery Map,
+        Icon				=			ChristmasMap1,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/marchridgemapChristmas2.png,
+    }
+    item MarchRidgeChristmasMap3
+    {
+        Type				=			Normal,
+        DisplayName			=		    March Ridge Delivery Map,
+        Icon				=			ChristmasMap1,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/marchridgemapChristmas3.png,
+    }
+    item MarchRidgeChristmasMap4
+    {
+        Type				=			Normal,
+        DisplayName			=		    March Ridge Delivery Map,
+        Icon				=			ChristmasMap1,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/marchridgemapChristmas4.png,
+    }
+    item MarchRidgeChristmasMap5
+    {
+        Type				=			Normal,
+        DisplayName			=		    March Ridge Delivery Map,
+        Icon				=			ChristmasMap1,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/marchridgemapChristmas5.png,
+    }
+    item Soccerball2
+    {
+        MaxRange	=	20,
+        Type	=	Weapon,
+        MinimumSwingTime	=	0.9,
+	SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Soccerball,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.3,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	SoccerBall,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   2,
+    }
+    item BasketBall2
+    {
+        MaxRange	=	20,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+	SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Basketball,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.2,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	1.5,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	Basketball,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   2,
+    }
+    item GolfBall2
+    {
+        MaxRange	=	30,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+	SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Golfball,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	0.1,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	GolfBall,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   1,
+    }
+    item Baseball2
+    {
+        MaxRange	=	30,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+	SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Baseball,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	0.3,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	Baseball,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   1,
+    }
+    item TennisBall2
+    {
+        MaxRange	=	30,
+        Type	=	Weapon,
+        MinimumSwingTime	=	1.5,
+	SwingAnim	=	Throw,
+        WeaponSprite = Molotov,
+        UseSelf	=	TRUE,
+        DisplayName	=	Tennis Ball,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Football,
+        MinDamage	=	0,
+        Weight	=	0.4,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	TennisBall,
+        TriggerExplosionTimer   =   40,
+        ExtraDamage  =   0.001,
+        ExplosionRange  =   1,
+    }
+   
+    item Mov_AntiqueStove
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= appliances_cooking_01_16,
+    }
+item x2Scope
+    {
+        Type = WeaponPart,
+        DisplayName = x2 Scope,
+        Icon = Scope2x,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2; TheBellRinger; TheSleigher,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+    }
+
+    item x4Scope
+    {
+        Type = WeaponPart,
+        DisplayName = x4 Scope,
+        Icon = Scope4x,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        MaxRangeModifier = 13,
+        MinRangeModifier = 8,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2; TheBellRinger; TheSleigher,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+    }
+
+    item x8Scope
+    {
+        Type = WeaponPart,
+        DisplayName = x8 Scope,
+        Icon = Scope8x,
+        Weight = 0.8,
+        WeightModifier = 0.8,
+        MaxRangeModifier = 20,
+        MinRangeModifier = 10,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2; TheBellRinger; TheSleigher,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+    }
+	item AmmoStraps
+    {
+        Type = WeaponPart,
+        DisplayName = Ammo Straps,
+        Icon = AmmoStrap,
+        Weight = 0.5,
+        WeightModifier = 0.5,
+        ReloadTimeModifier = -5,
+        MountOn = HuntingRifle; VarmintRifle; Shotgun; TheBellRinger; TheSleigher,
+        PartType = Sling,
+        Tooltip = Tooltip_AmmoStrap,
+    }
+
+    item Sling
+    {
+        Type = WeaponPart,
+        DisplayName = Sling,
+        Icon = GunSling,
+        Weight = 0.5,
+        WeightModifier = -0.3,
+        MountOn = HuntingRifle; VarmintRifle; Shotgun; TheBellRinger; TheSleigher,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+    }
+
+    item FiberglassStock
+    {
+        Type = WeaponPart,
+        DisplayName = Fiberglass Stock,
+        Icon = RifleFibreglassStock,
+        Weight = 1,
+        WeightModifier = -0.5,
+        HitChanceModifier = 8,
+        MountOn = HuntingRifle; VarmintRifle; TheBellRinger; TheSleigher,
+        PartType = Stock,
+        Tooltip = Tooltip_FiberglassStock,
+    }
+
+    item RecoilPad
+    {
+        Type = WeaponPart,
+        DisplayName = Recoil Pad,
+        Icon = RifleRecoilPad,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+        MountOn = HuntingRifle; VarmintRifle; AssaultRifle; AssaultRifle2; TheBellRinger; TheSleigher,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_RecoilPad,
+    }
+
+    item Laser
+    {
+        Type = WeaponPart,
+        DisplayName = Laser,
+        Icon = HandgunLaser,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        HitChanceModifier = 5,
+        MountOn = Pistol; Pistol2; Pistol3; AssaultRifle; AssaultRifle2; TheBellRinger; TheSleigher,
+        PartType = Canon,
+        Tooltip = Tooltip_Laser,
+        MetalValue = 15,
+    }
+
+    item RedDot
+    {
+        Type = WeaponPart,
+        DisplayName = Red Dot,
+        Icon = RedDot,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 5,
+        MountOn = Pistol; Pistol2; Pistol3; Revolver; Revolver_Long; AssaultRifle; AssaultRifle2; HuntingRifle; VarmintRifle; TheBellRinger; TheSleigher,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = RedDot,
+        MetalValue = 15,
+    }
+   item Bayonnet
+    {
+        Type = WeaponPart,
+        DisplayName = Bayonnet,
+        Icon = HuntingKnife,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 5,
+        MountOn = VarmintRifle; HuntingRifle; TheBellRinger,
+        PartType = Canon,
+        StaticModel = Bayonnet,
+        MetalValue = 15,
+    }
+}
+
