@@ -1,0 +1,991 @@
+module Base
+{ 
+/************************Main Menu************************/
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Tis_the_Season.ogg,
+		}
+	}
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/bluelephan2_Christmas-Clockmas.ogg,
+		}
+	}
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/DanceNationChristmas.ogg,
+		}
+	}
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Badnewz2-GhettoChristmas.ogg,
+		}
+	}
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/DavidOrr-ChristmasEve.ogg,
+		}
+	}
+	sound NewMusic_MainTheme
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+	}
+/************************New Music Library************************/
+	sound NewMusic_Introduction
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Carol_of_the_Bells.ogg,
+		}
+	}
+	
+	sound NewMusic_WhereIsEveryone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Carol_of_the_Bells.ogg,
+		}
+	}
+		sound NewMusic_Alone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+	}
+		sound NewMusic_Run 
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ak-17_MerryChristmas.ogg,
+		}
+	}
+		sound NewMusic_SayingGoodbye
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDontDieonMe.ogg,
+		}
+	}
+		sound NewMusic_Ambient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuSilentNightDarkChristmas.ogg,
+		}
+	}
+		sound NewMusic_MaybeNot
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/RoyaltyFreeMusicSnowballsandAngelsOrchestraHolidaysFestive.ogg,
+		}
+	}
+		sound NewMusic_DesperateEscape
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuFinalShowdown.ogg,
+		}
+	}
+		sound NewMusic_Barricading
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/FlyingLessonsforReindeerRoyaltyFreeMusic.ogg,
+		}
+	}
+		sound NewMusic_MaybeWeCanWinThis
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/RoyaltyFreeMusicLibrarySadChristmasTree-RobertRuchhoeft.ogg,
+		}
+	}
+		sound NewMusic_TheInevitable
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/BlanketsofSnowHolidayChristmasOrchestra.ogg,
+		}
+	}
+		sound NewMusic_TheyWereOnceHere
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDisintegrating.ogg,
+		}
+	}
+		sound NewMusic_WhatWasLost
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ROYALTYFREEFallingSnow.ogg,
+		}
+	}
+		sound NewMusic_WorkFast
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TundraCaravanHolidayBackgroundOrchestraRoyaltyFree.ogg,
+		}
+	}
+		sound NewMusic_Rest
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/PositiveEmotionInstrumentalMusicChristmasSong.ogg,
+		}
+	}
+		sound NewMusic_PressOn
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuGodRestYeMerryGentlemen.ogg,
+		}
+	}
+		sound NewMusic_Waiting
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+	}
+		sound NewMusic_Overrun
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays1.ogg,
+		}
+	}
+		sound NewMusic_MoreAreComing
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays2.ogg,
+		}
+	}
+		sound NewMusic_GetReady
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays3.ogg,
+		}
+
+	}
+		sound NewMusic_LookingAround
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+
+
+
+                /*----------------------Duplicates---------------------------*/
+
+
+		sound NewMusic_Surrounded
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays1.ogg,
+		}
+
+	}
+		sound NewMusic_TheHorde
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ak-17_MerryChristmas.ogg,
+		}
+
+	}
+		sound NewMusic_FightOrFlight
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuSilentNightDarkChristmas.ogg,
+		}
+
+	}
+
+		sound NewMusic_Chase
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuFinalShowdown.ogg,
+		}
+
+	}
+		sound NewMusic_MoreAreComing
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+
+	}
+		sound NewMusic_WWL_Solo
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDontDieonMe.ogg,
+		}
+
+	}
+		sound NewMusic_Overrun
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/RoyaltyFreeMusicLibrarySadChristmasTree-RobertRuchhoeft.ogg,
+		}
+
+	}
+		sound NewMusic_32
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDisintegrating.ogg,
+		}
+
+	}
+		sound NewMusic_33
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_34
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuGodRestYeMerryGentlemen.ogg,
+		}
+
+	}
+		sound NewMusic_35
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays2.ogg,
+		}
+
+	}
+		sound NewMusic_36
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_Travelling
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ROYALTYFREEFallingSnow.ogg,
+		}
+
+	}
+		sound NewMusic_TakeStock
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TundraCaravanHolidayBackgroundOrchestraRoyaltyFree.ogg,
+		}
+
+	}
+		sound NewMusic_PassingTime
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuMoonlightMenschen.ogg,
+		}
+
+	}
+		sound NewMusic_NoTime
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+
+	}
+		sound NewMusic_OnlyOneWay
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Kimken_kheni-christmas.ogg,
+		}
+
+	}
+		sound NewMusic_GoItAlone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Carol_of_the_Bells.ogg,
+		}
+
+	}
+		sound NewMusic_HoldingOutHope
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_Working
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/RoyaltyFreeMusicLibrarySadChristmasTree-RobertRuchhoeft.ogg,
+		}
+
+	}
+		sound NewMusic_Mourning
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDontDieonMe.ogg,
+		}
+
+	}
+		sound NewMusic_Sunset
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_CalmBeforeTheStorm
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_EchoesFromBefore
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasRelaxingMusicMedleyfortheHolidays3.ogg,
+		}
+
+	}
+		sound NewMusic_ThePlan
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ROYALTYFREEFallingSnow.ogg,
+		}
+
+	}
+		sound NewMusic_GearUp
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ak-17_MerryChristmas.ogg,
+		}
+
+	}
+		sound NewMusic_FinallyCalm
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Kimken_kheni-christmas.ogg,
+		}
+
+	}
+		sound NewMusic_PatchUp
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MarkySpark_Christmas-Eve.ogg,
+		}
+
+	}
+		sound NewMusic_TheyreClose
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuJingleBellsDarkChristmas.ogg,
+		}
+
+	}
+		sound NewMusic_ThinkingOfThePast
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuCaroloftheBellsDarkChristmas.ogg,
+		}
+
+	}
+		sound NewMusic_TouchAndGo
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_Tread_Carefully
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound NewMusic_Everythings_Gone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/PositiveEmotionInstrumentalMusicChristmasSong.ogg,
+		}
+
+	}
+		sound AmbientMusic_BrassAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/pftq_Bipolar-Christmas-Piano.ogg,
+		}
+
+	}
+		sound AmbientMusic_CreepyAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/FlyingLessonsforReindeerRoyaltyFreeMusic.ogg,
+		}
+
+	}
+		sound AmbientMusic_IntenseAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/SkyRiderX_Christmas_Charge.ogg,
+		}
+
+	}
+		sound AmbientMusic_PercussiveAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+
+	}
+		sound AmbientMusic_RhythmicAmbient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDisintegrating.ogg,
+		}
+
+	}
+		sound NewMusic_SlowSad
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuDisintegrating,
+		}
+
+	}
+		sound NewMusic_TheZombieThreat
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSO_CarolOfTheBellsEG.ogg,
+		}
+
+	}
+		sound NewMusic_WhatWasLostActive
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/RoyaltyFreeMusicSnowballsandAngelsOrchestraHolidaysFestive.ogg,
+		}
+
+	}
+		sound NewMusic_WhatWasLostActive2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/PositiveEmotionInstrumentalMusicChristmasSong.ogg,
+		}
+
+	}
+		sound NewMusic_AmbientGuitar
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/xerochi-christmasTimeIsHere.ogg,
+		}
+
+	}
+		sound NewMusic_AmbientLow
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/FlyingLessonsforReindeerRoyaltyFreeMusic.ogg,
+		}
+
+	}
+		sound NewMusic_AmbientPiano
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MyuuCaroloftheBellsDarkChristmas.ogg,
+		}
+
+	}
+		sound NewMusic_AmbientRaider
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TundraCaravanHolidayBackgroundOrchestraRoyaltyFree.ogg,
+		}
+
+	}
+
+        /************************Old Music Library************************/
+
+		sound OldMusic_run
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSOCarolOfTheBellsEG.ogg,
+		}
+	}
+		sound OldMusic_barricading
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/LucidShadowDreamer_A-Lonely-Christmas.ogg,
+		}
+	}
+		sound OldMusic_chase
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSOCarolOfTheBellsEG.ogg,
+		}
+	}
+		sound OldMusic_desperate_escape
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSOCarolOfTheBellsEG.ogg,
+		}
+	}
+		sound OldMusic_fight_or_flight
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSOCarolOfTheBellsEG.ogg,
+		}
+	}
+		sound OldMusic_maybe_we_can_win_this
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MarkySpark_Christmas-Eve.ogg,
+		}
+	}
+		sound OldMusic_maybe_not
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/DanceNationChristmas.ogg,
+		}
+	}
+		sound OldMusic_PZ
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/KiwiChristmasmonkeycat-Kiwi_Carol.ogg,
+		}
+	}
+		sound OldMusic_saying_goodbye
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/LucidShadowDreamer_A-Lonely-Christmas.ogg,
+		}
+	}
+		sound OldMusic_the_horde
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/GuitarChristmas-guitarnut.ogg,
+		}
+	}
+		sound OldMusic_the_inevitable
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Boogerblaster1690_DarkChristmas.ogg,
+		}
+	}
+		sound OldMusic_theme2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ent2186Christmas-Memories.ogg,
+		}
+	}
+		sound OldMusic_they_were_once_here
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MarkySpark_Christmas-Eve.ogg,
+		}
+	}
+		sound OldMusic_tunedeath
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/TSOCarolOfTheBellsEG.ogg,
+		}
+	}
+		sound OldMusic_the_zombie_threat
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/reel2__Bells_of_Christmas.ogg,
+		}
+	}
+		sound OldMusic_what_was_lost
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/xerochi-christmasTimeIsHere.ogg,
+		}
+	}
+		sound OldMusic_wwl_active
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ak-17_MerryChristmas.ogg,
+		}
+	}
+		sound OldMusic_wwl_tense
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/DayDreamingFox_Christmas-card.ogg,
+		}
+	}
+		sound OldMusic_what_was_lost
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Kimken_kheni-christmas.ogg,
+		}
+	}
+		sound OldMusic_where_is_everyone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/DayDreamingFox_Christmas_Magic2.ogg,
+		}
+	}
+		sound OldMusic_ambient1
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/LucidShadowDreamer_Christmas-Memories.ogg,
+		}
+	}
+		sound OldMusic_ambient2
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/ShouKurosawa_Starry_Christmas.ogg,
+		}
+	}
+		sound OldMusic_guitar
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/297677_Christmas_Fairytale.ogg,
+		}
+	}
+		sound OldMusic_low
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/SkyRiderX_Christmas_Charge.ogg,
+		}
+	}
+		sound OldMusic_long_ambient
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Kimken_kheni-christmas.ogg,
+		}
+	}
+		sound OldMusic_piano
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/SkyRiderX_Christmas_Charge.ogg,
+		}
+	}
+		sound OldMusic_raider
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/LucidShadowDreamer_Christmas-Memories-MusicBoxMusic.ogg,
+		}
+	}
+ 		 sound NewMusic_Death
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/Night_Snow.ogg,
+		}
+	}
+	sound OldMusic_preface
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+	}
+	sound OldMusic_alone
+	{
+		category = Music,
+		master = Music,
+		clip
+		{
+			file = media/music/MaryDidYouKnowPiano.ogg,
+		}
+	}
+}

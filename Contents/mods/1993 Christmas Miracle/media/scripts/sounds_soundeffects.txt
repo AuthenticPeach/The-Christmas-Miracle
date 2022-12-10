@@ -1,0 +1,373 @@
+module Base
+{ 
+/************************Sound Effects************************/
+	sound Helicopter Far
+	{
+		category = Meta,
+		master = Music,
+		clip
+		{
+			file = media/music/MaestroRage_TheEpicChristmas.ogg,
+		}
+	}
+	sound Helicopter Close
+	{
+		category = Meta,
+		master = Music,
+		clip
+		{
+			file = media/music/MaestroRage_TheEpicChristmas.ogg,
+		}
+	}
+	sound HouseAlarm
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/FireAlarmBell.ogg,
+		}
+	}
+	sound BigExplosion
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/MerryChristmasyoufilthyanimal.ogg,
+		}
+	}
+	sound sleighbell
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/sleighbell.ogg,
+		}
+	}
+	sound IceShot1
+	{
+		category = Object,
+		master = Music,
+		clip
+		{
+			file = media/music/IceShot1.ogg,
+		}
+	}
+	sound IceShot2
+	{
+		category = Object,
+		master = Music,
+		clip
+		{
+			file = media/music/IceShot2.ogg,
+		}
+	}
+	sound FixWithTape
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/PZ_FoodSwoosh.wav,
+		}
+	}
+	sound ASMRthelid
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ASMRthelid.ogg,
+		}
+	}
+	sound bahhumbug
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/bahhumbug.ogg,
+		}
+	}
+	sound PutthatcookiedownNow
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/PutthatcookiedownNow.ogg,
+		}
+	}
+	sound Yousitonathroneoflies
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/Yousitonathroneoflies.ogg,
+		}
+	}
+	sound SeeingIsBelieving
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/SeeingIsBelieving.ogg,
+		}
+	}
+	sound SantaOhMyGod
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/SantaOhMyGod.ogg,
+		}
+	}
+	sound IMadeMyFamilyDisappear
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/IMadeMyFamilyDisappear.ogg,
+		}
+	}
+	sound Lookwhatyoudidyoulittlejerk
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/Lookwhatyoudidyoulittlejerk.ogg,
+		}
+	}
+	sound MarleyAndMarley
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/MarleyAndMarley.ogg,
+		}
+	}
+	sound SantaClausMilk
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/SantaClausMilk.ogg,
+		}
+	}
+	sound CharlieBrownProblem
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/CharlieBrownProblem.ogg,
+		}
+	}
+	sound FatSanta
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/FatSanta.ogg,
+		}
+	}
+	sound TheGrinch
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/TheGrinch.ogg,
+		}
+	}
+	sound WildAnimal
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/WildAnimal.ogg,
+		}
+	}
+	sound Wrongo
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/Wrongo.ogg,
+		}
+	}
+	sound JuryDuty
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/JuryDuty.ogg,
+		}
+	}
+	sound Yearstosortthisout
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/Yearstosortthisout.ogg,
+		}
+	}
+	sound GrinchLaugh
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/GrinchLaugh.ogg,
+		}
+	}
+	sound ScroogedKillallofyou
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ScroogedKillallofyou.ogg,
+		}
+	}
+	sound KeepTheChangeYouFilthyAnimal
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/KeepTheChangeYouFilthyAnimal.ogg,
+		}
+	}
+	sound DieHardHoHoHo
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/DieHardHoHoHo.ogg,
+		}
+	}
+	sound ChristmaswiththeKranksHickoryHoneyHam
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmaswiththeKranksHickoryHoneyHam.ogg,
+		}
+	}
+	sound ChristmasVacationCat
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasVacationCat.ogg,
+		}
+	}
+	sound YoullShootYourEyeOut
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/YoullShootYourEyeOut.ogg,
+		}
+	}
+	sound ChristmasVacationEndingSpeech
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ChristmasVacationEndingSpeech.ogg,
+		}
+	}
+	sound ScroogePopulation
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ScroogePopulation.ogg,
+		}
+	}
+	sound ScroogePopulation2
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ScroogePopulation2.ogg,
+		}
+	}
+	sound PlanesTrainsAutomobilesDogsBarking
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/PlanesTrainsAutomobilesDogsBarking.ogg,
+		}
+	}
+	sound ScroogeSpirit
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/ScroogeSpirit.ogg,
+		}
+	}
+	sound GunConstruction
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/GunConstruction.ogg,
+		}
+	}
+	sound Ice1 
+	{
+		category = World,
+		master = Music,
+		clip
+		{
+			file = media/music/Ice1.ogg,
+		}
+	}
+	sound Helicopter
+	{
+		category = Meta,
+		master = Music,
+		clip
+		{
+			file = media/music/MaestroRage_TheEpicChristmas.ogg,
+		}
+	}
+	sound HeliSanta
+	{
+		category = Object,
+		clip
+		{
+			file = media/music/MaestroRage_TheEpicChristmas.ogg,
+		}
+	}
+
+}

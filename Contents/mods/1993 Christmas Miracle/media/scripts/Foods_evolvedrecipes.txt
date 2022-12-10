@@ -1,0 +1,29 @@
+module Base
+{
+    evolvedrecipe FestiveSandwich
+    {
+        BaseItem:BreadSlices,
+        MaxItems:4,
+        ResultItem:Sandwich,
+	Cookable:true,
+        Name:Make Sandwich,
+    }
+    evolvedrecipe HotChocolate
+    {
+       BaseItem:WaterMug,
+       MaxItems:3,
+       ResultItem:HotChocolate,
+       Cookable:true,
+       AddIngredientIfCooked:true,
+       Name:Prepare Beverage,
+    }
+    evolvedrecipe ChristmasEggnog
+    {
+       BaseItem:Mugl,
+       MaxItems:4,
+       ResultItem:ChristmasEggnog,
+       Cookable:true,
+       AddIngredientIfCooked:true,
+       Name:Prepare Beverage,
+    }
+}

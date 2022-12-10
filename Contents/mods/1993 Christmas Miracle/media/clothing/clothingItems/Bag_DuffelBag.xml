@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_duffelbag</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_duffelbag</m_FemaleModel>
+	<m_GUID>b02d3217-b692-4035-8a61-8c4305998464</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>duffelbagblue</textureChoices>
+	<textureChoices>duffelbagblue2</textureChoices>
+	<textureChoices>duffelbagblue3</textureChoices>
+	<textureChoices>duffelbagblue4</textureChoices>
+	<textureChoices>duffelbagblue5</textureChoices>
+	<textureChoices>duffelbaggreen</textureChoices>
+	<textureChoices>duffelbaggreen2</textureChoices>
+	<textureChoices>duffelbaggreen3</textureChoices>
+	<textureChoices>duffelbaggreen4</textureChoices>
+	<textureChoices>duffelbaggreen5</textureChoices>
+	<textureChoices>duffelbaggrey</textureChoices>
+	<textureChoices>duffelbaggrey2</textureChoices>
+	<textureChoices>duffelbaggrey3</textureChoices>
+	<textureChoices>duffelbaggrey4</textureChoices>
+	<textureChoices>duffelbaggrey5</textureChoices>
+	<textureChoices>duffelbaggrey6</textureChoices>
+	<textureChoices>duffelbaggrey7</textureChoices>
+</clothingItem>

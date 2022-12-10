@@ -1,0 +1,1727 @@
+module Base
+{
+/************************Christmas Food************************/
+
+	item Eggnog
+	{
+	Type                = Food,
+	DisplayName         = Carton of Eggnog,
+	Icon                = CartonEggnog,
+	EvolvedRecipe = ChristmasEggnog:5,
+	Weight              = 1.0,
+	DaysFresh           = 4,
+	DaysTotallyRotten   = 7,
+	HungerChange        = -20,
+	ThirstChange        = -100,
+	Calories            = 1850,
+	Carbohydrates       = 190,
+	Proteins            = 100,
+	Lipids              = 100,
+	Packaged            = TRUE,
+	CantBeFrozen        = TRUE,
+	CustomContextMenu   = Drink,
+	CustomEatSound      = PZ_DrinkingFromBottle,
+	FoodType            = NoExplicit,
+}
+    item RumBottle
+	{
+		HungerChange	=	-10,
+		Weight	=	0.4,
+		AlwaysWelcomeGift	=	TRUE,
+		Type	=	Food,
+		UnhappyChange	=	-16,
+		ThirstChange	=	-13,
+		DisplayName	=	Bottle of Rum,
+		ReplaceOnUse	= WineEmpty,
+		Alcoholic	=	TRUE,
+		Icon		=	RumBottle,
+		EvolvedRecipe = ChristmasEggnog:5,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottle,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 65,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        StaticModel = BeerBottle,
+        EatType = popcan,
+	FoodType            = Rum,
+	}
+    item ChristmasEggnog
+	{
+	Type                = Food,
+	DisplayName         = Christmas Eggnog,
+	Alcoholic	=	TRUE,
+	Icon                = ChristmasEggnog,
+	Weight              = 0.2,
+	DaysFresh           = 4,
+	DaysTotallyRotten   = 7,
+	HungerChange        = -5,
+	ThirstChange        = -25,
+	UnhappyChange	    = -10,
+	Calories            = 1850,
+	Carbohydrates       = 190,
+	Proteins            = 100,
+	Lipids              = 100,
+	Packaged            = TRUE,
+	CantBeFrozen        = TRUE,
+	CustomContextMenu   = Drink,
+	ReplaceOnUse	    = Mugl,
+	CustomEatSound      = PZ_DrinkingFromBottle,
+	FoodType            = NoExplicit,
+	StaticModel = Mug,
+	}
+    item Champagne
+   {
+        HungerChange	=	-20,
+        Weight	=	1,
+        Type	=	Food,
+        ThirstChange	=	-20,
+        UnhappyChange	=	-20,
+        DisplayName	=	Champagne,
+        Alcoholic	=	TRUE,
+        ReplaceOnUse	=	WineEmpty,
+        Icon	=	Champagne,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromBottle,
+        Carbohydrates = 7.8,
+        Proteins = 1.6,
+        Lipids = 0,
+        Calories = 505,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        StaticModel = WhiteWineBottle,
+    }
+   item HotChocolatePacket
+	{
+		Weight	=	0.1,
+		Type	=	Food,
+		DisplayName	=	Hot Chocolate Packet,
+		Icon	=	HotChocolatePacket,
+		Packaged = TRUE,
+}
+item HotChocolate
+	{
+	Type                = Food,
+	DisplayName         = Hot Chocolate,
+	Icon                = HotChocolate,
+	Weight              = 0.3,
+	EvolvedRecipe = HotChocolate:5,
+	DaysFresh           = 2,
+	DaysTotallyRotten   = 5,
+	
+	HungerChange        = -15,
+	ThirstChange        = -10,
+	UnhappyChange	    = -10,
+
+        MinutesToBurn   =   50,
+        MinutesToCook   =   10,
+	Calories            = 194,
+	Carbohydrates       = 27,
+	Proteins            = 9,
+	Lipids              = 6,
+	
+	CantBeFrozen        = TRUE,
+	ReplaceOnUse	    = Mugl,	
+	CustomContextMenu   = Drink,
+	CustomEatSound      = PZ_DrinkingFromBottle,
+	
+	FoodType            = NoExplicit,
+	GoodHot = true,
+        BadCold = true,
+	StaticModel = Mug,
+	EatType = Mug,
+}
+    item MintCandy2
+    {
+        Type				=		Food,
+        DisplayName			=		Mint Candy,
+        Icon				=		MintCandy,
+        Weight				=		0.1,
+	EvolvedRecipe = HotChocolate:5,
+        HungerChange 		=		-2,
+        UnhappyChange	    =	    -10,
+        Carbohydrates = 15,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 60,
+	FoodType            = Peppermint,
+    }
+    item Candycane2
+	{
+		HungerChange	=	-10,
+		UnhappyChange	    =	    -10,
+		Weight	=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Candy Cane,
+		Icon	=	Candycane,
+	EvolvedRecipe = HotChocolate:5,  
+        Carbohydrates = 4.33,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 16.6,
+	FoodType            = Peppermint,
+	}
+    item Turkey
+	{
+		HungerChange	=	-100,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Turkey,
+		Icon	=	Turkey,
+		DaysFresh	=	4,
+		MinutesToCook	=	240,
+		FoodType    =   Meat,
+        Carbohydrates = 4,
+        Proteins = 1942,
+        Lipids = 503,
+        Calories = 12845,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item TurkeySlice
+	{
+		HungerChange	=	-25,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Slice of Turkey,
+		Icon	=	TurkeySlice,
+		DaysFresh	=	4,
+		MinutesToCook	=	240,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 4,
+        Proteins = 485.75,
+        Lipids = 125.75,
+        Calories = 3211.25,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item TurkeySliceCranberry
+	{
+		HungerChange	=	-25,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Slice of Turkey with Cranberry Sauce,
+		Icon	=	TurkeySliceCranberry,
+		DaysFresh	=	4,
+		MinutesToCook	=	240,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 4,
+        Proteins = 1942,
+        Lipids = 525,
+        Calories = 3250.25,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item ChristmasChicken
+	{
+		HungerChange	=	-60,
+		Weight	=	0.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Chicken,
+		Icon	=	ChristmasChicken,
+		DaysFresh	=	2,
+		MinutesToCook	=	240,
+		FoodType    =   Meat,
+        Carbohydrates = 4,
+        Proteins = 1942,
+        Lipids = 503,
+        Calories = 12845,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+  }
+    item ChickenBreast 
+	{
+		HungerChange	=	-15,
+		Weight	=	0.1,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Chicken Breast,
+		Icon	=	ChickenBreast,
+		DaysFresh	=	4,
+		MinutesToCook	=	240,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 1,
+        Proteins = 485.5,
+        Lipids = 125.75,
+        Calories = 3211,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item ChickenBreastCranberry
+	{
+		HungerChange	=	-15,
+		Weight	=	0.1,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	80,
+		DisplayName	=	Chicken Breast with Cranberry Sauce,
+		Icon	=	ChickenBreastCranberry,
+		DaysFresh	=	4,
+		MinutesToCook	=	240,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 1,
+        Proteins = 485.5,
+        Lipids = 125.75,
+        Calories = 3211,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item RoastDuck
+	{
+		HungerChange	=	-100,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	110,
+		DisplayName	=	Roast Duck,
+		Icon	=	RoastDuck,
+		DaysFresh	=	4,
+		MinutesToCook	=	85,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 144,
+        Lipids = 215,
+        Calories = 2568,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item RoastDuckSlice
+	{
+		HungerChange	=	-25,
+		Weight	=	2.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	110,
+		DisplayName	=	Slice of Duck,
+		Icon	=	RoastDuckSlice,
+		DaysFresh	=	4,
+		MinutesToCook	=	85,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 36,
+        Lipids = 53.75,
+        Calories = 642,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item RoastDuckSliceCranberry
+	{
+		HungerChange	=	-25,
+		Weight	=	2.5,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	110,
+		DisplayName	=	Slice of Duck with Cranberry Sauce,
+		Icon	=	RoastDuckSliceCranberry,
+		DaysFresh	=	4,
+		MinutesToCook	=	85,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 36,
+        Lipids = 53.75,
+        Calories = 642,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item PorkLoinRoast
+	{
+		HungerChange	=	-100,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	100,
+		DisplayName	=	PorkLoin Roast,
+		Icon	=	PorkLoinRoast,
+		DaysFresh	=	4,
+		MinutesToCook	=	80,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 24,
+        Lipids = 12,
+        Calories = 211,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item PorkLoinRoastSlice
+	{
+		HungerChange	=	-100,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	100,
+		DisplayName	=	Pork Loin Roast Slice,
+		Icon	=	PorkLoinRoastSlice,
+		DaysFresh	=	4,
+		MinutesToCook	=	80,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 6,
+        Lipids = 3,
+        Calories = 52.75,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item PorkLoinRoastSliceCranberry
+	{
+		HungerChange	=	-100,
+		Weight	=	1.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	100,
+		DisplayName	=	Pork Loin Roast Slice with Cranberry Sauce,
+		Icon	=	PorkLoinRoastSliceCranberry,
+		DaysFresh	=	4,
+		MinutesToCook	=	80,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 6,
+        Lipids = 3,
+        Calories = 52.75,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item Turducken
+	{
+		HungerChange	=	-175,
+		Weight	=	3.0,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	420,
+		DisplayName	=	Turducken,
+		Icon	=	Turducken,
+		DaysFresh	=	4,
+		MinutesToCook	=	360,
+		FoodType    =   Meat,
+        Carbohydrates = 144,
+        Proteins = 1884,
+        Lipids = 1284,
+        Calories = 9999, /***19680*/
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item TurduckenSlice
+	{
+		HungerChange	=	-35,
+		Weight	=	0.6,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	420,
+		DisplayName	=	Slice of Turducken,
+		Icon	=	TurduckenSlice,
+		DaysFresh	=	4,
+		MinutesToCook	=	360,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 28.8,
+        Proteins = 376.8,
+        Lipids = 256.8,
+        Calories = 3936,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item TurduckenSliceCranberry
+	{
+		HungerChange	=	-35,
+		Weight	=	0.6,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	6,
+		MinutesToBurn	=	420,
+		DisplayName	=	Slice of Turducken,
+		Icon		=	TurduckenSliceCranberry,
+		DaysFresh	=	4,
+		MinutesToCook	=	360,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		FoodType    =   Meat,
+        Carbohydrates = 28.8,
+        Proteins = 376.8,
+        Lipids = 256.8,
+        Calories = 3936,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+    item CheesePizza
+    {
+        HungerChange	=	-25,
+        Weight	=	0.3,
+        Type	=	Food,
+        UnhappyChange	=	-10,
+        DisplayName	= Cheese Pizza,
+        DaysTotallyRotten	=	5,
+        DaysFresh = 3,
+        Icon	=	CheesePizza,
+        Carbohydrates = 115,
+        Proteins = 40,
+        Lipids = 39,
+        Calories = 950,
+	Tooltip = Tooltip_CheesePizza,
+	GoodHot = true,
+    }
+item CookieFrosted
+{
+        Type		    =           Food,
+        DisplayName	    =		Frosted Cookie,
+        Icon		    =		CookieFrosted,
+        Weight		    =		0.1,
+        HungerChange 	    =		-6,
+        UnhappyChange	    =	       -11,
+        Carbohydrates       = 		22,
+        Proteins	    =		 1,
+        Lipids		    = 		 8,
+        Calories 	    = 	       165,
+}
+item FudgeSlice
+{
+        Type		    =           Food,
+        DisplayName	    =		Fudge Slice,
+        Icon		    =		Fudge,
+        Weight		    =		0.1,
+        HungerChange 	    =		-7,
+        UnhappyChange	    =	       -11,
+        Carbohydrates       = 		26,
+        Proteins	    =		 0.5,
+        Lipids		    = 		 3.6,
+        Calories 	    = 	       140,
+}
+item ChristmasPudding
+	{
+		HungerChange		= -8,
+		Weight	                = 0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		DisplayName		=	Christmas Pudding,
+		Icon			=	ChristmasPudding,
+		
+        	Carbohydrates 		=110,
+        	Proteins		= 8,
+        	Lipids 			= 16,
+        	Calories 		= 680,
+	}
+item GingerbreadMan
+	{
+		HungerChange		= -8,
+		Weight	                = 0.2,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		DisplayName		=	GingerbreadMan,
+		Icon			=	GingerbreadMan,
+		
+        	Carbohydrates 		= 67,
+        	Proteins		= 4,
+        	Lipids 			= 4,
+        	Calories 		= 612,
+	}
+item Buckeyes
+	{
+		HungerChange		= -6,
+		Weight	            	= 0.2,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		DisplayName		=	Buckeyes,
+		Icon			=	Buckeyes,
+		
+        	Carbohydrates 		= 18,
+        	Proteins		= 4,
+        	Lipids 			= 2,
+        	Calories 		= 170,
+	}
+item ChocolatePretzel
+	{
+		HungerChange		= -7,
+		Weight	            = 0.2,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		DisplayName		=	Chocolate Covered Pretzels,
+		Icon			=	ChocolatePretzel,
+		
+        	Carbohydrates 	= 20,
+        	Proteins		= 2,
+        	Lipids 			= 1,
+        	Calories 		= 130,
+	}	
+item Fruitcake
+	{
+		HungerChange		=	-40,
+		UnhappyChange		=	15,
+		Weight			=	0.4,
+		Type			=	Food,
+		DaysTotallyRotten	=	75,
+		DisplayName		=	Fruitcake,
+		Icon			=	Fruitcake,
+		DaysFresh		=	3,
+		FoodType    		=   NoExplicit,
+        	Carbohydrates = 99,
+        	Proteins = 17.7,
+        	Lipids = 6.66,
+        	Calories = 532,
+        	Packaged = TRUE,
+	}
+ item FruitcakeSlice
+   	 {
+        HungerChange	=	-10,
+        Weight	=	0.1,
+        Type	=	Food,
+		UnhappyChange		=	15,
+        DaysTotallyRotten	=	70,
+        DisplayName	=	Fruitcake Slice,
+        Icon	=	FruitcakeSlice,
+        DaysFresh	=	4,
+        Carbohydrates = 40,
+        Proteins = 7.5,
+        Lipids = 2.5,
+        Calories = 200,
+   	 }
+
+item ApplePie
+    {
+        HungerChange	=	-40,
+	UnhappyChange	    =	    -15,
+        Weight	=	1.0,
+        Type	=	Food,
+        DaysTotallyRotten	=	8,
+        DisplayName	=	Apple Pie,
+        Icon	=	ApplePie,
+        DaysFresh	=	5,
+        Carbohydrates = 460,
+        Proteins = 29.8,
+        Lipids = 112,
+        Calories = 3283,
+        StaticModel = PieSlice,
+	GoodHot = true,
+    }
+item ApplePieSlice
+    {
+        Type				=		Food,
+        HungerChange 		=		-10,
+        UnhappyChange	    =	    -10,
+        DisplayName			=		Apple Pie Slice,
+        Icon				=		ApplePieSlice,
+        Weight				=		0.2,
+        DaysFresh 			=		3,
+        DaysTotallyRotten 	=	 	5,
+        Carbohydrates = 115,
+        Proteins = 7.4,
+        Lipids = 28,
+        Calories = 821,
+        StaticModel = CakeSlice,
+    } 
+item PecanPie
+    {
+        HungerChange	=	-40,
+	UnhappyChange	    =	    -15,
+        Weight	=	1.0,
+        Type	=	Food,
+        DaysTotallyRotten	=	8,
+        DisplayName	=	Pecan Pie,
+        Icon	=	PecanPie,
+        DaysFresh	=	5,
+        Carbohydrates = 509.5,
+        Proteins = 47.8,
+        Lipids = 216,
+        Calories = 4017,
+        StaticModel = PieSlice,
+	GoodHot = true,
+    }
+item PecanPieSlice
+    {
+        Type				=		Food,
+        HungerChange 		=		-10,
+        UnhappyChange	    =	    -15,
+        DisplayName			=		Pecan Pie Slice,
+        Icon				=		PecanPieSlice,
+        Weight				=		0.2,
+        DaysFresh 			=		3,
+        DaysTotallyRotten 	=	 	5,
+        Carbohydrates = 127.4,
+        Proteins = 12,
+        Lipids = 54,
+        Calories = 1004,
+        StaticModel = CakeSlice,
+    }
+    item PiePumpkin2
+    {
+        HungerChange		 =	    -10,
+	UnhappyChange	   	 =	    -15,
+        Weight			 =	0.2,
+        Type			 =	Food,
+        DaysTotallyRotten	 =	8,
+        DisplayName		 =	Pumpkin Pie Slice,
+        Icon			 =	PiePumpkin,
+        DaysFresh		 =	5,
+        Carbohydrates		 = 84,
+        Proteins		 = 10,
+        Lipids 			 = 24,
+        Calories 		 = 580,
+	GoodHot = true,
+    }
+
+item PumpkinPie
+    {
+        Type			 	=		Food,
+        HungerChange 		 	=		-40,
+        UnhappyChange	   	 	=	    -10,
+        DisplayName			=		Pumpkin Pie,
+        Icon				=		PumpkinPie,
+        Weight				=		1.0,
+        DaysFresh 			=		3,
+        DaysTotallyRotten 		=	 	5,
+        Carbohydrates 			= 336,
+        Proteins 			= 40,
+        Lipids 				= 96,
+        Calories 			= 2320,
+        StaticModel 			= CakeSlice,
+    }
+   item BagaRolls
+	{
+	
+		Weight	=	0.5,
+		Type	=	Food,
+		DisplayName	=	Bag of Rolls,
+		Icon	=	BagaRolls,
+		DaysTotallyRotten	 =	8,
+		DaysFresh		 =	5,
+	}
+    item DinnerRoll
+    {
+        HungerChange		 =	    -4,
+        Weight			 =	0.1,
+        Type			 =	Food,
+        DaysTotallyRotten	 =	8,
+        DisplayName		 =	Dinner Roll,
+        Icon			 =	DinnerRoll,
+        DaysFresh		 =	5,
+        Carbohydrates		 = 17,
+        Proteins		 = 3,
+        Lipids 			 = 24,
+        Calories 		 = 2,
+    }
+    item MashedPotatoes
+    {
+        HungerChange		 =	    -15,
+        Weight			 =	0.4,
+        Type			 =	Food,
+        DaysTotallyRotten	 =	8,
+        DisplayName		 =	Mashed Potatoes,
+        Icon			 =	MashedPotatoes,
+        DaysFresh		 =	5,
+        Carbohydrates		 = 35,
+        Proteins		 = 4,
+        Lipids 			 = 7,
+        Calories 		 = 214,
+	GoodHot = true,
+    }
+    item Gravy
+    {
+        HungerChange		 =	    -7,
+	UnhappyChange	   	 =	    +7,
+        Weight			 =	0.3,
+        Type			 =	Food,
+        DaysTotallyRotten	 =	8,
+        DisplayName		 =	Gravy,
+        Icon			 =	Gravy,
+	EvolvedRecipe = FestiveSandwich:5;Burger:5,
+        DaysFresh		 =	5,
+        Carbohydrates		 = 16,
+        Proteins		 = 6,
+        Lipids 			 = 17,
+        Calories 		 = 236,
+	GoodHot = true,
+	BadCold = true,
+    }
+    item MashedPototoesNGravy
+    {
+        HungerChange		 =	    -20,
+	UnhappyChange	   	 =	    -10,
+        Weight			 =	0.5,
+        Type			 =	Food,
+        DaysTotallyRotten	 =	8,
+        DisplayName		 =	Mashed Pototoes & Gravy,
+        Icon			 =	MashedPototoesNGravy,
+        DaysFresh		 =	5,
+        Carbohydrates		 = 50,
+        Proteins		 = 12,
+        Lipids 			 = 22,
+        Calories 		 = 350,
+	GoodHot = true,
+	BadCold = true,
+    }
+item SweetPotato
+	{
+		Type				=		Food,
+		DisplayName			=		Sweet Potato,
+		Icon				=		sweetpotato,
+		Weight				=		0.2,
+		HungerChange 			=		-15,
+		DaysFresh 			=		14,
+		DaysTotallyRotten 		=	 	26,
+        EvolvedRecipe       =       Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        	ThirstChange	=		-10,
+        FoodType    =   Vegetables,
+        Carbohydrates = 20,
+        Proteins = 1.6,
+        Lipids = 0.1,
+        Calories = 86,
+	    BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+item CandiedYams
+	{
+		Type				=		Food,
+		DisplayName			=		Candied Yams,
+		Icon				=		CandiedYams,
+		Weight				=		0.8,
+		HungerChange 		=		-25,
+		DaysFresh 			=		14,
+		DaysTotallyRotten 	=	 	28,
+        	EvolvedRecipe       =       Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        	ThirstChange	=	-3,
+		FoodType    =   Vegetables,
+		
+		Carbohydrates = 512,
+       	 	Proteins = 64,
+        	Lipids = 7.75,
+		Calories = 2560,
+	}
+    item Stuffing
+	{
+		Type				=		Food,
+		DisplayName			=		Stuffing,
+		Icon				=		Stuffing,
+		Weight				=		0.4,
+		HungerChange 			=		-25,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 		=	 	28,
+        	EvolvedRecipe      		=       	Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+		FoodType    			=   		Vegetables,	
+        	Carbohydrates 			= 		130,
+       		Proteins 			= 		19,
+        	Lipids 				= 		6,
+        	Calories 			=		656,
+		BadInMicrowave = true,
+        	GoodHot = true,
+        	BadCold = true,
+	}
+    item CranberrySauceCan
+	{
+		HungerChange	=	-20,
+		Weight	=	0.8,
+		Type	=	Food,
+		UnhappyChange	=	-10,
+		DisplayName	=	Canned Cranberry Sauce,
+		Icon	=	CannedCranberrySauce,
+		EvolvedRecipe = FestiveSandwich:5;Burger:5,
+	Spice   =   true,
+        Carbohydrates = 432,
+        Proteins = 2.4,
+        Lipids = 1.6,
+        Calories = 1672,
+        Packaged = TRUE,
+        StaticModel = CanClosed,
+        CannedFood = TRUE,
+ 	CantBeFrozen = TRUE,
+	}
+    item CandyPackage2
+    {
+        Type				=		Food,
+        DisplayName			=		Candy Package,
+        Icon				=		CandyPackagei,
+        Weight				=		0.6,
+        Carbohydrates = 125,
+        Proteins = 0,
+        Lipids = 2.5,
+        Calories = 500,
+        PAckaged = TRUE,
+    }
+
+	item Cigarettes2
+	{
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Lighter/Lighter2/Matches,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
+		CustomEatSound =
+	}
+/************************RECIPES************************/
+
+recipe Cut Turkey
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		Turkey,
+       		Result:TurkeySlice=4,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Cut Chicken
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		ChristmasChicken,
+       		Result:ChickenBreast=4,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Slice Duck
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		RoastDuck,
+       		Result:RoastDuckSlice=4,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Cut Pork Loin Roast
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		PorkLoinRoast,
+       		Result:PorkLoinRoastSlice,
+		Sound:SliceBread,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Cut Turducken
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+		Turducken,
+       		Result:TurduckenSlice=5,
+		Sound:SliceBread,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Make Turducken
+    {
+		Turkey,
+		RoastDuck,
+		ChristmasChicken,
+       		Result:Turducken,
+		Sound:SliceBread,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+recipe Prepare Hot Chocolate
+    {
+       		HotChocolatePacket,
+		WaterMug,
+       		Result:HotChocolate,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+    }
+recipe Open Candy Package 2
+	{
+	   destroy CandyPackage2,
+
+	   Result:Candycane2=5,
+	   Time:5.0,
+	   OnCreate:Recipe.OnCreate.OpenCandyPackage2,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	   Category:Cooking,
+	}
+recipe Light Candle
+  	{
+   	   Candle,
+   	   Matches/Lighter/Lighter2,
+
+   	   Result:CandleLit,
+	   Time:30.0,
+  	}
+recipe Open Bag of Rolls
+    {
+       		BagaRolls,
+       		Result:DinnerRoll=6,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+    }
+recipe Add Gravy to Mashed Potatoes
+    {
+       		MashedPotatoes,
+		Gravy,
+       		Result:MashedPototoesNGravy,
+		Sound:PutItemInBag,
+       		Time:50.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Slice FruitCake
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		Fruitcake,
+       		Result:FruitcakeSlice=3,
+		Sound:SliceBread,
+       		Time:40.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Slice Pecan Pie
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		PecanPie,
+       		Result:PecanPieSlice=4,
+		Sound:SliceBread,
+       		Time:40.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Slice Apple Pie
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		ApplePie,
+       		Result:ApplePieSlice=4,
+		Sound:SliceBread,
+       		Time:40.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Slice Pumpkin Pie
+    {
+		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+       		PumpkinPie,
+       		Result:PiePumpkin2=4,
+		Sound:SliceBread,
+       		Time:40.0,
+	   	Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+recipe Unwrap Small Present
+	{
+	   destroy SmallPresent,
+
+	   Result:SheetPaper2,
+	   Time:50.0,
+	   OnCreate:recipe_unwrapTheSmallpresent,
+	   	Sound:BigExplosion,
+		AnimNode:BlowTorchFloor,
+		Category:Christmas,
+	}
+recipe Unwrap Medium Present
+	{
+	        destroy MediumPresent,
+	        Result:SheetPaper2,
+	        Time:65.0,
+	        OnCreate:recipe_unwrapTheMediumpresent,
+		Sound:BigExplosion,
+		AnimNode:BlowTorchFloor,
+    	        Category:Christmas,
+	}
+recipe Unwrap Large Present
+    {
+	destroy LargePresent,
+   	Result:SheetPaper2,
+    	Time:80.0,
+    	OnCreate:recipe_unwrapTheBigpresent,
+	Sound:BigExplosion,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Wrap Small Present
+    {
+	SheetPaper2=4,
+	DuctTape/Scotchtape,
+	Twine/Thread,
+	keep Scissors,
+   	 Time:200.0,
+	Result:SmallPresent,
+	Sound:BigExplosion,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Wrap Medium Present
+    {
+	SheetPaper2=6,
+	DuctTape/Scotchtape,
+	Twine/Thread,
+	keep Scissors,
+    	Time:400.0,
+	Result:MediumPresent,
+	Sound:BigExplosion,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Wrap Large Present
+    {
+	SheetPaper2=8,
+	DuctTape/Scotchtape,
+	Twine/Thread,
+	keep Scissors,
+    	Time:600.0,
+	Result:LargePresent,
+	Sound:BigExplosion,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Open Coldpack
+   {
+	destroy Coldpack2,
+	Result: ShardMaterials=5,
+	Time: 100.0,
+	Sound:Ice1,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase0,
+	Time: 50.0,
+	Result: ClausCounterSuitcase1,
+	Sound:PutthatcookiedownNow,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase1,
+	Time: 50.0,
+	Result: ClausCounterSuitcase2,
+	Sound:Lookwhatyoudidyoulittlejerk,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase2,
+	Time: 50.0,
+	Result: ClausCounterSuitcase3,
+	Sound:KeepTheChangeYouFilthyAnimal,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase3,
+	Time: 50.0,
+	Result: ClausCounterSuitcase4,
+	Sound:ScroogedKillallofyou,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase4,
+	Time: 50.0,
+	Result: ClausCounterSuitcase5,
+	Sound:IMadeMyFamilyDisappear,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase5,
+	Time: 50.0,
+	Result: ClausCounterSuitcase6,
+	Sound:MarleyAndMarley,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase6,
+	Time: 50.0,
+	Result: ClausCounterSuitcase7,
+	Sound:Yousitonathroneoflies,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase7,
+	Time: 50.0,
+	Result: ClausCounterSuitcase8,
+	Sound:SantaClausMilk,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase8,
+	Time: 50.0,
+	Result: ClausCounterSuitcase9,
+	Sound:Yearstosortthisout,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase9,
+	Time: 50.0,
+	Result: ClausCounterSuitcase10,
+	Sound:DieHardHoHoHo,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase10,
+	Time: 50.0,
+	Result: ClausCounterSuitcase11,
+	Sound:ChristmaswiththeKranksHickoryHoneyHam,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase11,
+	Time: 50.0,
+	Result: ClausCounterSuitcase12,
+	Sound:ScroogePopulation,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase12,
+	Time: 50.0,
+	Result: ClausCounterSuitcase13,
+	Sound:JuryDuty,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase13,
+	Time: 50.0,
+	Result: ClausCounterSuitcase14,
+	Sound:SantaOhMyGod,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase14,
+	Time: 50.0,
+	Result: ClausCounterSuitcase15,
+	Sound:CharlieBrownProblem,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase15,
+	Time: 50.0,
+	Result: ClausCounterSuitcase16,
+	Sound:SeeingIsBelieving,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase16,
+	Time: 50.0,
+	Result: ClausCounterSuitcase17,
+	Sound:TheGrinch,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase17,
+	Time: 50.0,
+	Result: ClausCounterSuitcase18,
+	Sound:ChristmasVacationEndingSpeech,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase18,
+	Time: 50.0,
+	Result: ClausCounterSuitcase19,
+	Sound:FatSanta,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase19,
+	Time: 50.0,
+	Result: ClausCounterSuitcase20,
+	Sound:WildAnimal,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase20,
+	Time: 50.0,
+	Result: ClausCounterSuitcase21,
+	Sound:ChristmasVacationCat,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase21,
+	Time: 50.0,
+	Result: ClausCounterSuitcase22,
+	Sound:Wrongo,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase22,
+	Time: 50.0,
+	Result: ClausCounterSuitcase23,
+	Sound:ScroogePopulation2,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase23,
+	Time: 50.0,
+	Result: ClausCounterSuitcase24,
+	Sound:PlanesTrainsAutomobilesDogsBarking,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase24,
+	Time: 50.0,
+	Result: ClausIncMaterials,
+	Sound:YoullShootYourEyeOut,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+ /****************************** ITEM_AMMOS ******************************/
+
+    item Coldpack2
+    {
+	Type	=	Food,
+	DaysFresh	=	365,
+	DaysTotallyRotten	=	365,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Cold Pack,
+        Icon	=	Coldpack,
+        Tooltip = Tooltip_ItemTraps,
+	Packaged = TRUE,
+    }
+    item ClausCounterSuitcase0
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase0,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase1
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase1,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase2
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase2,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase3
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase3,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase4
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase4,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase5
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase5,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase6
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase6,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase7
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase7,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase8
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase8,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase9
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase9,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase10
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase10,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase11
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase11,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase12
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase12,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase13
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase13,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase14
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase14,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase15
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase15,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase16
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase16,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase17
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase17,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase18
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase18,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase19
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase19,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase20
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase20,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase21
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase21,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase22
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase22,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase23
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase23,
+	Tooltip = Tooltip_ClausIncSuitcase,
+    }
+    item ClausCounterSuitcase24
+    {
+        Weight = 1.0,
+        DisplayName	= Claus Inc Suitcase,
+        Type	=	Normal,
+        Icon = ClausCounterSuitcase24,
+	Tooltip = Tooltip_ClausIncSuitcase,
+	Packaged = TRUE,
+    }
+    item ShardMaterials
+    {
+        Weight = 0.2,
+        DisplayName	= Ice Shard Materials,
+        Type	=	Food,
+	ReplaceOnRotten = IcecreamMelted,
+	DaysFresh	=	1,
+        DaysTotallyRotten	=	2,
+        Icon = ShardMaterials,
+	Packaged = TRUE,
+    }   
+    item MapCapsule 
+    {
+        Weight = 0.2,
+        Type = Normal,
+        DisplayName	= Map Capsule,
+        Icon = MapCapsule,
+    }
+    item ClausIncMaterials
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName	= Claus Inc Materials,
+        Icon = ClausIncMaterials,
+    }
+    item Puddle
+    {
+        Weight = .01,
+        Type = Normal,
+        DisplayName	= Puddle,
+        Icon = Puddle,
+	Tooltip = Tooltip_Puddle,
+    }
+    item IceShards
+    {
+        Count	=	1,
+        Weight	=	0.025,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Food,
+	ReplaceOnRotten = Puddle,
+        DisplayName	=	Ice Shard Ammo,
+	DaysFresh	=	1,
+        DaysTotallyRotten	=	2,
+        DisplayCategory = Ammo,
+        Icon		=	IceShardLoose,
+	Packaged 	= TRUE,
+    }
+
+    item IceShardBox
+    {
+        Weight		=	1,
+        AlwaysWelcomeGift	=	TRUE,
+        Type		=	Normal,
+        DisplayName	=	Box of Ice Shards,
+        DisplayCategory = 	Ammo,
+	Type		=	Food,
+	ReplaceOnRotten = Puddle,
+	DaysFresh	=	1,
+        DaysTotallyRotten	=	2,
+        Icon		=	BoxIceShard,
+	Packaged	 = TRUE,
+    }
+
+    item IceClip
+    {
+        CanStack	=	FALSE,
+        Weight		=	0.2,
+        Type		=	Normal,
+        DisplayName	=	Ice Shard Magazine,
+        Icon		=	IceShardClip,
+        MaxAmmo 	= 100,
+        AmmoType 	= Base.IceShards,
+        StaticModel 	= GunMagazine,
+	Tooltip = Tooltip_IceShardClip1,
+    }
+    item IceClip2
+    {
+        CanStack	=	FALSE,
+        Weight		=	0.2,
+        Type		=	Normal,
+        DisplayName	=	Ice Shard Magazine,
+        Icon		=	IceShardClip,
+        MaxAmmo 	= 50,
+        AmmoType 	= Base.IceShards,
+        StaticModel 	= GunMagazine,
+	Tooltip = Tooltip_IceShardClip2,
+    }
+/************************RECIPES************************/
+recipe Make Ice Shard Ammo
+   {
+	destroy ShardMaterials,
+	Time: 700.0,
+	Result: IceShards=100,
+	Sound:IceShot2,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Open Box of Ice Shard Ammo
+    {
+        IceShardBox,
+        Result:IceShards=100,
+        Sound:Ice1,
+	Category:Christmas,
+        Time:50.0,
+    }
+
+recipe Place Ice Shard Ammo in Box
+    {
+        556Bullets=100,
+        Result:IceShardBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+	Category:Christmas,
+    }
+recipe Make The Sleigher
+   {
+	destroy ClausIncMaterials,
+	Time: 700.0,
+	Result:Coldpack2,
+	OnCreate:recipe_makeTheSleigher,
+	Sound:GunConstruction,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Make The BellRinger
+   {
+	destroy ClausIncMaterials,
+	Time: 700.0,
+	Result:Coldpack2,
+ 	OnCreate:recipe_makeTheBellRinger,
+	Sound:GunConstruction,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+
+recipe Open Map Capsule
+   {
+	destroy MapCapsule,
+	Time: 50.0,
+	Result:RedPen,
+ 	OnCreate:recipe_openMapCapsule,
+	Sound:ASMRthelid,
+	AnimNode:RipSheets,
+	Category:Christmas,
+    }
+}

@@ -1,0 +1,32 @@
+Challenge_EN = {
+
+  Challenge_ChristmasMiracle_name = "The 1993 Christmas Miracle",
+	Challenge_ChristmasMiracle_desc = "It's a few days 'til Christmas and there's a festive chill on the breeze. Soon a Christmas winter storm will set in like no other before it. <LINE> <LINE> The humans have been acting strangely violent this year. Therefore, due to safety concerns, Santa has delegated his present delivery to you. <LINE> <LINE> Follow the maps that are in your truck. <LINE>The power turns off after Christmas day. <LINE> <LINE> "By any means necessary, please be the Christmas miracle that these people desperately need!" - SC ",
+
+  Challenge_ChristmasMiracleTAMED_name = "The 1993 Christmas Miracle TAMED",
+	Challenge_ChristmasMiracleTAMED_desc = "This variation is for players with budget to modest builds. <LINE> <LINE> It's a few days 'til Christmas and there's a festive chill on the breeze. Soon a Christmas winter storm will set in like no other before it. <LINE> <LINE> The humans have been acting strangely violent this year. Therefore, due to safety concerns, Santa has delegated his present delivery to you. <LINE> <LINE> Follow the maps that are in your truck. <LINE>The power turns off after Christmas day. <LINE> <LINE> "By any means necessary, please be the Christmas miracle that these people desperately need!" - SC ",
+
+
+  Challenge_ChristmasCatastrophe_name = "The 1993 Christmas Catastrophe",
+	Challenge_ChristmasCatastrophe_desc = "It's mid-December and the Clause Inc. Factory has caught fire. It must have been that drunk elf, Belchie. <LINE> <LINE> The only thing you know for sure is that the Big Man is not going to be happy. <LINE> <LINE> Gather the remains of your things as you escape the burning factory and eventually....Santa's fury. <LINE> <LINE> With scarce vehicles and a violent and sick citizen population you know that this won't be easy. The power turns off after Christmas Day. <LINE> <LINE> It looks like a lot of people are receiving coal this year.". 
+
+  Challenge_ChristmasCatastropheTAMED_name = "The 1993 Christmas Catastrophe TAMED",
+	Challenge_ChristmasCatastropheTAMED_desc = "This variation is for players with budget to modest builds. <LINE> <LINE> It's mid-December and the Clause Inc. Factory has caught fire. It must have been that drunk elf, Belchie. <LINE> <LINE> The only thing you know for sure is that the Big Man is not going to be happy. <LINE><LINE> Gather the remains of your things as you escape the burning factory and eventually....Santa's fury. <LINE> <LINE> With scarce vehicles and a violent and sick citizen population you know that this won't be easy. The power turns off after Christmas Day. <LINE> <LINE> It looks like a lot of people are receiving coal this year.". 
+
+  Challenge_AChristmasStory_name = "A Christmas Story",
+  Challenge_AChristmasStory_desc = "Start your own Christmas Story! <LINE> <LINE> The power and water turns off after Christmas day. <LINE> <LINE> I hope you were a good person this year! ",
+
+  Challenge_TheHolidayRush_name = "The Holiday Rush",
+  Challenge_TheHolidayRush_desc = "Its another busy Christmas season. <LINE> <LINE> You started the day servicing stressed shoppers. <LINE> <LINE> You will end this day fighting undead shoppers. <LINE> <LINE> Let's hope they will pay you overtime for this! ",
+
+  Challenge_BlackFriday_name = "Black Friday",
+  Challenge_BlackFriday_desc = "It's 5 in the morning and you finished your Christmas shopping. You step outside and are met with the apocalypse. You have one large parking lot full of zombies between you and your car. <LINE> <LINE> With your hands full of presents for your friends and family, you have to decide between dropping them or not to get to your GREEN SUV alive. <LINE> <LINE> You didn't need that pair of shoes anyway.",
+
+
+	Challenge_ChristmasCatastropheInfoBox = " <CENTRE> In three days the Christmas storm begins. <LINE> <LINE> Wrap up warm...",
+	Challenge_ChristmasMiracleInfoBox = " <CENTRE> Deliver your presents before Christmas day! <LINE> <LINE> Wrap up warm. Baby, its cold outside!",
+        Challenge_AChristmasStoryInfoBox = "<CENTRE> Wrap up warm, you'd freeze out there. <LINE> <LINE> Baby, its cold outside!",
+	Challenge_TheHolidayRushInfoBox = "<CENTRE> Wrap up warm, you'd freeze out there. <LINE> <LINE> Baby, its cold outside!",
+	Challenge_BlackFridayInfoBox = "<CENTRE>Get to your car, hurry!",
+}
+

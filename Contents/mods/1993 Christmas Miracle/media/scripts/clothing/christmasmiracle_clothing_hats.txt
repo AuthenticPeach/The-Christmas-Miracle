@@ -1,0 +1,163 @@
+module PeachChristmas {
+  imports {
+      Base
+  }
+
+	item Hat_SantaHat
+	{
+		Type = Clothing,
+		DisplayName = Santa Hat,
+		ClothingItem = Hat_SantaHAt,
+		BodyLocation = Hat,
+		Icon = HatSantaRed,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatGreen
+	{
+		Type = Clothing,
+		DisplayName = Green Santa Hat,
+		ClothingItem = Hat_SantaHAtGreen,
+		BodyLocation = Hat,
+		Icon = HatSantaGreen,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatYellow
+    {
+		Type = Clothing,
+		DisplayName = Yellow Santa Hat,
+		ClothingItem = Hat_SantaHAtYellow,
+		BodyLocation = Hat,
+		Icon = HatSantaYellow,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatWhite
+    {
+		Type = Clothing,
+		DisplayName = White Santa Hat,
+		ClothingItem = Hat_SantaHAtWhite,
+		BodyLocation = Hat,
+		Icon = HatSantaWhite,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatTurquoise
+    {
+		Type = Clothing,
+		DisplayName = Turquoise Santa Hat,
+		ClothingItem = Hat_SantaHAtTurquoise,
+		BodyLocation = Hat,
+		Icon = HatSantaTurquoise,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatPurple
+    {
+		Type = Clothing,
+		DisplayName = Purple Santa Hat,
+		ClothingItem = Hat_SantaHAtPurple,
+		BodyLocation = Hat,
+		Icon = HatSantaPurple,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatPink
+    {
+		Type = Clothing,
+		DisplayName = Pink Santa Hat,
+		ClothingItem = Hat_SantaHAtPink,
+		BodyLocation = Hat,
+		Icon = HatSantaPink,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatOrange
+    {
+		Type = Clothing,
+		DisplayName = Orange Santa Hat,
+		ClothingItem = Hat_SantaHAtOrange,
+		BodyLocation = Hat,
+		Icon = HatSantaOrange,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatGrey
+    {
+		Type = Clothing,
+		DisplayName = Grey Santa Hat,
+		ClothingItem = Hat_SantaHAtGrey,
+		BodyLocation = Hat,
+		Icon = HatSantaGrey,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatBlue
+    {
+		Type = Clothing,
+		DisplayName = Blue Santa Hat,
+		ClothingItem = Hat_SantaHAtBlue,
+		BodyLocation = Hat,
+		Icon = HatSantaBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+	item Hat_SantaHatBluePattern
+    {
+		Type = Clothing,
+		DisplayName = Blue Festive Santa Hat,
+		ClothingItem = Hat_SantaHAtBluePattern,
+		BodyLocation = Hat,
+		Icon = HatSantaBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+
+	item Hat_SantaHatBluePattern2
+    {
+		Type = Clothing,
+		DisplayName = Blue Moose Santa Hat,
+		ClothingItem = Hat_SantaHAtBluePattern2,
+		BodyLocation = Hat,
+		Icon = HatSantaBlue,
+		CanHaveHoles = false,
+		ChanceToFall = 80,
+        BloodLocation = Head,
+        Insulation = 0.80,
+        WindResistance = 0.25,
+    }
+}

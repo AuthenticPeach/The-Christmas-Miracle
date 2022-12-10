@@ -1,0 +1,7 @@
+ContextMenu_EN = {
+    ContextMenu_EvolvedRecipe_HotChocolate = "Hot Chocolate",
+    ContextMenu_EvolvedRecipe_FestiveSandwich = "Festive Sandwich",
+    ContextMenu_EvolvedRecipe_ChristmasEggnog = "Christmas Eggnog",
+    ContextMenu_FoodType_Peppermint = "Peppermint",
+    ContextMenu_FoodType_Rum = "Rum",
+} 
