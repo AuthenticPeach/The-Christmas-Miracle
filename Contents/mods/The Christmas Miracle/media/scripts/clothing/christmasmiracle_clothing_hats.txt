@@ -3,6 +3,33 @@ module PeachChristmas {
       Base
   }
 
+	item Hat_Antlers_TCM
+	{
+	    DisplayCategory = Accessory,	
+		Type = Clothing,
+		DisplayName = Reindeer Antlers,
+		ClothingItem = Hat_Antlers_TCM,
+		BodyLocation = Hat,
+		Icon = ReindeerAntlers,
+		CanHaveHoles = false,
+		ChanceToFall = 30,
+       	BloodLocation = Head,
+		WorldStaticModel =  WorldItem-ReindeerAntlers,			
+    } 
+    item Hat_SnowmanSPHat
+    {
+	    DisplayCategory = Accessory,	
+        Type 			 = Clothing,
+        DisplayName 	 = Stove Pipe Hat,
+        ClothingItem 	 = Hat_SnowmanSPHat,
+        BodyLocation 	 = Hat,
+        Icon 			 = StovePipeHatRed,
+        CanHaveHoles 	 = false,
+        ChanceToFall 	 = 80,
+        Insulation 		 = 0.10,
+        Weight 			 = 0.5,
+		WorldStaticModel = WorldItem-StovePipeHat,
+    }	
 	item Hat_SantaHat
 	{
 		Type = Clothing,

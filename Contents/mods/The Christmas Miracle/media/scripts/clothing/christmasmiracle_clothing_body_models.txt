@@ -1,0 +1,15 @@
+module PeachChristmas {
+  imports {
+      Base
+  }	
+	item Snowman
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Snowman Body,
+		ClothingItem = Snowman_Body,
+		BodyLocation = Torso1Legs1,
+		Icon = SnowMan,
+		WorldStaticModel = WorldItem-SnowMan,
+	}
+}
