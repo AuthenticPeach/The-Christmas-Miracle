@@ -1,13 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <outfitManager>
 
-
+	<m_MaleOutfits> <m_Name>CM_Santa_Obese</m_Name>
+		<m_Guid>1b06cf60-e876-4d8d-b245-768e14c9f555</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items>  <!-- Santa Red Hat -->
+			<itemGUID>498c460c-cef2-4e76-a784-6252bd218e02</itemGUID>
+		</m_items>		
+		<m_items> <!-- Santa Obese Body -->
+			<itemGUID>24bb1407-8b5b-455b-9adb-6ffc90e5c631</itemGUID>
+		</m_items>
+		<m_items> <!-- Santa Long Beard  -->
+			<itemGUID>88f40a07-40ea-4bc8-91bd-4b811f0126a0</itemGUID>
+		</m_items>					
+		<m_items> <!-- Santa Obese Long Jacket  -->
+			<itemGUID>2fd627d2-854d-4830-b1f9-e68aa90c3cae</itemGUID>
+		</m_items>
+		<m_items> <!-- Santa Obese Pants  -->
+			<itemGUID>b7079c70-f58e-433d-9158-ac9a2960806c</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>f9d043b5-4be8-4313-897f-d4cbd7e09ff8</itemGUID>	
+		</m_items>
+		<m_items> <!-- White gloves  -->
+			<itemGUID>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
 	<m_MaleOutfits> <m_Name>CM_SnowMan</m_Name>
 		<m_Guid>3cd646be-a92d-478f-accf-6d8772b87841</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Snowman_Body -->
 			<itemGUID>390e1eb5-d578-4d2d-b428-f2bb0ff898d5</itemGUID>
+		</m_items>
+		<m_items> <!-- Hat_SnowmanSPHat -->
+			<itemGUID>f5927eb2-8ebc-4df1-9e64-9b6b6f34fdf7</itemGUID>
+		</m_items>			
+	</m_MaleOutfits>
+	<m_MaleOutfits> <m_Name>CM_Gingerbreadman</m_Name>
+		<m_Guid>7bea3f8c-e061-4f26-9ba8-42ca4e2ac9fb</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items> <!-- Gingerbreadman body -->
+			<itemGUID>32a00e4f5-8281-48ce-bb36-1099b0eb3c97</itemGUID>
 		</m_items>
 		<m_items> <!-- Hat_SnowmanSPHat -->
 			<itemGUID>f5927eb2-8ebc-4df1-9e64-9b6b6f34fdf7</itemGUID>
@@ -44,7 +80,7 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>

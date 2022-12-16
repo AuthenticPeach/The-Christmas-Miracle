@@ -2,6 +2,25 @@ module PeachChristmas {
   imports {
       Base
   }	
+ 	item FatBody03_ObeseBod_Santa
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+/*		DisplayName = Obese Bod, */	
+		ClothingItem = FatBody03_ObeseBod_Santa,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+	}	
+	item Gingerbreadman_Bod
+	{
+       DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName = Gingerbread Man,
+		ClothingItem = Gingerbreadman_Bod,
+		BodyLocation = Torso1Legs1,
+		Icon = SnowMan,
+		WorldStaticModel = WorldItem-Gingerbreadman,
+	}	
 	item Snowman
 	{
        DisplayCategory = Clothing,		

@@ -2,11 +2,11 @@ module PeachChristmas {
   imports {
       Base
   }
-    item JacketLong_Santa
+    item JacketLong_Santa_Obese
     {
         Type = Clothing,
-        DisplayName = Santa Suit Jacket,
-        ClothingItem = JacketLong_Santa,
+        DisplayName = Big Santa Suit Jacket,
+        ClothingItem = JacketLong_Santa_Obese,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         Icon = JacketSantaRed,
@@ -19,6 +19,7 @@ module PeachChristmas {
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
     item JacketLong_SantaGreen
     {
@@ -37,6 +38,7 @@ module PeachChristmas {
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
     	item JacketLong_SantaYellow
     {
@@ -55,6 +57,7 @@ module PeachChristmas {
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaWhite
     {
@@ -73,6 +76,7 @@ item JacketLong_SantaWhite
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaTurquoise
     {
@@ -91,6 +95,7 @@ item JacketLong_SantaTurquoise
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaPurple
     {
@@ -109,6 +114,7 @@ item JacketLong_SantaPurple
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaPink
     {
@@ -127,6 +133,7 @@ item JacketLong_SantaPink
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaOrange
     {
@@ -145,6 +152,7 @@ item JacketLong_SantaOrange
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaGrey
     {
@@ -163,6 +171,7 @@ item JacketLong_SantaGrey
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaBlue
     {
@@ -181,6 +190,7 @@ item JacketLong_SantaBlue
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaBluePattern
     {
@@ -199,6 +209,7 @@ item JacketLong_SantaBluePattern
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
 item JacketLong_SantaBluePattern2
     {
@@ -217,6 +228,7 @@ item JacketLong_SantaBluePattern2
         WindResistance = 0.6,
         Weight = 3,
         FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
     }
  
 }

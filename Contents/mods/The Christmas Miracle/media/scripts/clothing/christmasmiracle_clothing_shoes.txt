@@ -1,0 +1,27 @@
+module PeachChristmas {
+  imports {
+      Base
+  }	
+	item Fat03_Boots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Boots (3XL),
+		ClothingItem = Fat03_Boots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = BootsBiker,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.75,
+        WindResistance = 0.65,
+        WaterResistance = 0.65,
+        WorldStaticModel = Boots_Ground,
+	} 
+
+}

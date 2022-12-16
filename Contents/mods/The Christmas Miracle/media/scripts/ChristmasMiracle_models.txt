@@ -12,7 +12,11 @@ module Base
 		mesh = WorldStaticModel\WorldItem_GiantCandyCane,
 		texture = weapons\2handed\CandyCane,
     }	
-
+	model WorldItem-Gingerbreadman
+    {
+		mesh = WorldStaticModel\WorldItem_Gingerbreadman,
+		texture = Body\GingerbreadmanShrek,
+    }	
 	model WorldItem-StovePipeHat
     {
 		mesh = WorldStaticModel\WorldItem_StovePipeHat,

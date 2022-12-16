@@ -3416,7 +3416,28 @@
 		<path>media/clothing/clothingItems/Zed_Skin.xml</path>
 		<guid>ff6a89d6-0609-43e6-98e9-e271ed15fa19</guid>
 	</files>
-		
+
+
+	<files>
+		<path>media/clothing/clothingItems/Beard_Long_Santa.xml</path>
+		<guid>88f40a07-40ea-4bc8-91bd-4b811f0126a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Boots.xml</path>
+		<guid>f9d043b5-4be8-4313-897f-d4cbd7e09ff8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Fat03_Trousers_Santa.xml</path>
+		<guid>b7079c70-f58e-433d-9158-ac9a2960806c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_White.xml</path>
+		<guid>7d18ca16-fdb4-462e-b9a7-4f358cdd7525</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gingerbreadman_Bod.xml</path>
+		<guid>32a00e4f5-8281-48ce-bb36-1099b0eb3c97</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaYellow.xml</path>
 		<guid>ef77163d-f47f-4405-bf34-edc64630adc8</guid>
@@ -3542,6 +3563,10 @@
 		<guid>aa389cf1-8712-4891-bd4f-45ac8795e6ff</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/JacketLong_Santa_Obese.xml</path>
+		<guid>2fd627d2-854d-4830-b1f9-e68aa90c3cae</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Hat_Antlers_TCM.xml</path>
 		<guid>755bd09d-f27f-47c6-9699-7ecd25ed113c</guid>
 	</files>
@@ -3552,5 +3577,9 @@
 	<files>
 		<path>media/clothing/clothingItems/Snowman_Body.xml</path>
 		<guid>390e1eb5-d578-4d2d-b428-f2bb0ff898d5</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/FatBody03_ObeseBod_Santa.xml</path>
+		<guid>24bb1407-8b5b-455b-9adb-6ffc90e5c631</guid>
 	</files>	
 </fileGuidTable>

@@ -198,6 +198,7 @@ module Base
         MaxDamage	=	1.9,
         BaseSpeed = 0.8,
         AttachmentType = Shovel,
+		WorldObjectSprite    = 
 		WorldStaticModel =  WorldItem-CandycaneGiant,			
     }
 
