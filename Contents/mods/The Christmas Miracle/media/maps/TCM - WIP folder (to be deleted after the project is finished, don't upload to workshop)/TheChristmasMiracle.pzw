@@ -19,7 +19,7 @@
  <GenerateLots>
   <exportdir path="lots"/>
   <ZombieSpawnMap path="TheChristmasMiracle_zombiespawn_map.png"/>
-  <TileDefFolder path="D:/Games/steamapps/common/ProjectZomboid/media"/>
+  <TileDefFolder path="D:/Games/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
   <worldOrigin origin="16,19"/>
  </GenerateLots>
  <LuaSettings>
@@ -107,7 +107,6 @@
  <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
  <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
  <cell x="0" y="0" map="TheChristmasMiracle_33_24.tmx">
-  <lot x="248" y="142" level="0" width="9" height="18" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/West Point/Residential/lot_house_country_07_E.tbx"/>
   <lot x="202" y="85" level="0" width="41" height="14" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/March Ridge/Residential/lot_military_townhouse_01_S_01.tbx"/>
   <lot x="245" y="85" level="0" width="41" height="14" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/March Ridge/Residential/lot_military_townhouse_01_S_01.tbx"/>
   <lot x="243" y="108" level="0" width="43" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/March Ridge/Residential/lot_military_townhouse_01_N_01.tbx"/>
@@ -125,18 +124,46 @@
   <lot x="214" y="31" level="0" width="9" height="11" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Rosewood/Residential/lot_house_small_160.tbx"/>
   <lot x="201" y="34" level="0" width="13" height="14" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_medium_59_58v.tbx"/>
   <lot x="240" y="0" level="0" width="11" height="16" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_medium_64.tbx"/>
-  <lot x="155" y="29" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_medium_88_55v.tbx"/>
+  <lot x="161" y="37" level="0" width="15" height="12" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_medium_88_55v.tbx"/>
   <lot x="253" y="16" level="0" width="16" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_medium_94_17v.tbx"/>
   <lot x="251" y="1" level="0" width="12" height="14" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Valley Station/Residential/lot_house_construction_05.tbx"/>
   <lot x="280" y="44" level="0" width="15" height="16" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_01.tbx"/>
   <lot x="179" y="34" level="0" width="18" height="16" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_09.tbx"/>
-  <lot x="161" y="16" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_04.tbx"/>
+  <lot x="166" y="16" level="0" width="16" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_04.tbx"/>
   <lot x="185" y="9" level="0" width="21" height="24" map="../../../../../../../Liberty 2.0/Playground.tmx"/>
   <lot x="289" y="115" level="0" width="11" height="11" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/pylon-vert.tbx"/>
   <lot x="289" y="74" level="0" width="11" height="11" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/pylon-vert.tbx"/>
   <lot x="220" y="127" level="0" width="8" height="4" map="tbx(buildings)/Bus Stop Facing South.tbx"/>
-  <lot x="281" y="141" level="0" width="8" height="5" map="tbx(buildings)/Bus Stop Facing North.tbx"/>
+  <lot x="124" y="141" level="0" width="8" height="5" map="tbx(buildings)/Bus Stop Facing North.tbx"/>
   <lot x="248" y="38" level="0" width="6" height="7" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Rosewood/Residential/lot_house_garage_08.tbx"/>
   <lot x="215" y="46" level="0" width="8" height="4" map="tbx(buildings)/Bus Stop Facing South.tbx"/>
+  <lot x="160" y="105" level="0" width="24" height="14" map="tbx(buildings)/GreasyJoeDinerRastarauntTCM.tbx"/>
+  <lot x="155" y="139" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_05.tbx"/>
+  <lot x="207" y="140" level="0" width="22" height="21" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_07.tbx"/>
+  <lot x="277" y="215" level="0" width="18" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_05.tbx"/>
+  <lot x="278" y="244" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_07.tbx"/>
+  <lot x="277" y="265" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_09.tbx"/>
+  <lot x="231" y="267" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_01.tbx"/>
+  <lot x="231" y="236" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_02.tbx"/>
+  <lot x="232" y="173" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_06.tbx"/>
+  <lot x="162" y="239" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_07.tbx"/>
+  <lot x="162" y="213" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_08.tbx"/>
+  <lot x="235" y="220" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_09.tbx"/>
+  <lot x="160" y="178" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_01.tbx"/>
+  <lot x="172" y="178" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_02.tbx"/>
+  <lot x="190" y="177" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_04.tbx"/>
+  <lot x="196" y="223" level="0" width="41" height="41" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Salvatore mansion.tbx"/>
+  <lot x="69" y="42" level="0" width="26" height="18" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Zip Store.tbx"/>
+  <lot x="39" y="47" level="0" width="15" height="19" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/bar.tbx"/>
+  <lot x="102" y="32" level="0" width="21" height="21" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Appartment_ComplexA_01.tbx"/>
+  <lot x="124" y="31" level="0" width="22" height="22" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Appartment_ComplexA_02.tbx"/>
+  <lot x="41" y="119" level="0" width="14" height="20" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/5.tbx"/>
+  <lot x="40" y="138" level="0" width="16" height="38" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/2.tbx"/>
+  <lot x="70" y="144" level="0" width="17" height="21" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Portland Church.tbx"/>
+  <lot x="234" y="139" level="0" width="16" height="31" map="tbx(buildings)/Richhouse_01_E.tbx"/>
+  <lot x="278" y="150" level="0" width="16" height="17" map="tbx(buildings)/Richhouse1_W.tbx"/>
+  <lot x="186" y="143" level="0" width="18" height="16" map="tbx(buildings)/Richhouse_03_S.tbx"/>
+  <lot x="108" y="87" level="0" width="41" height="43" map="../../../../../../../Tiles/Education/school_01.tbx"/>
+  <lot x="279" y="182" level="0" width="15" height="16" map="tbx(buildings)/Richhouse2_W.tbx"/>
  </cell>
 </world>
