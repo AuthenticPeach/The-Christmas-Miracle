@@ -2,11 +2,12 @@ module PeachChristmas {
   imports {
       Base
   }
-    item Trousers_Santa
+    item Fat_03_Trousers_Santa
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Santa Suit Pants,
-        ClothingItem = Trousers_Santa,
+        ClothingItem = Fat03_Trousers_Santa,
         BodyLocation = Pants,
         Icon = TrousersSantaRed,
         BloodLocation = Trousers,
@@ -14,9 +15,11 @@ module PeachChristmas {
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     item Trousers_SantaGReen
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Green Santa Suit Pants,
         ClothingItem = Trousers_SantaGReen,
@@ -27,9 +30,11 @@ module PeachChristmas {
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 item Trousers_SantaYellow
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Yellow Santa Suit Pants,
         ClothingItem = Trousers_SantaYellow,
@@ -40,10 +45,12 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 
 	item Trousers_SantaWhite
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = White Santa Suit Pants,
         ClothingItem = Trousers_SantaWhite,
@@ -54,9 +61,11 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_SantaTurquoise
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Turquoise Santa Suit Pants,
         ClothingItem = Trousers_SantaTurquoise,
@@ -67,9 +76,12 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_SantaPurple
     {
+        DisplayCategory = Clothing,	
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Purple Santa Suit Pants,
         ClothingItem = Trousers_SantaPurple,
@@ -80,9 +92,12 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
     	item Trousers_SantaPink
     {
+        DisplayCategory = Clothing,	
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Pink Santa Suit Pants,
         ClothingItem = Trousers_SantaPink,
@@ -93,9 +108,11 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 	item Trousers_SantaOrange
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Orange Santa Suit Pants,
         ClothingItem = Trousers_SantaOrange,
@@ -106,10 +123,12 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 
 	item Trousers_SantaGrey
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Grey Santa Suit Pants,
         ClothingItem = Trousers_SantaGrey,
@@ -120,10 +139,12 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     }
 
 	item Trousers_SantaBlue
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Santa Suit Pants,
         ClothingItem = Trousers_SantaBlue,
@@ -134,9 +155,11 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     } 
 	item Trousers_SantaBluePattern
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Festive Santa Suit Pants,
         ClothingItem = Trousers_SantaBluePattern,
@@ -147,9 +170,11 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     } 
 	item Trousers_SantaBluePattern2
     {
+        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Moose Santa Suit Pants,
         ClothingItem = Trousers_SantaBluePattern2,
@@ -160,5 +185,6 @@ item Trousers_SantaYellow
         Insulation = 0.9,
         WindResistance = 0.6,
         FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
     } 
 }
