@@ -18,7 +18,7 @@ module PeachChristmas {
 		DisplayName = Gingerbread Man,
 		ClothingItem = Gingerbreadman_Bod,
 		BodyLocation = Torso1Legs1,
-		Icon = SnowMan,
+		Icon = GingerbreadMan,
 		WorldStaticModel = WorldItem-Gingerbreadman,
 	}	
 	item Snowman
