@@ -4,6 +4,7 @@ module Base
 
    item SmallPresent
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.3,
 		Type	=	Normal,
 		DisplayName	=	Small Present,
@@ -12,6 +13,7 @@ module Base
 	}
    item MediumPresent
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.8,
 		Type	=	Normal,
 		DisplayName	=	Medium Present,
@@ -20,6 +22,7 @@ module Base
 	}
   item LargePresent
 	{
+       DisplayCategory = Household,		
 		Weight	=	1.5,
 		Type	=	Normal,
 		DisplayName	=	Large Present,
@@ -28,6 +31,7 @@ module Base
 	}
   item Present4
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Present 4,
@@ -35,6 +39,7 @@ module Base
 	}
   item Present31
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Present 31,
@@ -71,25 +76,29 @@ module Base
 	}
    item SnowGlobe1
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
 		Icon	=	SnowGlobe1,
-}
+		}
    item SnowGlobe2
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
 		Icon	=	SnowGlobe2,
-}
+	}
    item SnowGlobe3
 	{
+		DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
 		Icon	=	SnowGlobe3,
-}
+		
+	}
 	item Lighter2
 	{
 		LightDistance	=	2,
@@ -108,50 +117,56 @@ module Base
 	}
     item MarchRidgeChristmasMap1
     {
+        DisplayCategory 	= 			Cartography,	
         Type				=			Normal,
         DisplayName			=		    March Ridge Delivery Map,
         Icon				=			ChristmasMap1,
-        Weight				=			0.1,
-        Map                 =           media/ui/LootableMaps/marchridgemapChristmas1.png,
+        Weight				=			0.05,
+        Map                 =           MarchRidgeChristmasMap1,
     }
     item MarchRidgeChristmasMap2
     {
+        DisplayCategory 	= 			Cartography,		
         Type				=			Normal,
         DisplayName			=		    March Ridge Delivery Map,
         Icon				=			ChristmasMap1,
-        Weight				=			0.1,
-        Map                 =           media/ui/LootableMaps/marchridgemapChristmas2.png,
+        Weight				=			0.05,
+        Map                 =           MarchRidgeChristmasMap2,
     }
     item MarchRidgeChristmasMap3
     {
+        DisplayCategory 	= 			Cartography,		
         Type				=			Normal,
         DisplayName			=		    March Ridge Delivery Map,
         Icon				=			ChristmasMap1,
-        Weight				=			0.1,
-        Map                 =           media/ui/LootableMaps/marchridgemapChristmas3.png,
+        Weight				=			0.05,
+        Map                 =           MarchRidgeChristmasMap3,
     }
     item MarchRidgeChristmasMap4
     {
+        DisplayCategory 	= 			Cartography,		
         Type				=			Normal,
         DisplayName			=		    March Ridge Delivery Map,
         Icon				=			ChristmasMap1,
-        Weight				=			0.1,
-        Map                 =           media/ui/LootableMaps/marchridgemapChristmas4.png,
+        Weight				=			0.05,
+        Map                 =           MarchRidgeChristmasMap4,
     }
     item MarchRidgeChristmasMap5
     {
+        DisplayCategory 	= 			Cartography,		
         Type				=			Normal,
         DisplayName			=		    March Ridge Delivery Map,
         Icon				=			ChristmasMap1,
-        Weight				=			0.1,
-        Map                 =           media/ui/LootableMaps/marchridgemapChristmas5.png,
+        Weight				=			0.05,
+        Map                 =           MarchRidgeChristmasMap5,
     }
     item Soccerball2
     {
+       DisplayCategory = Household,		
         MaxRange	=	20,
         Type	=	Weapon,
         MinimumSwingTime	=	0.9,
-	SwingAnim	=	Throw,
+		SwingAnim	=	Throw,
         WeaponSprite = Molotov,
         UseSelf	=	TRUE,
         DisplayName	=	Soccerball,
@@ -163,16 +178,14 @@ module Base
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	SoccerBall,
-        TriggerExplosionTimer   =   40,
-        ExtraDamage  =   0.001,
-        ExplosionRange  =   2,
     }
     item BasketBall2
     {
+       DisplayCategory = Household,		
         MaxRange	=	20,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
-	SwingAnim	=	Throw,
+		SwingAnim	=	Throw,
         WeaponSprite = Molotov,
         UseSelf	=	TRUE,
         DisplayName	=	Basketball,
@@ -190,10 +203,11 @@ module Base
     }
     item GolfBall2
     {
+       DisplayCategory = Household,		
         MaxRange	=	30,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
-	SwingAnim	=	Throw,
+		SwingAnim	=	Throw,
         WeaponSprite = Molotov,
         UseSelf	=	TRUE,
         DisplayName	=	Golfball,
@@ -205,16 +219,14 @@ module Base
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	GolfBall,
-        TriggerExplosionTimer   =   40,
-        ExtraDamage  =   0.001,
-        ExplosionRange  =   1,
     }
     item Baseball2
     {
+       DisplayCategory = Household,		
         MaxRange	=	30,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
-	SwingAnim	=	Throw,
+		SwingAnim	=	Throw,
         WeaponSprite = Molotov,
         UseSelf	=	TRUE,
         DisplayName	=	Baseball,
@@ -226,16 +238,14 @@ module Base
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	Baseball,
-        TriggerExplosionTimer   =   40,
-        ExtraDamage  =   0.001,
-        ExplosionRange  =   1,
     }
     item TennisBall2
     {
+       DisplayCategory = Household,		
         MaxRange	=	30,
         Type	=	Weapon,
         MinimumSwingTime	=	1.5,
-	SwingAnim	=	Throw,
+		SwingAnim	=	Throw,
         WeaponSprite = Molotov,
         UseSelf	=	TRUE,
         DisplayName	=	Tennis Ball,
@@ -247,9 +257,6 @@ module Base
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	TennisBall,
-        TriggerExplosionTimer   =   40,
-        ExtraDamage  =   0.001,
-        ExplosionRange  =   1,
     }
    
 }

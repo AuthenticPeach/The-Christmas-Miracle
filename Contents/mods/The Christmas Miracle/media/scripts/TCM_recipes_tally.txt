@@ -1,0 +1,230 @@
+module Base
+{
+/************************RECIPES************************/
+
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase0,
+	Time: 50.0,
+	Result: ClausCounterSuitcase1,
+	Sound:PutthatcookiedownNow,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase1,
+	Time: 50.0,
+	Result: ClausCounterSuitcase2,
+	Sound:Lookwhatyoudidyoulittlejerk,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase2,
+	Time: 50.0,
+	Result: ClausCounterSuitcase3,
+	Sound:KeepTheChangeYouFilthyAnimal,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase3,
+	Time: 50.0,
+	Result: ClausCounterSuitcase4,
+	Sound:ScroogedKillallofyou,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase4,
+	Time: 50.0,
+	Result: ClausCounterSuitcase5,
+	Sound:IMadeMyFamilyDisappear,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase5,
+	Time: 50.0,
+	Result: ClausCounterSuitcase6,
+	Sound:MarleyAndMarley,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase6,
+	Time: 50.0,
+	Result: ClausCounterSuitcase7,
+	Sound:Yousitonathroneoflies,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase7,
+	Time: 50.0,
+	Result: ClausCounterSuitcase8,
+	Sound:SantaClausMilk,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase8,
+	Time: 50.0,
+	Result: ClausCounterSuitcase9,
+	Sound:Yearstosortthisout,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase9,
+	Time: 50.0,
+	Result: ClausCounterSuitcase10,
+	Sound:DieHardHoHoHo,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase10,
+	Time: 50.0,
+	Result: ClausCounterSuitcase11,
+	Sound:ChristmaswiththeKranksHickoryHoneyHam,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase11,
+	Time: 50.0,
+	Result: ClausCounterSuitcase12,
+	Sound:ScroogePopulation,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase12,
+	Time: 50.0,
+	Result: ClausCounterSuitcase13,
+	Sound:JuryDuty,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase13,
+	Time: 50.0,
+	Result: ClausCounterSuitcase14,
+	Sound:SantaOhMyGod,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase14,
+	Time: 50.0,
+	Result: ClausCounterSuitcase15,
+	Sound:CharlieBrownProblem,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase15,
+	Time: 50.0,
+	Result: ClausCounterSuitcase16,
+	Sound:SeeingIsBelieving,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase16,
+	Time: 50.0,
+	Result: ClausCounterSuitcase17,
+	Sound:TheGrinch,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase17,
+	Time: 50.0,
+	Result: ClausCounterSuitcase18,
+	Sound:ChristmasVacationEndingSpeech,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase18,
+	Time: 50.0,
+	Result: ClausCounterSuitcase19,
+	Sound:FatSanta,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase19,
+	Time: 50.0,
+	Result: ClausCounterSuitcase20,
+	Sound:WildAnimal,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase20,
+	Time: 50.0,
+	Result: ClausCounterSuitcase21,
+	Sound:ChristmasVacationCat,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase21,
+	Time: 50.0,
+	Result: ClausCounterSuitcase22,
+	Sound:Wrongo,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase22,
+	Time: 50.0,
+	Result: ClausCounterSuitcase23,
+	Sound:ScroogePopulation2,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase23,
+	Time: 50.0,
+	Result: ClausCounterSuitcase24,
+	Sound:PlanesTrainsAutomobilesDogsBarking,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+recipe Tally Delivery
+   {
+	ClausCounterSuitcase24,
+	Time: 50.0,
+	Result: ClausIncMaterials,
+	Sound:YoullShootYourEyeOut,
+	AnimNode:BlowTorchFloor,
+	Category:Christmas,
+    }
+}
