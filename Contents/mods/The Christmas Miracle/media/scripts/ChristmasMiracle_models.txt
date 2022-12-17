@@ -22,7 +22,22 @@ module Base
 		mesh = WorldStaticModel\WorldItem_StovePipeHat,
 		texture = Clothes\Hats\StovePipeHatRed,
     }
-	
+
+	model WorldItem-PresentLarge
+    {
+		mesh = WorldStaticModel\WorldItem_CM_LargePresent,
+		texture = Items\Present,
+    }
+	model WorldItem-PresentMedium
+    {
+		mesh = WorldStaticModel\WorldItem_CM_MediumPresent,
+		texture = Items\Present,
+    }
+	model WorldItem-PresentSmall
+    {
+		mesh = WorldStaticModel\WorldItem_CM_SmallPresent,
+		texture = Items\Present,
+    }	
 	model WorldItem-ReindeerAntlers
     {
 		mesh = WorldStaticModel\WorldItem_Antlers,
