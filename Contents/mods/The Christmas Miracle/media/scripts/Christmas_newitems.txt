@@ -8,6 +8,7 @@ module Base
 		Type	=	Normal,
 		DisplayName	=	Small Present,
 		Icon	=	Present3,
+		WorldStaticModel = WorldItem-PresentSmall,
 	}
    item MediumPresent
 	{
@@ -15,6 +16,7 @@ module Base
 		Type	=	Normal,
 		DisplayName	=	Medium Present,
 		Icon	=	Present2,
+		WorldStaticModel = WorldItem-PresentMedium,		
 	}
   item LargePresent
 	{
@@ -22,6 +24,7 @@ module Base
 		Type	=	Normal,
 		DisplayName	=	Large Present,
 		Icon	=	Present6,
+		WorldStaticModel = WorldItem-PresentLarge,		
 	}
   item Present4
 	{
