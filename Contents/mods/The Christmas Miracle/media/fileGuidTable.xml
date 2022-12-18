@@ -3447,7 +3447,7 @@
 		<guid>feb08ce9-f0f3-4c98-8629-bb7de7736d82</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtYellow.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatYellow.xml</path>
 		<guid>e024f19f-1199-4163-97ac-cf4ff26d7174</guid>
 	</files>
 		<files>
@@ -3459,7 +3459,7 @@
 		<guid>ac9e78cb-5c30-4ebe-b457-310e5d956e07</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtWhite.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatWhite.xml</path>
 		<guid>939a5ed6-c891-413c-897d-3043214a54fd</guid>
 	</files>
 	<files>
@@ -3471,7 +3471,7 @@
 		<guid>dfd28644-e23e-4ab1-9a03-c19c99392c66</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtTurquoise.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatTurquoise.xml</path>
 		<guid>be4f887f-0c4d-48c8-aae8-74626437a9b5</guid>
 	</files>
 	<files>
@@ -3483,7 +3483,7 @@
 		<guid>4bf08fcf-6d23-4894-a804-8e0637be718d</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtPurple.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatPurple.xml</path>
 		<guid>8ea775aa-57d8-4d2a-9c53-0a3b8737825b</guid>
 	</files>
 	<files>
@@ -3495,7 +3495,7 @@
 		<guid>26b6a650-b659-41cf-a5ca-e8530378798f</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtPink.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatPink.xml</path>
 		<guid>a928c32e-331d-4ab4-9bc5-c7e4643f8129</guid>
 	</files>
 	<files>
@@ -3507,7 +3507,7 @@
 		<guid>ae9e21f6-dafe-4168-a308-89c1728d97c3</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtOrange.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatOrange.xml</path>
 		<guid>c4706fb6-793b-47db-8506-d60bb0dca463</guid>
 	</files>
 	<files>
@@ -3519,15 +3519,15 @@
 		<guid>be2998a5-7562-4533-840a-3bdf8fcb3326</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtBluePattern.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatBluePattern.xml</path>
 		<guid>23f9578d-42b1-4379-bd04-756846b69d41</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtBluePattern2.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatBluePattern2.xml</path>
 		<guid>9989324f-a76f-4102-a313-fbf0f00aa1e5</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtGrey.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatGrey.xml</path>
 		<guid>ccfa5dcd-a870-49c3-8fe6-56a6356e5189</guid>
 	</files>
 	<files>
@@ -3547,7 +3547,7 @@
 		<guid>2d85082b-8702-49aa-a1fc-ad8d10c7afc3</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHAtBlue.xml</path>
+		<path>media/clothing/clothingItems/Hat_SantaHatBlue.xml</path>
 		<guid>301027e4-984a-46c0-bc89-4a71569a106b</guid>
 	</files>
 	<files>

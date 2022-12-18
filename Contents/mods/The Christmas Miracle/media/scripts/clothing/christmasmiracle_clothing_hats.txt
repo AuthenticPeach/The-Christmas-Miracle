@@ -34,7 +34,7 @@ module PeachChristmas {
 	{
 		Type = Clothing,
 		DisplayName = Santa Hat,
-		ClothingItem = Hat_SantaHAt,
+		ClothingItem = Hat_SantaHat,
 		BodyLocation = Hat,
 		Icon = HatSantaRed,
 		CanHaveHoles = false,
@@ -47,7 +47,7 @@ module PeachChristmas {
 	{
 		Type = Clothing,
 		DisplayName = Green Santa Hat,
-		ClothingItem = Hat_SantaHAtGreen,
+		ClothingItem = Hat_SantaHatGreen,
 		BodyLocation = Hat,
 		Icon = HatSantaGreen,
 		CanHaveHoles = false,
@@ -60,7 +60,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Yellow Santa Hat,
-		ClothingItem = Hat_SantaHAtYellow,
+		ClothingItem = Hat_SantaHatYellow,
 		BodyLocation = Hat,
 		Icon = HatSantaYellow,
 		CanHaveHoles = false,
@@ -73,7 +73,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = White Santa Hat,
-		ClothingItem = Hat_SantaHAtWhite,
+		ClothingItem = Hat_SantaHatWhite,
 		BodyLocation = Hat,
 		Icon = HatSantaWhite,
 		CanHaveHoles = false,
@@ -86,7 +86,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Turquoise Santa Hat,
-		ClothingItem = Hat_SantaHAtTurquoise,
+		ClothingItem = Hat_SantaHatTurquoise,
 		BodyLocation = Hat,
 		Icon = HatSantaTurquoise,
 		CanHaveHoles = false,
@@ -99,7 +99,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Purple Santa Hat,
-		ClothingItem = Hat_SantaHAtPurple,
+		ClothingItem = Hat_SantaHatPurple,
 		BodyLocation = Hat,
 		Icon = HatSantaPurple,
 		CanHaveHoles = false,
@@ -112,7 +112,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Pink Santa Hat,
-		ClothingItem = Hat_SantaHAtPink,
+		ClothingItem = Hat_SantaHatPink,
 		BodyLocation = Hat,
 		Icon = HatSantaPink,
 		CanHaveHoles = false,
@@ -125,7 +125,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Orange Santa Hat,
-		ClothingItem = Hat_SantaHAtOrange,
+		ClothingItem = Hat_SantaHatOrange,
 		BodyLocation = Hat,
 		Icon = HatSantaOrange,
 		CanHaveHoles = false,
@@ -138,7 +138,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Grey Santa Hat,
-		ClothingItem = Hat_SantaHAtGrey,
+		ClothingItem = Hat_SantaHatGrey,
 		BodyLocation = Hat,
 		Icon = HatSantaGrey,
 		CanHaveHoles = false,
@@ -151,7 +151,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Blue Santa Hat,
-		ClothingItem = Hat_SantaHAtBlue,
+		ClothingItem = Hat_SantaHatBlue,
 		BodyLocation = Hat,
 		Icon = HatSantaBlue,
 		CanHaveHoles = false,
@@ -164,7 +164,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Blue Festive Santa Hat,
-		ClothingItem = Hat_SantaHAtBluePattern,
+		ClothingItem = Hat_SantaHatBluePattern,
 		BodyLocation = Hat,
 		Icon = HatSantaBlue,
 		CanHaveHoles = false,
@@ -178,7 +178,7 @@ module PeachChristmas {
     {
 		Type = Clothing,
 		DisplayName = Blue Moose Santa Hat,
-		ClothingItem = Hat_SantaHAtBluePattern2,
+		ClothingItem = Hat_SantaHatBluePattern2,
 		BodyLocation = Hat,
 		Icon = HatSantaBlue,
 		CanHaveHoles = false,
