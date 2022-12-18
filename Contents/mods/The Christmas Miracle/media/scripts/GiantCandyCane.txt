@@ -1,0 +1,31 @@
+module Base
+{
+
+item GiantCandyCane1
+    {
+        DisplayCategory = Furniture,
+        Type            = Moveable,
+        Icon	=	Candycane,
+        Weight              = 0.22,
+        DisplayName        = Giant Candy Cane,
+        WorldObjectSprite    = CH_Tiles_01_0,
+    }
+recipe Convert To Placeable
+    {
+
+        Base.GiantCandyCane,
+
+        Result:Base.GiantCandyCane1,
+        Time:10.0,
+        Category:Cooking,
+    }
+
+        recipe Convert To Weapon
+    {
+      Base.GiantCandyCane1,
+
+        Result:Base.GiantCandyCane,
+        Time:10.0,
+        Category:Cooking,
+    }
+}
