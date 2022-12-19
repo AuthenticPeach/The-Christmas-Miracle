@@ -8,7 +8,7 @@ module Base
 		Weight	=	0.3,
 		Type	=	Normal,
 		DisplayName	=	Small Present,
-		Icon	=	Present3,
+		Icon	=	Present1,
 		WorldStaticModel = WorldItem-PresentSmall,
 	}
    item MediumPresent
@@ -26,24 +26,8 @@ module Base
 		Weight	=	1.5,
 		Type	=	Normal,
 		DisplayName	=	Large Present,
-		Icon	=	Present6,
+		Icon	=	Present3,
 		WorldStaticModel = WorldItem-PresentLarge,		
-	}
-  item Present4
-	{
-       DisplayCategory = Household,		
-		Weight	=	0.2,
-		Type	=	Normal,
-		DisplayName	=	Present 4,
-		Icon	=	Present4,
-	}
-  item Present31
-	{
-       DisplayCategory = Household,		
-		Weight	=	0.2,
-		Type	=	Normal,
-		DisplayName	=	Present 31,
-		Icon	=	Present31,
 	}
    item Santa
 	{

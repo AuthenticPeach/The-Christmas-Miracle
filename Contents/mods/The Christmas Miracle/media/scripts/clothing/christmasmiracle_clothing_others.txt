@@ -2,6 +2,18 @@ module PeachChristmas {
   imports {
       Base
   }	
+	item Apron_Winter
+	{
+	    DisplayCategory  = Clothing,
+		Type 			 = Clothing,
+		DisplayName 	 = Apron,
+		ClothingItem 	 = Apron_Winter,
+		BodyLocation 	 = TorsoExtra,
+		BloodLocation 	 = Apron,
+		Icon 		  	 = ApronWhite,
+		FabricType 		 = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}  
     item Beard_Long_Santa
     {
         DisplayCategory = Clothing,

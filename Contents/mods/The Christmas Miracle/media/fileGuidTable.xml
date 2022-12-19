@@ -3419,6 +3419,10 @@
 
 
 	<files>
+		<path>media/clothing/clothingItems/Apron_Winter.xml</path>
+		<guid>225c4b19-2b8e-4c82-a874-382f50073003</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Beard_Long_Santa.xml</path>
 		<guid>88f40a07-40ea-4bc8-91bd-4b811f0126a0</guid>
 	</files>

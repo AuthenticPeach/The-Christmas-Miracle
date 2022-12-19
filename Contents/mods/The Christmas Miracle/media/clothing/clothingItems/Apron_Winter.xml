@@ -2,7 +2,7 @@
 <clothingItem>
 	<m_MaleModel>skinned\clothes\bob_apron</m_MaleModel>
 	<m_FemaleModel>skinned\clothes\kate_apron</m_FemaleModel>
-	<m_GUID>80d1e501-eb82-4bf8-84f4-91ae83c7e5c1</m_GUID>
+	<m_GUID>225c4b19-2b8e-4c82-a874-382f50073003</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
