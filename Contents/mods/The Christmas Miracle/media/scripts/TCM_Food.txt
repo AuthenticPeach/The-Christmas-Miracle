@@ -6,6 +6,7 @@ module PeachChristmas {
 
 	item Eggnog
 	{
+	DisplayCategory 	= Food,	
 	Type                = Food,
 	DisplayName         = Carton of Eggnog,
 	Icon                = CartonEggnog,
@@ -27,6 +28,7 @@ module PeachChristmas {
 }
     item RumBottle
 	{
+	DisplayCategory 	= Food,		
 		HungerChange	=	-10,
 		Weight	=	0.4,
 		AlwaysWelcomeGift	=	TRUE,
@@ -52,6 +54,7 @@ module PeachChristmas {
 	}
     item ChristmasEggnog
 	{
+	DisplayCategory 	= Food,		
 	Type                = Food,
 	DisplayName         = Christmas Eggnog,
 	Alcoholic	=	TRUE,
@@ -76,6 +79,7 @@ module PeachChristmas {
 	}
     item Champagne
    {
+	DisplayCategory 	= Food,	   
         HungerChange	=	-20,
         Weight	=	1,
         Type	=	Food,
@@ -97,6 +101,7 @@ module PeachChristmas {
     }
    item HotChocolatePacket
 	{
+		DisplayCategory = Food,		
 		Weight	=	0.1,
 		Type	=	Food,
 		DisplayName	=	Hot Chocolate Packet,
@@ -105,6 +110,7 @@ module PeachChristmas {
 }
 item HotChocolate
 	{
+	DisplayCategory 	= Food,		
 	Type                = Food,
 	DisplayName         = Hot Chocolate,
 	Icon                = HotChocolate,
@@ -137,6 +143,7 @@ item HotChocolate
 }
     item MintCandy2
     {
+	DisplayCategory 	= Food,		
         Type				=		Food,
         DisplayName			=		Mint Candy,
         Icon				=		MintCandy,
@@ -152,6 +159,7 @@ item HotChocolate
     }
     item Candycane2
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-10,
 		UnhappyChange	    =	    -10,
 		Weight	=	0.2,
@@ -168,6 +176,7 @@ item HotChocolate
 	}
     item Turkey
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-100,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -190,6 +199,7 @@ item HotChocolate
 	}
     item TurkeySlice
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-25,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -213,6 +223,7 @@ item HotChocolate
 	}
     item TurkeySliceCranberry
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-25,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -236,6 +247,7 @@ item HotChocolate
 	}
     item ChristmasChicken
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-60,
 		Weight	=	0.5,
 		Type	=	Food,
@@ -258,6 +270,7 @@ item HotChocolate
   }
     item ChickenBreast 
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-15,
 		Weight	=	0.1,
 		Type	=	Food,
@@ -281,6 +294,7 @@ item HotChocolate
 	}
     item ChickenBreastCranberry
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-15,
 		Weight	=	0.1,
 		Type	=	Food,
@@ -304,6 +318,7 @@ item HotChocolate
 	}
     item RoastDuck
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-100,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -326,6 +341,7 @@ item HotChocolate
 	}
     item RoastDuckSlice
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-25,
 		Weight	=	2.5,
 		Type	=	Food,
@@ -349,6 +365,7 @@ item HotChocolate
 	}
     item RoastDuckSliceCranberry
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-25,
 		Weight	=	2.5,
 		Type	=	Food,
@@ -372,6 +389,7 @@ item HotChocolate
 	}
     item PorkLoinRoast
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-100,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -394,6 +412,7 @@ item HotChocolate
 	}
     item PorkLoinRoastSlice
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-100,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -417,6 +436,7 @@ item HotChocolate
 	}
     item PorkLoinRoastSliceCranberry
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-100,
 		Weight	=	1.0,
 		Type	=	Food,
@@ -440,6 +460,7 @@ item HotChocolate
 	}
     item Turducken
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-175,
 		Weight	=	3.0,
 		Type	=	Food,
@@ -462,6 +483,7 @@ item HotChocolate
 	}
     item TurduckenSlice
 	{
+		DisplayCategory 	= Food,		
 		HungerChange	=	-35,
 		Weight	=	0.6,
 		Type	=	Food,
@@ -485,6 +507,7 @@ item HotChocolate
 	}
     item TurduckenSliceCranberry
 	{
+		DisplayCategory = Food,	
 		HungerChange	=	-35,
 		Weight	=	0.6,
 		Type	=	Food,
@@ -508,6 +531,7 @@ item HotChocolate
 	}
     item CheesePizza
     {
+		DisplayCategory = Food,		
         HungerChange	=	-25,
         Weight	=	0.3,
         Type	=	Food,
@@ -525,6 +549,7 @@ item HotChocolate
     }
 item CookieFrosted
 {
+		DisplayCategory = Food,	
         Type		    =           Food,
         DisplayName	    =		Frosted Cookie,
         Icon		    =		CookieFrosted,
@@ -538,6 +563,7 @@ item CookieFrosted
 }
 item FudgeSlice
 {
+		DisplayCategory = Food,	
         Type		    =           Food,
         DisplayName	    =		Fudge Slice,
         Icon		    =		Fudge,
@@ -551,6 +577,7 @@ item FudgeSlice
 }
 item ChristmasPudding
 	{
+		DisplayCategory = Food,		
 		HungerChange		= -8,
 		Weight	                = 0.3,
 		AlwaysWelcomeGift	=	TRUE,
@@ -565,6 +592,7 @@ item ChristmasPudding
 	}
 item GingerbreadMan
 	{
+		DisplayCategory = Food,		
 		HungerChange		= -8,
 		Weight	                = 0.2,
 		AlwaysWelcomeGift	=	TRUE,
@@ -579,6 +607,7 @@ item GingerbreadMan
 	}
 item Buckeyes
 	{
+		DisplayCategory = Food,		
 		HungerChange		= -6,
 		Weight	            	= 0.2,
 		AlwaysWelcomeGift	=	TRUE,
@@ -593,6 +622,7 @@ item Buckeyes
 	}
 item ChocolatePretzel
 	{
+		DisplayCategory = Food,		
 		HungerChange		= -7,
 		Weight	            = 0.2,
 		AlwaysWelcomeGift	=	TRUE,
@@ -607,6 +637,7 @@ item ChocolatePretzel
 	}	
 item Fruitcake
 	{
+		DisplayCategory = Food,		
 		HungerChange		=	-40,
 		UnhappyChange		=	15,
 		Weight			=	0.4,
@@ -624,6 +655,7 @@ item Fruitcake
 	}
  item FruitcakeSlice
    	 {
+		DisplayCategory = Food,		 
         HungerChange	=	-10,
         Weight	=	0.1,
         Type	=	Food,
@@ -640,6 +672,7 @@ item Fruitcake
 
 item ApplePie
     {
+		DisplayCategory = Food,		
         HungerChange	=	-40,
 	UnhappyChange	    =	    -15,
         Weight	=	1.0,
@@ -657,6 +690,7 @@ item ApplePie
     }
 item ApplePieSlice
     {
+		DisplayCategory = Food,		
         Type				=		Food,
         HungerChange 		=		-10,
         UnhappyChange	    =	    -10,
@@ -673,6 +707,7 @@ item ApplePieSlice
     } 
 item PecanPie
     {
+		DisplayCategory = Food,		
         HungerChange	=	-40,
 	UnhappyChange	    =	    -15,
         Weight	=	1.0,
@@ -690,6 +725,7 @@ item PecanPie
     }
 item PecanPieSlice
     {
+		DisplayCategory = Food,		
         Type				=		Food,
         HungerChange 		=		-10,
         UnhappyChange	    =	    -15,
@@ -706,6 +742,7 @@ item PecanPieSlice
     }
     item PiePumpkin2
     {
+		DisplayCategory = Food,		
         HungerChange		 =	    -10,
 	UnhappyChange	   	 =	    -15,
         Weight			 =	0.2,
@@ -723,6 +760,7 @@ item PecanPieSlice
 
 item PumpkinPie
     {
+		DisplayCategory = Food,		
         Type			 	=		Food,
         HungerChange 		 	=		-40,
         UnhappyChange	   	 	=	    -10,
@@ -739,7 +777,7 @@ item PumpkinPie
     }
    item BagaRolls
 	{
-	
+		DisplayCategory = Food,		
 		Weight	=	0.5,
 		Type	=	Food,
 		DisplayName	=	Bag of Rolls,
@@ -749,6 +787,7 @@ item PumpkinPie
 	}
     item DinnerRoll
     {
+		DisplayCategory = Food,		
         HungerChange		 =	    -4,
         Weight			 =	0.1,
         Type			 =	Food,
@@ -763,6 +802,7 @@ item PumpkinPie
     }
     item MashedPotatoes
     {
+		DisplayCategory = Food,		
         HungerChange		 =	    -15,
         Weight			 =	0.4,
         Type			 =	Food,
@@ -778,6 +818,7 @@ item PumpkinPie
     }
     item Gravy
     {
+		DisplayCategory = Food,		
         HungerChange		 =	    -7,
 	UnhappyChange	   	 =	    +7,
         Weight			 =	0.3,
@@ -796,6 +837,7 @@ item PumpkinPie
     }
     item MashedPototoesNGravy
     {
+		DisplayCategory = Food,		
         HungerChange		 =	    -20,
 	UnhappyChange	   	 =	    -10,
         Weight			 =	0.5,
@@ -813,6 +855,7 @@ item PumpkinPie
     }
 item SweetPotato
 	{
+		DisplayCategory = Food,		
 		Type				=		Food,
 		DisplayName			=		Sweet Potato,
 		Icon				=		sweetpotato,
@@ -833,6 +876,7 @@ item SweetPotato
 	}
 item CandiedYams
 	{
+		DisplayCategory = Food,		
 		Type				=		Food,
 		DisplayName			=		Candied Yams,
 		Icon				=		CandiedYams,
@@ -851,6 +895,7 @@ item CandiedYams
 	}
     item Stuffing
 	{
+		DisplayCategory = Food,		
 		Type				=		Food,
 		DisplayName			=		Stuffing,
 		Icon				=		Stuffing,
@@ -870,6 +915,7 @@ item CandiedYams
 	}
     item CranberrySauceCan
 	{
+		DisplayCategory = Food,		
 		HungerChange	=	-20,
 		Weight	=	0.8,
 		Type	=	Food,
@@ -889,6 +935,7 @@ item CandiedYams
 	}
     item CandyPackage2
     {
+		DisplayCategory = Food,		
         Type				=		Food,
         DisplayName			=		Candy Package,
         Icon				=		CandyPackagei,
@@ -899,24 +946,6 @@ item CandiedYams
         Calories = 500,
         PAckaged = TRUE,
     }
-
-	item Cigarettes2
-	{
-		Count	=	20,
-		HungerChange	=	0,
-		Weight	=	0.005,
-		RequireInHandOrInventory	=	Lighter/Lighter2/Matches,
-		Type	=	Food,
-		DisplayName	=	Cigarettes,
-		StressChange	=	-5,
-		Icon	=	IckySticks,
-		CustomContextMenu = Smoke,
-		CantBeFrozen = TRUE,
-		OnEat = OnEat_Cigarettes,
-		StaticModel = Cigarette,
-		EatType = Cigarettes,
-		CustomEatSound =
-	}
 /************************RECIPES************************/
 
 recipe Cut Turkey
@@ -1069,11 +1098,12 @@ recipe Slice Pumpkin Pie
 
     item Coldpack2
     {
+	DisplayCategory = Food,		
 	Type	=	Food,
 	DaysFresh	=	365,
 	DaysTotallyRotten	=	365,
-        Weight	=	0.1,
-        Type	=	Normal,
+       Weight	=	0.1,
+    Type	=	Normal,
         DisplayName	=	Cold Pack,
         Icon	=	Coldpack,
         Tooltip = Tooltip_ItemTraps,
@@ -1081,6 +1111,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase0
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1089,6 +1120,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase1
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1097,6 +1129,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase2
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1105,6 +1138,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase3
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1113,6 +1147,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase4
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1121,6 +1156,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase5
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1129,6 +1165,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase6
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1137,6 +1174,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase7
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1145,6 +1183,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase8
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1153,6 +1192,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase9
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1161,6 +1201,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase10
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1169,6 +1210,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase11
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1177,6 +1219,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase12
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1185,6 +1228,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase13
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1193,6 +1237,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase14
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1201,6 +1246,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase15
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1209,6 +1255,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase16
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1217,6 +1264,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase17
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1225,6 +1273,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase18
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1233,6 +1282,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase19
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1241,6 +1291,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase20
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1249,6 +1300,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase21
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1257,6 +1309,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase22
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1265,6 +1318,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase23
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         DisplayName	= Claus Inc Suitcase,
         Type	=	Normal,
@@ -1273,26 +1327,29 @@ recipe Slice Pumpkin Pie
     }
     item ClausCounterSuitcase24
     {
-        Weight = 1.0,
+      DisplayCategory = Household,		
+        Weight 		= 1.0,
         DisplayName	= Claus Inc Suitcase,
-        Type	=	Normal,
-        Icon = ClausCounterSuitcase24,
-	Tooltip = Tooltip_ClausIncSuitcase,
-	Packaged = TRUE,
+        Type		= Normal,
+        Icon 		= ClausCounterSuitcase24,
+		Tooltip 	= Tooltip_ClausIncSuitcase,
+		Packaged 	= TRUE,
     }
     item ShardMaterials
     {
+      DisplayCategory = Ammo,	
         Weight = 0.2,
         DisplayName	= Ice Shard Materials,
         Type	=	Food,
-	ReplaceOnRotten = IcecreamMelted,
-	DaysFresh	=	1,
+		ReplaceOnRotten = IcecreamMelted,
+		DaysFresh	=	1,
         DaysTotallyRotten	=	2,
         Icon = ShardMaterials,
-	Packaged = TRUE,
+		Packaged = TRUE,
     }   
     item MapCapsule 
     {
+      DisplayCategory = Household,	
         Weight = 0.2,
         Type = Normal,
         DisplayName	= Map Capsule,
@@ -1300,6 +1357,7 @@ recipe Slice Pumpkin Pie
     }
     item ClausIncMaterials
     {
+      DisplayCategory = Household,		
         Weight = 1.0,
         Type = Normal,
         DisplayName	= Claus Inc Materials,
@@ -1307,25 +1365,26 @@ recipe Slice Pumpkin Pie
     }
     item Puddle
     {
+      DisplayCategory = Junk,	
         Weight = .01,
         Type = Normal,
         DisplayName	= Puddle,
         Icon = Puddle,
-	Tooltip = Tooltip_Puddle,
+		Tooltip = Tooltip_Puddle,
     }
     item IceShards
     {
+      DisplayCategory = Ammo,	
         Count	=	1,
         Weight	=	0.025,
         AlwaysWelcomeGift	=	TRUE,
         Type	=	Food,
-	ReplaceOnRotten = Puddle,
+		ReplaceOnRotten = Puddle,
         DisplayName	=	Ice Shard Ammo,
-	DaysFresh	=	1,
+		DaysFresh	=	1,
         DaysTotallyRotten	=	2,
-        DisplayCategory = Ammo,
         Icon		=	IceShardLoose,
-	Packaged 	= TRUE,
+		Packaged 	= TRUE,
     }
 
     item IceShardBox
@@ -1335,16 +1394,17 @@ recipe Slice Pumpkin Pie
         Type		=	Normal,
         DisplayName	=	Box of Ice Shards,
         DisplayCategory = 	Ammo,
-	Type		=	Food,
-	ReplaceOnRotten = Puddle,
-	DaysFresh	=	1,
+		Type		=	Food,
+		ReplaceOnRotten = Puddle,
+		DaysFresh	=	1,
         DaysTotallyRotten	=	2,
         Icon		=	BoxIceShard,
-	Packaged	 = TRUE,
+		Packaged	 = TRUE,
     }
 
     item IceClip
     {
+      DisplayCategory = Ammo,	
         CanStack	=	FALSE,
         Weight		=	0.2,
         Type		=	Normal,
@@ -1357,6 +1417,7 @@ recipe Slice Pumpkin Pie
     }
     item IceClip2
     {
+		DisplayCategory = Ammo,	
         CanStack	=	FALSE,
         Weight		=	0.2,
         Type		=	Normal,
@@ -1365,7 +1426,7 @@ recipe Slice Pumpkin Pie
         MaxAmmo 	= 50,
         AmmoType 	= Base.IceShards,
         StaticModel 	= GunMagazine,
-	Tooltip = Tooltip_IceShardClip2,
+		Tooltip = Tooltip_IceShardClip2,
     }
 
 }

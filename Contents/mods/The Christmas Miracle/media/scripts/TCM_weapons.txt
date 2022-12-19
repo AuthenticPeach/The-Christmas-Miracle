@@ -7,6 +7,7 @@ module PeachChristmas {
 
     item TheBellRinger
     {
+		DisplayCategory = Weapon,	
         ImpactSound	=	null,
         MaxRange	=	30,
         WeaponSprite	=	IceHuntingRifle,
@@ -85,6 +86,7 @@ module PeachChristmas {
 
     item TheSleigher
     {
+		DisplayCategory = Weapon,	
         ImpactSound	=	null,
         MaxRange	=	14,
         WeaponSprite	=	IceAssaultRifle,

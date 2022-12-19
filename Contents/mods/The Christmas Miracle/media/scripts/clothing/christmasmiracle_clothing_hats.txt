@@ -32,6 +32,7 @@ module PeachChristmas {
     }	
 	item Hat_SantaHat
 	{
+	    DisplayCategory = Accessory,		
 		Type = Clothing,
 		DisplayName = Santa Hat,
 		ClothingItem = Hat_SantaHat,
