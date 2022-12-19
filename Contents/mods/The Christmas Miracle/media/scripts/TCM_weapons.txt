@@ -1,5 +1,7 @@
-module Base
-{
+module PeachChristmas {
+  imports {
+      Base
+  }
 
     /****************************** ITEM_FIREARM ******************************/
 
@@ -7,7 +9,7 @@ module Base
     {
         ImpactSound	=	null,
         MaxRange	=	30,
-        WeaponSprite	=	HuntingRifle,
+        WeaponSprite	=	IceHuntingRifle,
         SoundVolume	=	15,
         MinAngle	=	0.95,
         Type	=	Weapon,
@@ -65,7 +67,7 @@ module Base
         InsertAmmoSound = BulletInRifle,
         EjectAmmoSound = BulletOutVarmint,
         RackSound = StormyRifleCock,
-        AmmoType = Base.IceShards,
+        AmmoType = PeachChristmas.IceShards,
         WeaponReloadType = boltactionnomag,
         ModelWeaponPart = Bayonnet Bayonnet bayonnet bayonnet,
         ModelWeaponPart = x2Scope x2Scope scope scope,
@@ -75,7 +77,7 @@ module Base
         ModelWeaponPart = RecoilPad RecoilPad recoilpad recoilpad,
         ModelWeaponPart = RedDot RedDot reddot reddot,
         RackAfterShoot = TRUE,
-        MagazineType = Base.IceClip2,
+        MagazineType = PeachChristmas.IceClip2,
         JamGunChance = 5,
         AttachmentType = Rifle,
     }
@@ -85,7 +87,7 @@ module Base
     {
         ImpactSound	=	null,
         MaxRange	=	14,
-        WeaponSprite	=	AssaultRifle03,
+        WeaponSprite	=	IceAssaultRifle,
         SoundVolume	=	35,
         MinAngle	=	0.965,
         Type		=	Weapon,
@@ -141,8 +143,8 @@ module Base
         InsertAmmoSound = Stormy9mmClipLoad,
         EjectAmmoSound = Stormy9mmClipEject,
         RackSound = Stormy9mmRack,
-        MagazineType = Base.IceClip,
-        AmmoType = Base.IceShards,
+        MagazineType = PeachChristmas.IceClip,
+        AmmoType = PeachChristmas.IceShards,
         WeaponReloadType = boltaction,
         JamGunChance = 2,
         AttachmentType = Rifle,

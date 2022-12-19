@@ -4,7 +4,8 @@ module PeachChristmas {
   }
     item JacketLong_Santa_Obese
     {
-        Type = Clothing,
+ 	    DisplayCategory = Clothing,       
+		Type = Clothing,
         DisplayName = Big Santa Suit Jacket,
         ClothingItem = JacketLong_Santa_Obese,
         BodyLocation = Jacket,
@@ -23,6 +24,7 @@ module PeachChristmas {
     }
     item JacketLong_SantaGreen
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Green Santa Suit Jacket,
         ClothingItem = JacketLong_SantaGreen,
@@ -42,6 +44,7 @@ module PeachChristmas {
     }
     	item JacketLong_SantaYellow
     {
+ 	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Yellow Santa Suit Jacket,
         ClothingItem = JacketLong_SantaYellow,
@@ -61,6 +64,7 @@ module PeachChristmas {
     }
 item JacketLong_SantaWhite
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = White Santa Suit Jacket,
         ClothingItem = JacketLong_SantaWhite,
@@ -80,6 +84,7 @@ item JacketLong_SantaWhite
     }
 item JacketLong_SantaTurquoise
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Turquoise Santa Suit Jacket,
         ClothingItem = JacketLong_SantaTurquoise,
@@ -99,6 +104,7 @@ item JacketLong_SantaTurquoise
     }
 item JacketLong_SantaPurple
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Purple Santa Suit Jacket,
         ClothingItem = JacketLong_SantaPurple,
@@ -118,6 +124,7 @@ item JacketLong_SantaPurple
     }
 item JacketLong_SantaPink
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Pink Santa Suit Jacket,
         ClothingItem = JacketLong_SantaPink,
@@ -137,6 +144,7 @@ item JacketLong_SantaPink
     }
 item JacketLong_SantaOrange
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Orange Santa Suit Jacket,
         ClothingItem = JacketLong_SantaOrange,
@@ -156,6 +164,7 @@ item JacketLong_SantaOrange
     }
 item JacketLong_SantaGrey
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Grey Santa Suit Jacket,
         ClothingItem = JacketLong_SantaGrey,
@@ -175,6 +184,7 @@ item JacketLong_SantaGrey
     }
 item JacketLong_SantaBlue
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Santa Suit Jacket,
         ClothingItem = JacketLong_SantaBlue,
@@ -194,6 +204,7 @@ item JacketLong_SantaBlue
     }
 item JacketLong_SantaBluePattern
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Festive Santa Suit Jacket,
         ClothingItem = JacketLong_SantaBluePattern,
@@ -213,6 +224,7 @@ item JacketLong_SantaBluePattern
     }
 item JacketLong_SantaBluePattern2
     {
+	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Blue Moose Santa Suit Jacket,
         ClothingItem = JacketLong_SantaBluePattern2,

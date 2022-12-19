@@ -81,7 +81,6 @@ item Trousers_SantaYellow
 	item Trousers_SantaPurple
     {
         DisplayCategory = Clothing,	
-        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Purple Santa Suit Pants,
         ClothingItem = Trousers_SantaPurple,
@@ -96,7 +95,6 @@ item Trousers_SantaYellow
     }
     	item Trousers_SantaPink
     {
-        DisplayCategory = Clothing,	
         DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Pink Santa Suit Pants,

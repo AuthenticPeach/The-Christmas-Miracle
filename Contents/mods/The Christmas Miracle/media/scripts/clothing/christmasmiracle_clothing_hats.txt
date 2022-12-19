@@ -45,6 +45,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatGreen
 	{
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Green Santa Hat,
 		ClothingItem = Hat_SantaHatGreen,
@@ -58,6 +59,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatYellow
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Yellow Santa Hat,
 		ClothingItem = Hat_SantaHatYellow,
@@ -71,6 +73,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatWhite
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = White Santa Hat,
 		ClothingItem = Hat_SantaHatWhite,
@@ -84,6 +87,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatTurquoise
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Turquoise Santa Hat,
 		ClothingItem = Hat_SantaHatTurquoise,
@@ -97,6 +101,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatPurple
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Purple Santa Hat,
 		ClothingItem = Hat_SantaHatPurple,
@@ -110,6 +115,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatPink
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Pink Santa Hat,
 		ClothingItem = Hat_SantaHatPink,
@@ -123,6 +129,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatOrange
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Orange Santa Hat,
 		ClothingItem = Hat_SantaHatOrange,
@@ -136,6 +143,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatGrey
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Grey Santa Hat,
 		ClothingItem = Hat_SantaHatGrey,
@@ -149,6 +157,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatBlue
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Santa Hat,
 		ClothingItem = Hat_SantaHatBlue,
@@ -162,6 +171,7 @@ module PeachChristmas {
     }
 	item Hat_SantaHatBluePattern
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Festive Santa Hat,
 		ClothingItem = Hat_SantaHatBluePattern,
@@ -176,6 +186,7 @@ module PeachChristmas {
 
 	item Hat_SantaHatBluePattern2
     {
+	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Blue Moose Santa Hat,
 		ClothingItem = Hat_SantaHatBluePattern2,

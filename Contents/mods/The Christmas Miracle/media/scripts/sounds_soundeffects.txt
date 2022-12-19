@@ -1,24 +1,6 @@
 module Base
 { 
 /************************Sound Effects************************/
-	sound Helicopter Far
-	{
-		category = Meta,
-		master = Music,
-		clip
-		{
-			file = media/music/MaestroRage_TheEpicChristmas.ogg,
-		}
-	}
-	sound Helicopter Close
-	{
-		category = Meta,
-		master = Music,
-		clip
-		{
-			file = media/music/MaestroRage_TheEpicChristmas.ogg,
-		}
-	}
 	sound HouseAlarm
 	{
 		category = World,
@@ -28,9 +10,9 @@ module Base
 			file = media/music/FireAlarmBell.ogg,
 		}
 	}
-	sound BigExplosion
+	sound FilthyAnimal
 	{
-		category = World,
+		category = Object,
 		master = Music,
 		clip
 		{
@@ -350,23 +332,6 @@ module Base
 		clip
 		{
 			file = media/music/Ice1.ogg,
-		}
-	}
-	sound Helicopter
-	{
-		category = Meta,
-		master = Music,
-		clip
-		{
-			file = media/music/MaestroRage_TheEpicChristmas.ogg,
-		}
-	}
-	sound HeliSanta
-	{
-		category = Object,
-		clip
-		{
-			file = media/music/MaestroRage_TheEpicChristmas.ogg,
 		}
 	}
 

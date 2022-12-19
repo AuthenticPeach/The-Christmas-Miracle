@@ -13,7 +13,7 @@ item GiantCandyCane1
 recipe Convert To Placeable
     {
 
-        Base.GiantCandyCane,
+        PeachChristmas.GiantCandyCane,
 
         Result:Base.GiantCandyCane1,
         Time:10.0,
@@ -22,9 +22,9 @@ recipe Convert To Placeable
 
         recipe Convert To Weapon
     {
-      Base.GiantCandyCane1,
+      PeachChristmas.GiantCandyCane1,
 
-        Result:Base.GiantCandyCane,
+        Result:PeachChristmas.GiantCandyCane,
         Time:10.0,
         Category:Cooking,
     }

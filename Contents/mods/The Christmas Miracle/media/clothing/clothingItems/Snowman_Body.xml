@@ -23,5 +23,6 @@
 	<m_Masks>13</m_Masks>
 	<m_Masks>14</m_Masks>
 	<m_Masks>15</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Body/Masks</m_UnderlayMasksFolder>		
 	<textureChoices>Body\SnowMan</textureChoices>
 </clothingItem>

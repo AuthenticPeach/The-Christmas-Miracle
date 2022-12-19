@@ -1,5 +1,7 @@
-module Base
-{
+module PeachChristmas {
+  imports {
+      Base
+  }
 /************************Christmas Food************************/
 
 	item Eggnog

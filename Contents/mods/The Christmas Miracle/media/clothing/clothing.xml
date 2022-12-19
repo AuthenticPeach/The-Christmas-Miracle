@@ -106,7 +106,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaWhite</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaWhite</m_Name>
 		<m_Guid>a65c00d0-971b-4c11-8724-d0161d9eac28</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -129,7 +129,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaPurple</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaPurple</m_Name>
 		<m_Guid>7e8f81f5-1dc6-42ac-b1bf-544035aefd9f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -152,7 +152,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaTurquoise</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaTurquoise</m_Name>
 		<m_Guid>21a4ac20-165c-4b27-8e46-26a2e8f45c60</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -175,7 +175,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaBlue</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaBlue</m_Name>
 		<m_Guid>52ae8814-6a19-4494-a83d-cfbb5c32c228</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -198,7 +198,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaBluePattern</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaBluePattern</m_Name>
 		<m_Guid>88063f37-a6ec-4ca9-97f8-26701a4ed1ff</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -221,7 +221,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaBlueMoose</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaBlueMoose</m_Name>
 		<m_Guid>8cb1b584-da21-46bd-8c38-35fc51bb6e0c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -244,7 +244,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaPink</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaPink</m_Name>
 		<m_Guid>d6e0ef82-8f2f-4f0f-a29f-c17eaff13d06</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -267,7 +267,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaGrey</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaGrey</m_Name>
 		<m_Guid>4af29fbe-e8f2-43b3-aa80-00f83cafcb46</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -290,7 +290,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaOrange</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaOrange</m_Name>
 		<m_Guid>a935a141-2a32-4a5f-a069-1cf3a50ad97f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -313,7 +313,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>SantaYellow</m_Name>
+	<m_FemaleOutfits> <m_Name>CM_SantaYellow</m_Name>
 		<m_Guid>fbd930ac-a864-4281-8e01-7170f9f1ed3d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -334,88 +334,6 @@
 		</m_items>
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
-		</m_items>
-	</m_FemaleOutfits>
-	<m_FemaleOutfits> <m_Name>Ski</m_Name>
-		<m_Guid>1b17cba4-fa41-4b87-808b-904e285479b1</m_Guid>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowPantsTint>true</m_AllowPantsTint>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>03007a08-7e7f-4a5d-93a7-e2d8d5a46c53</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.6</probability>
-			<itemGUID>4269efa0-b4ad-489e-8cb8-670ae9da5881</itemGUID>
-			<subItems>
-				<itemGUID>ff76cf58-6cd5-44b4-a22a-05e0a3d1709f</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>6f83a2f6-3b02-4e25-b27e-7e112006d7e2</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>211f2d80-28ca-4c53-b6e7-b5d804f89491</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.8</probability>
-			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.7</probability>
-			<itemGUID>be23d492-87ab-427a-a6e8-d399a1dbaf1a</itemGUID>
-			<subItems>
-				<itemGUID>2ad4e7f8-06a3-4681-a44a-9f566433986c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>1f5ca3c2-49b1-4a98-aec3-6e542ad09f3e</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>de34608d-c152-4944-8f42-ea4ea6f067b2</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
-			<subItems>
-				<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
-			<subItems>
-				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
-			<subItems>
-				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
-			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
 	<m_FemaleOutfits> <m_Name>CM_SpiffoReindeer</m_Name>
@@ -487,7 +405,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaWhite</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaWhite</m_Name>
 		<m_Guid>a65c00d0-971b-4c11-8724-d0161d9eac28</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -510,7 +428,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaPurple</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaPurple</m_Name>
 		<m_Guid>7e8f81f5-1dc6-42ac-b1bf-544035aefd9f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -533,7 +451,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaTurquoise</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaTurquoise</m_Name>
 		<m_Guid>21a4ac20-165c-4b27-8e46-26a2e8f45c60</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -556,7 +474,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaBlue</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaBlue</m_Name>
 		<m_Guid>52ae8814-6a19-4494-a83d-cfbb5c32c228</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -579,7 +497,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaPink</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaPink</m_Name>
 		<m_Guid>d6e0ef82-8f2f-4f0f-a29f-c17eaff13d06</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -602,7 +520,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaGrey</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaGrey</m_Name>
 		<m_Guid>4af29fbe-e8f2-43b3-aa80-00f83cafcb46</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -625,7 +543,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaOrange</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaOrange</m_Name>
 		<m_Guid>a935a141-2a32-4a5f-a069-1cf3a50ad97f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -648,7 +566,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaYellow</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaYellow</m_Name>
 		<m_Guid>fbd930ac-a864-4281-8e01-7170f9f1ed3d</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -671,7 +589,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>
-	<m_MaleOutfits> <m_Name>SantaBluePattern</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaBluePattern</m_Name>
 		<m_Guid>88063f37-a6ec-4ca9-97f8-26701a4ed1ff</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -694,7 +612,7 @@
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
 	</m_MaleOutfits>		
-	<m_MaleOutfits> <m_Name>SantaBlueMoose</m_Name>
+	<m_MaleOutfits> <m_Name>CM_SantaBlueMoose</m_Name>
 		<m_Guid>8cb1b584-da21-46bd-8c38-35fc51bb6e0c</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -715,80 +633,6 @@
 		</m_items>
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
-		</m_items>
-	</m_MaleOutfits>
-
-	<m_MaleOutfits> <m_Name>Ski</m_Name>
-		<m_Guid>1b17cba4-fa41-4b87-808b-904e285479b1</m_Guid>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowPantsTint>true</m_AllowPantsTint>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>03007a08-7e7f-4a5d-93a7-e2d8d5a46c53</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.6</probability>
-			<itemGUID>4269efa0-b4ad-489e-8cb8-670ae9da5881</itemGUID>
-			<subItems>
-				<itemGUID>ff76cf58-6cd5-44b4-a22a-05e0a3d1709f</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.5</probability>
-			<itemGUID>6f83a2f6-3b02-4e25-b27e-7e112006d7e2</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>211f2d80-28ca-4c53-b6e7-b5d804f89491</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.8</probability>
-			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID>
-		</m_items>
-		<m_items>
-			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.7</probability>
-			<itemGUID>be23d492-87ab-427a-a6e8-d399a1dbaf1a</itemGUID>
-			<subItems>
-				<itemGUID>2ad4e7f8-06a3-4681-a44a-9f566433986c</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>1f5ca3c2-49b1-4a98-aec3-6e542ad09f3e</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>de34608d-c152-4944-8f42-ea4ea6f067b2</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
-			<subItems>
-				<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
-			<subItems>
-				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.3</probability>
-			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
-			<subItems>
-				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
-			</subItems>
-			<subItems>
-				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
-			</subItems>
 		</m_items>
 	</m_MaleOutfits>
 	<m_MaleOutfits> <m_Name>CM_SpiffoReindeer</m_Name>

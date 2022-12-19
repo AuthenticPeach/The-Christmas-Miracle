@@ -15,8 +15,9 @@ recipe Open Box of Ice Shard Ammo
         IceShardBox,
         Result:IceShards=100,
         Sound:Ice1,
-	Category:Christmas,
+		Category:Christmas,
         Time:50.0,
+		StopOnWalk:false,			
     }
 
 recipe Place Ice Shard Ammo in Box
@@ -26,6 +27,8 @@ recipe Place Ice Shard Ammo in Box
         Sound:PutItemInBag,
         Time:5.0,
 	Category:Christmas,
+    StopOnWalk:false,	
+    }	
     }
 recipe Make The Sleigher
    {
@@ -57,15 +60,16 @@ recipe Open Map Capsule
 	Sound:ASMRthelid,
 	AnimNode:RipSheets,
 	Category:Christmas,
+    StopOnWalk:false,		
     }
 recipe Unwrap Small Present
 	{
 	   destroy SmallPresent,
 
 	   Result:SheetPaper2,
-	   Time:50.0,
+	   Time:120.0,
 	   OnCreate:recipe_unwrapTheSmallpresent,
-	   	Sound:BigExplosion,
+	   	Sound:FilthyAnimal,
 		AnimNode:BlowTorchFloor,
 		Category:Christmas,
 	}
@@ -73,9 +77,9 @@ recipe Unwrap Medium Present
 	{
 	        destroy MediumPresent,
 	        Result:SheetPaper2,
-	        Time:65.0,
+	        Time:120.0,
 	        OnCreate:recipe_unwrapTheMediumpresent,
-		Sound:BigExplosion,
+		Sound:FilthyAnimal,
 		AnimNode:BlowTorchFloor,
     	        Category:Christmas,
 	}
@@ -83,9 +87,9 @@ recipe Unwrap Large Present
     {
 	destroy LargePresent,
    	Result:SheetPaper2,
-    	Time:80.0,
+    	Time:120.0,
     	OnCreate:recipe_unwrapTheBigpresent,
-	Sound:BigExplosion,
+	Sound:FilthyAnimal,
 	AnimNode:BlowTorchFloor,
 	Category:Christmas,
     }
@@ -95,11 +99,12 @@ recipe Wrap Small Present
 	DuctTape/Scotchtape,
 	Twine/Thread,
 	keep Scissors,
-   	 Time:200.0,
+   	Time:200.0,
 	Result:SmallPresent,
 	Sound:BigExplosion,
 	AnimNode:BlowTorchFloor,
 	Category:Christmas,
+	
     }
 recipe Wrap Medium Present
     {
@@ -107,7 +112,7 @@ recipe Wrap Medium Present
 	DuctTape/Scotchtape,
 	Twine/Thread,
 	keep Scissors,
-    	Time:400.0,
+    Time:400.0,
 	Result:MediumPresent,
 	Sound:BigExplosion,
 	AnimNode:BlowTorchFloor,
@@ -119,7 +124,7 @@ recipe Wrap Large Present
 	DuctTape/Scotchtape,
 	Twine/Thread,
 	keep Scissors,
-    	Time:600.0,
+    Time:600.0,
 	Result:LargePresent,
 	Sound:BigExplosion,
 	AnimNode:BlowTorchFloor,
@@ -131,7 +136,7 @@ recipe Open Coldpack
 	Result: ShardMaterials=5,
 	Time: 100.0,
 	Sound:Ice1,
-	AnimNode:BlowTorchFloor,
+    StopOnWalk:false,	
 	Category:Christmas,
     }
 }

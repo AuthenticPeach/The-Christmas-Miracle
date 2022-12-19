@@ -7,7 +7,7 @@ end
 ChristmasMiracle.OnGameStart = function()
     		
 Events.OnGameStart.Add(ChristmasMiracle.OnNewGame);
-local modal = ISModalRichText:new(getCore():getScreenWidth()/2 - 100, getCore():getScreenHeight()/2 - 50, 200, 100, getText("Challenge_1993ChristmasMiracleInfoBox"), false, nil, nil, 0);		
+local modal = ISModalRichText:new(getCore():getScreenWidth()/2 - 100, getCore():getScreenHeight()/2 - 50, 200, 100, getText("Challenge_ChristmasMiracleInfoBox"), false, nil, nil, 0);		
     if getGameTime():getWorldAgeHours()-2 >= 4*24 then --WorldAgeHours has 2 subtracted from it to delay the storm's start from 7 am to 9 am, Storm will start at 1AM. 
         getCore():setForceSnow(true);
         forceSnowCheck();
@@ -16,7 +16,6 @@ local modal = ISModalRichText:new(getCore():getScreenWidth()/2 - 100, getCore():
     if getGameTime():getWorldAgeHours()+2 >=3*24 and getGameTime():getWorldAgeHours()-2 <=4*24 then
         getClimateManager():triggerWinterIsComingStorm();
     end
-    --getClimateManager():forceDayInfoUpdate();
 
 	if getGameTime():getDay() == 8 and getGameTime():getTimeOfDay() == 9 then
 		modal:initialise();
@@ -24,7 +23,7 @@ local modal = ISModalRichText:new(getCore():getScreenWidth()/2 - 100, getCore():
 		if JoypadState.players[1] then
 			JoypadState.players[1].focus = modal
 
-		else end	--end first day check
+		else end	
 
 		end
 
@@ -66,7 +65,6 @@ local pl = getPlayer();
 		    pl:getInventory():clear();
 
 			local inv = pl:getInventory();
-			--local bag = pl:getInventory():AddItem("Base.Bag_ALICEpack_Army");
 
 			--player stuff 
 			--give player Santa-Green Costume
@@ -90,12 +88,9 @@ local pl = getPlayer();
 			local bag = pl:getInventory():AddItem("Base.Bag_DuffelBag");
 			pl:setClothingItem_Back(bag);
 			
-			--give player supplies
-			--randomized stuff
 			ChristmasMiracle.supplies = {"Base.CookieFrosted","Base.CookieChocolateChip","Base.556Box", "Base.FruitcakeSlice","Base.Fruitcake","Base.Bandaid"};
 			--ChristmasMiracle.medsupplies = {"Base.AlcoholBandage","Base.Disinfectant","Base.Bandaid","Base.Antibiotics","Base.Pills","Base.SutureNeedle","Base.Tweezers"};
 
-			--static stuff main inv
 			inv:AddItem("farming.RemouladeWaterFull");
 			inv:AddItem("Base.Lighter2");
 			inv:AddItem("Base.KeyRing");
@@ -124,7 +119,7 @@ local pl = getPlayer();
 			--randomize vehicle, 13 in array right now
 			local pickacar = ZombRand(3)+1;
 			ChristmasMiracle.carlist = {"Base.VanRadio","Base.StepVanMail","Base.StepVan"};
-			local car = addVehicleDebug(ChristmasMiracle.carlist[pickacar],IsoDirections.E, nil, getCell():getGridSquare((ChristmasMiracle.xcell*300)+(ChristmasMiracle.x-1), (ChristmasMiracle.ycell*300)+(ChristmasMiracle.y-1), 0));
+			local car = addVehicleDebug(ChristmasMiracle.carlist[pickacar],IsoDirections.W, nil, getCell():getGridSquare((ChristmasMiracle.xcell*300)+(ChristmasMiracle.x-1), (ChristmasMiracle.ycell*300)+(ChristmasMiracle.y-1), 0));
 
 			car:repair();
 			inv:AddItem(car:createVehicleKey());
@@ -231,9 +226,7 @@ pl:playSound("MetaScream");
 
 end
 
-
 ChristmasMiracle.OnInitWorld = function()
---SandboxVars = require "Sandbox/SixMonthsLater"
 	Events.OnGameStart.Add(ChristmasMiracle.OnGameStart);
 	ChristmasMiracle.setSandBoxVars();
 end
@@ -260,7 +253,6 @@ ChristmasMiracle.setSandBoxVars = function()
 	SandboxVars.OtherLoot = 1;
 	SandboxVars.Temperature = 1;
 	SandboxVars.Rain = 5;
---	    SandboxVars.erosion = 12
 	SandboxVars.ErosionSpeed = 1
 	SandboxVars.XpMultiplier = "1.0";
 	SandboxVars.Farming = 3;
@@ -280,7 +272,6 @@ ChristmasMiracle.setSandBoxVars = function()
 
 	Events.OnGameStart.Add(WinterIsComing.OnGameStart);
     Events.EveryHours.Add(WinterIsComing.EveryHours);
-    --Events.EveryTenMinutes.Add(WinterIsComing.EveryTenMinutes);
     Events.OnInitSeasons.Add(WinterIsComing.OnInitSeasons);
 end
 
@@ -315,11 +306,16 @@ ChristmasMiracle.spawns = {
 		--{xcell = 24, ycell = 27, x = 23, y = 217, z = 0}, -- Middle of Lickskillet
 		--{xcell = 46, ycell = 19, x = 11, y = 173, z = 0}, -- mall parking lot
 		--{xcell = 18, ycell = 19, x = 177, y = 182, z = 0}, -- Riverside Factory
-		{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
-		{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
-		{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
-		{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
-		{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		{xcell = 17, ycell = 19, x = 8, y = 135, z = 0}, --Right outside mod 
+		--{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
+		--{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
+		--{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
+		--{xcell = 34, ycell = 41, x = 161, y = 66, z = 0}, --Right outside March Ridge
 		--{xcell = 18, ycell = 19, x = 177, y = 182, z = 0}, -- Riverside Factory
 }
 local spawnselection = ZombRand(4)+1;
@@ -328,55 +324,12 @@ local ycell = ChristmasMiracle.spawns[spawnselection].ycell;
 local x = ChristmasMiracle.spawns[spawnselection].x;
 local y = ChristmasMiracle.spawns[spawnselection].y;
 local z = ChristmasMiracle.spawns[spawnselection].z;
-ChristmasMiracle.cardinal = ChristmasMiracle.spawns[spawnselection].cardinal; -- this doesn't seem to work out.
-
-
-
---[[
--- Example
-function Kingsmouth.getSpawnRegion()
-    local c = Kingsmouth
-    return {
-        {
-            name = "Kingsmouth Region 1/2", points = {
-                unemployed = {
-                    { worldX = c.xcell, worldY = c.ycell, posX = c.x, posY = c.y, posZ = c.z },
-                },
-            }
-        },
-        {
-            name = "Kingsmouth Region 2/2", points = {
-                unemployed = {
-                    { worldX = 101, worldY = 102, posX = 202, posY = 280, posZ = 1 },
-                },
-            }
-        }
-    }
-end
---]]
-
-
---[[-- Example
-function ChristmasMiracle.getSpawnRegion()
-    local c = ChristmasMiracle
-    return {
-        {
-            name = "ChristmasMiracle Region 1/1", points = {
-                unemployed = {
-                    { worldX = c.xcell, worldY = c.ycell, posX = c.x, posY = c.y, posZ = c.z },
-                    --{ worldX = 101, worldY = 102, posX = 202, posY = 280, posZ = 1 },
-		    { worldX = 34,  worldY= 41, posX = 161, posY = 66, posZ = 1}, --Right outside March Ridge
-                	      }
-            						    }
-        }
-    }
-end
---]]
+ChristmasMiracle.cardinal = ChristmasMiracle.spawns[spawnselection].cardinal;
 
 ChristmasMiracle.id = "ChristmasMiracle";
 ChristmasMiracle.image = "media/lua/client/LastStand/ChristmasMiracle.png";
+ChristmasMiracle.world = "The Christmas Miracle","Muldraugh, KY";
 ChristmasMiracle.gameMode = "Christmas Miracle";
-ChristmasMiracle.world = "Riverside, KY";
 ChristmasMiracle.xcell = xcell;
 ChristmasMiracle.ycell = ycell;
 ChristmasMiracle.x = x;

@@ -47,6 +47,7 @@ module Base
 	}
    item Santa
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Santa Figurine,
@@ -54,6 +55,7 @@ module Base
 	}
     item Nutcracker
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Nutcracker Figurine,
@@ -61,6 +63,7 @@ module Base
 	}
     item Grinch
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Grinch Figurine,
@@ -69,6 +72,7 @@ module Base
 	}
    item SantaSpiffo
 	{
+       DisplayCategory = Household,		
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Santa Spiffo,
@@ -101,6 +105,7 @@ module Base
 	}
 	item Lighter2
 	{
+       DisplayCategory = Household,		
 		LightDistance	=	2,
 		Weight	=	0.1,
 		Type	=	Drainable,
