@@ -23,8 +23,8 @@
   <worldOrigin origin="16,19"/>
  </GenerateLots>
  <LuaSettings>
-  <spawnPointsFile path=""/>
-  <worldObjectsFile path=""/>
+  <spawnPointsFile path="spawnpoints.lua"/>
+  <worldObjectsFile path="objects.lua"/>
  </LuaSettings>
  <bmp path="TheChristmasMiracle.png" x="0" y="0" width="1" height="1"/>
  <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
@@ -138,7 +138,7 @@
   <lot x="248" y="38" level="0" width="6" height="7" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Rosewood/Residential/lot_house_garage_08.tbx"/>
   <lot x="215" y="46" level="0" width="8" height="4" map="tbx(buildings)/Bus Stop Facing South.tbx"/>
   <lot x="160" y="105" level="0" width="24" height="14" map="tbx(buildings)/GreasyJoeDinerRastarauntTCM.tbx"/>
-  <lot x="155" y="139" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_05.tbx"/>
+  <lot x="163" y="143" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_05.tbx"/>
   <lot x="209" y="143" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_S_07.tbx"/>
   <lot x="277" y="215" level="0" width="18" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_05.tbx"/>
   <lot x="277" y="244" level="0" width="18" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_W_07.tbx"/>
@@ -147,11 +147,11 @@
   <lot x="236" y="244" level="0" width="17" height="16" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_02.tbx"/>
   <lot x="235" y="181" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_06.tbx"/>
   <lot x="162" y="239" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_07.tbx"/>
-  <lot x="162" y="213" level="0" width="21" height="22" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_08.tbx"/>
+  <lot x="165" y="215" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_08.tbx"/>
   <lot x="238" y="221" level="0" width="16" height="18" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_E_09.tbx"/>
-  <lot x="160" y="178" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_01.tbx"/>
-  <lot x="172" y="178" level="0" width="26" height="26" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_02.tbx"/>
-  <lot x="197" y="177" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_04.tbx"/>
+  <lot x="161" y="181" level="0" width="17" height="18" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_01.tbx"/>
+  <lot x="179" y="181" level="0" width="16" height="18" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_02.tbx"/>
+  <lot x="197" y="182" level="0" width="17" height="17" map="../../../../../../../Liberty 2.0/Community buildings/Buildings Catalogue Curated/Riverwood/Residential/lot_house_large_01_N_04.tbx"/>
   <lot x="69" y="42" level="0" width="26" height="18" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Zip Store.tbx"/>
   <lot x="39" y="47" level="0" width="15" height="19" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/bar.tbx"/>
   <lot x="99" y="17" level="0" width="21" height="21" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Appartment_ComplexA_01.tbx"/>
@@ -166,5 +166,571 @@
   <lot x="279" y="182" level="0" width="15" height="16" map="tbx(buildings)/Richhouse2_W.tbx"/>
   <lot x="126" y="52" level="0" width="22" height="22" map="tbx(buildings)/Appartment_ComplexA_03.tbx"/>
   <lot x="201" y="224" level="0" width="22" height="31" map="tbx(buildings)/Salvatore mansion.tbx"/>
+  <lot x="165" y="267" level="0" width="11" height="11" map="tbx(buildings)/Love spot.tbx"/>
+  <lot x="165" y="282" level="0" width="11" height="11" map="tbx(buildings)/Love spot.tbx"/>
+  <lot x="212" y="281" level="0" width="4" height="5" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Grimebig.tbx"/>
+  <lot x="212" y="275" level="0" width="3" height="3" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/grimemedium.tbx"/>
+  <lot x="218" y="272" level="0" width="3" height="3" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/grimemedium.tbx"/>
+  <lot x="217" y="279" level="0" width="4" height="5" map="../../../../../../../Liberty 2.0/Liberty Buildings 2/Grimebig.tbx"/>
+  <object group="Nav" type="Nav" x="149" y="132" level="0" width="151" height="8"/>
+  <object group="Nav" type="Nav" x="178" y="118" level="0" width="10" height="14"/>
+  <object group="Nav" type="Nav" x="183" y="108" level="0" width="5" height="10"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="180,269 180,275 182,279 185,282 187,283 191,283 193,282 196,279 198,275 198,271 196,267 193,264 185,264 183,265 181,267"/>
+  <object group="Nav" type="Nav" x="185" y="213" level="0" width="8" height="51"/>
+  <object group="Nav" type="Nav" x="193" y="210" level="0" width="65" height="8"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="193,213 185,213 188,210 193,210"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="268,292 266,294 262,294 260,292 260,220 258,218 258,210 260,208 260,142 258,140 270,140 268,142 268,291"/>
+  <object group="Nav" type="Nav" x="149" y="132" level="0" width="151" height="8"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="228,210 226,208 226,168 220,162 161,162 159,160 159,172 161,170 216,170 218,172 218,208 216,210"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="178,132 178,126 162,126 162,118 183,118 183,108 188,108 188,132"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="161,132 149,132 151,130 151,23 159,23 159,49 161,51 161,59 159,61 159,130"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="161,59 190,59 192,61 200,61 202,59 276,59 279,56 279,19 277,17 273,17 271,19 271,49 269,51 235,51 233,49 233,32 236,29 238,25 238,21 236,17 233,14 231,13 226,13 224,14 221,17 220,19 220,25 222,29 225,32 225,49 223,51 161,51"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="281,83 283,81 283,77 281,75 202,75 200,73 200,61 192,61 192,75 188,75 188,66 163,66 163,82 179,82 179,84 163,84 163,100 188,100 188,83 192,83 192,102 198,108 281,108 283,106 283,102 281,100 202,100 200,98 200,85 202,83"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="159,23 162,20 164,16 164,12 162,8 159,5 157,4 152,4 153,10 156,10 158,12 158,15 156,17 153,17 151,15 146,16 148,20 151,23"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="151,15 146,16 146,10 147,8 150,5 152,4 153,10 151,12"/>
+  <object group="Nav" type="Nav" x="151" y="140" level="0" width="8" height="160"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="149,140 151,142 151,140"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="159,142 161,140 159,140"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="284" level="0" width="30" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="295" y="141" level="0" width="5" height="143"/>
+  <object group="Vegitation" type="Vegitation" x="295" y="140" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="260" level="0" width="25" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="283" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="273" level="0" width="11" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="269" level="0" width="10" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="259" level="0" width="17" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="258" level="0" width="11" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="231" level="0" width="25" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="245" level="0" width="9" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="230" level="0" width="11" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="196" level="0" width="9" height="31"/>
+  <object group="Vegitation" type="Vegitation" x="287" y="195" level="0" width="8" height="21"/>
+  <object group="Vegitation" type="Vegitation" x="279" y="197" level="0" width="8" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="279" y="196" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="166" level="0" width="25" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="280" y="192" level="0" width="2" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="183" level="0" width="10" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="142" level="0" width="25" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="151" level="0" width="11" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="155" level="0" width="6" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="270" y="161" level="0" width="9" height="5"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="276,155 281,155 281,156 282,156 282,161 276,161"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="295,284 295,269 280,269 280,270 270,270 270,273 281,273 281,283 285,283 285,284"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="269,294 270,293 270,142 295,142 295,140 270,140 268,142 268,292 266,294 262,294 260,292 258,292 262,296 267,296"/>
+  <object group="TownZone" type="TownZone" x="258" y="220" level="0" width="2" height="72"/>
+  <object group="TownZone" type="TownZone" x="270" y="255" level="0" width="25" height="3"/>
+  <object group="TownZone" type="TownZone" x="287" y="258" level="0" width="8" height="2"/>
+  <object group="TownZone" type="TownZone" x="281" y="258" level="0" width="6" height="1"/>
+  <object group="TownZone" type="TownZone" x="279" y="245" level="0" width="16" height="10"/>
+  <object group="TownZone" type="TownZone" x="281" y="230" level="0" width="14" height="1"/>
+  <object group="TownZone" type="TownZone" x="270" y="227" level="0" width="25" height="3"/>
+  <object group="TownZone" type="TownZone" x="279" y="216" level="0" width="16" height="11"/>
+  <object group="TownZone" type="TownZone" x="282" y="195" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="270" y="193" level="0" width="12" height="3"/>
+  <object group="TownZone" type="TownZone" x="282" y="183" level="0" width="13" height="12"/>
+  <object group="TownZone" type="TownZone" x="280" y="183" level="0" width="2" height="9"/>
+  <object group="TownZone" type="TownZone" x="282" y="151" level="0" width="13" height="15"/>
+  <object group="TownZone" type="TownZone" x="281" y="151" level="0" width="1" height="5"/>
+  <object group="TownZone" type="TownZone" x="270" y="152" level="0" width="11" height="3"/>
+  <object group="TownZone" type="TownZone" x="279" y="161" level="0" width="3" height="5"/>
+  <object group="TownZone" type="TownZone" x="248" y="270" level="0" width="10" height="3"/>
+  <object group="TownZone" type="TownZone" x="243" y="269" level="0" width="5" height="5"/>
+  <object group="TownZone" type="TownZone" x="237" y="271" level="0" width="6" height="3"/>
+  <object group="TownZone" type="TownZone" x="237" y="274" level="0" width="15" height="9"/>
+  <object group="TownZone" type="TownZone" x="237" y="284" level="0" width="17" height="11"/>
+  <object group="TownZone" type="TownZone" x="243" y="255" level="0" width="15" height="3"/>
+  <object group="TownZone" type="TownZone" x="243" y="258" level="0" width="5" height="1"/>
+  <object group="TownZone" type="TownZone" x="237" y="245" level="0" width="6" height="12"/>
+  <object group="TownZone" type="TownZone" x="243" y="245" level="0" width="5" height="10"/>
+  <object group="TownZone" type="TownZone" x="248" y="245" level="0" width="4" height="9"/>
+  <object group="TownZone" type="TownZone" x="252" y="233" level="0" width="6" height="3"/>
+  <object group="TownZone" type="TownZone" x="239" y="228" level="0" width="13" height="9"/>
+  <object group="TownZone" type="TownZone" x="239" y="223" level="0" width="12" height="5"/>
+  <object group="TownZone" type="TownZone" x="239" y="222" level="0" width="8" height="1"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="270,293 267,296 262,296 258,292 258,300 270,300"/>
+  <object group="Vegitation" type="Vegitation" x="254" y="273" level="0" width="4" height="27"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="273" level="0" width="2" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="273" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="258" level="0" width="10" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="259" level="0" width="20" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="257" level="0" width="15" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="220" level="0" width="9" height="37"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="254" level="0" width="10" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="236" level="0" width="6" height="18"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="237" level="0" width="15" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="220" level="0" width="2" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="221" level="0" width="6" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="221" level="0" width="1" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="239" y="220" level="0" width="12" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="220" level="0" width="7" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="283" level="0" width="15" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="296" level="0" width="17" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="269" level="0" width="15" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="271" level="0" width="9" height="29"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="196" level="0" width="10" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="197" level="0" width="20" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="192" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="192" level="0" width="6" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="153" level="0" width="7" height="39"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="166" level="0" width="5" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="168" level="0" width="18" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="182" level="0" width="8" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="142" level="0" width="7" height="26"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="142" level="0" width="12" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="235" y="142" level="0" width="11" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="250" y="153" level="0" width="1" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="153" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="154" level="0" width="2" height="12"/>
+  <object group="TownZone" type="TownZone" x="236" y="182" level="0" width="12" height="15"/>
+  <object group="TownZone" type="TownZone" x="248" y="182" level="0" width="3" height="10"/>
+  <object group="TownZone" type="TownZone" x="248" y="193" level="0" width="10" height="3"/>
+  <object group="TownZone" type="TownZone" x="246" y="154" level="0" width="2" height="12"/>
+  <object group="TownZone" type="TownZone" x="241" y="149" level="0" width="5" height="19"/>
+  <object group="TownZone" type="TownZone" x="235" y="160" level="0" width="6" height="8"/>
+  <object group="TownZone" type="TownZone" x="238" y="159" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="235" y="149" level="0" width="6" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="235" y="159" level="0" width="3" height="1"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="258,142 258,140 260,142 260,208 258,210 258,153 246,153 246,150 258,150"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="258,210 228,210 226,208 226,168 220,162 220,160 220,156 223,156 223,162 228,167 228,208 258,208"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="258,142 161,142 159,142 161,140 258,140"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="159,142 159,160 161,162 161,142"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="220,160 220,159 215,159 215,160 161,160 161,162 220,162"/>
+  <object group="TownZone" type="TownZone" x="188" y="157" level="0" width="3" height="3"/>
+  <object group="TownZone" type="TownZone" x="187" y="144" level="0" width="9" height="13"/>
+  <object group="TownZone" type="TownZone" x="196" y="144" level="0" width="5" height="12"/>
+  <object group="TownZone" type="TownZone" x="201" y="144" level="0" width="1" height="8"/>
+  <object group="TownZone" type="TownZone" x="215" y="154" level="0" width="4" height="5"/>
+  <object group="TownZone" type="TownZone" x="210" y="144" level="0" width="5" height="12"/>
+  <object group="TownZone" type="TownZone" x="219" y="144" level="0" width="5" height="12"/>
+  <object group="TownZone" type="TownZone" x="224" y="144" level="0" width="1" height="6"/>
+  <object group="TownZone" type="TownZone" x="215" y="144" level="0" width="4" height="10"/>
+  <object group="TownZone" type="TownZone" x="175" y="156" level="0" width="3" height="4"/>
+  <object group="TownZone" type="TownZone" x="164" y="144" level="0" width="10" height="15"/>
+  <object group="TownZone" type="TownZone" x="174" y="144" level="0" width="5" height="12"/>
+  <object group="TownZone" type="TownZone" x="171" y="159" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="157" level="0" width="10" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="156" level="0" width="9" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="179" y="142" level="0" width="8" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="174" y="156" level="0" width="1" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="159" level="0" width="10" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="142" level="0" width="3" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="164" y="142" level="0" width="15" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="187" y="142" level="0" width="41" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="225" y="144" level="0" width="3" height="20"/>
+  <object group="Vegitation" type="Vegitation" x="224" y="150" level="0" width="1" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="223" y="156" level="0" width="1" height="6"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="228,167 228,164 225,164 225,163 224,163 224,162 223,162"/>
+  <object group="Vegitation" type="Vegitation" x="219" y="156" level="0" width="1" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="196" y="156" level="0" width="19" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="202" y="144" level="0" width="8" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="201" y="152" level="0" width="1" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="191" y="157" level="0" width="5" height="3"/>
+  <object group="TownZone" type="TownZone" x="208" y="185" level="0" width="5" height="12"/>
+  <object group="TownZone" type="TownZone" x="203" y="186" level="0" width="5" height="13"/>
+  <object group="TownZone" type="TownZone" x="208" y="197" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="198" y="183" level="0" width="5" height="16"/>
+  <object group="TownZone" type="TownZone" x="209" y="170" level="0" width="3" height="15"/>
+  <object group="TownZone" type="TownZone" x="201" y="201" level="0" width="8" height="4"/>
+  <object group="TownZone" type="TownZone" x="180" y="186" level="0" width="12" height="13"/>
+  <object group="TownZone" type="TownZone" x="192" y="186" level="0" width="2" height="5"/>
+  <object group="TownZone" type="TownZone" x="190" y="170" level="0" width="3" height="16"/>
+  <object group="TownZone" type="TownZone" x="185" y="184" level="0" width="4" height="2"/>
+  <object group="TownZone" type="TownZone" x="180" y="184" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="180" y="182" level="0" width="9" height="2"/>
+  <object group="TownZone" type="TownZone" x="167" y="184" level="0" width="9" height="15"/>
+  <object group="TownZone" type="TownZone" x="164" y="186" level="0" width="3" height="13"/>
+  <object group="TownZone" type="TownZone" x="162" y="186" level="0" width="2" height="5"/>
+  <object group="TownZone" type="TownZone" x="167" y="182" level="0" width="9" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="209" y="199" level="0" width="7" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="197" y="199" level="0" width="12" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="197" y="205" level="0" width="12" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="197" y="201" level="0" width="4" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="214" y="172" level="0" width="2" height="27"/>
+  <object group="Vegitation" type="Vegitation" x="213" y="172" level="0" width="1" height="27"/>
+  <object group="Vegitation" type="Vegitation" x="212" y="172" level="0" width="1" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="193" y="172" level="0" width="16" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="203" y="185" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="192" y="191" level="0" width="5" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="197" y="185" level="0" width="1" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="193" y="185" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="194" y="186" level="0" width="3" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="191" y="199" level="0" width="1" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="179" y="206" level="0" width="12" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="179" y="199" level="0" width="4" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="182" level="0" width="4" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="189" y="172" level="0" width="1" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="172" level="0" width="13" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="199" level="0" width="18" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="191" level="0" width="3" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="181" level="0" width="1" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="162" y="172" level="0" width="1" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="172" level="0" width="1" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="172" level="0" width="10" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="182" level="0" width="1" height="4"/>
+  <object group="TownZone" type="TownZone" x="163" y="170" level="0" width="3" height="16"/>
+  <object group="TownZone" type="TownZone" x="183" y="199" level="0" width="8" height="7"/>
+  <object group="TownZone" type="TownZone" x="193" y="170" level="0" width="16" height="2"/>
+  <object group="TownZone" type="TownZone" x="166" y="170" level="0" width="24" height="2"/>
+  <object group="TownZone" type="TownZone" x="212" y="170" level="0" width="4" height="2"/>
+  <object group="TownZone" type="TownZone" x="216" y="172" level="0" width="2" height="36"/>
+  <object group="TownZone" type="TownZone" x="187" y="208" level="0" width="29" height="2"/>
+  <object group="TownZone" type="TownZone" x="183" y="212" level="0" width="2" height="52"/>
+  <object group="TownZone" type="TownZone" x="178" y="244" level="0" width="5" height="3"/>
+  <object group="TownZone" type="TownZone" x="178" y="226" level="0" width="5" height="3"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="185,213 188,210 187,210 187,208 183,212 185,212"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="218,208 216,210 216,208"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="216,170 218,172 216,172"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="163,172 163,170 161,170 159,172 159,297 161,297 161,172"/>
+  <object group="TownZone" type="TownZone" x="178" y="221" level="0" width="3" height="4"/>
+  <object group="TownZone" type="TownZone" x="166" y="216" level="0" width="12" height="14"/>
+  <object group="TownZone" type="TownZone" x="166" y="230" level="0" width="6" height="1"/>
+  <object group="TownZone" type="TownZone" x="177" y="248" level="0" width="4" height="4"/>
+  <object group="TownZone" type="TownZone" x="166" y="243" level="0" width="12" height="14"/>
+  <object group="TownZone" type="TownZone" x="166" y="242" level="0" width="6" height="1"/>
+  <object group="TownZone" type="TownZone" x="166" y="283" level="0" width="9" height="9"/>
+  <object group="TownZone" type="TownZone" x="166" y="268" level="0" width="9" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="247" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="181" y="248" level="0" width="2" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="252" level="0" width="3" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="229" level="0" width="5" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="172" y="230" level="0" width="6" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="231" level="0" width="6" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="257" level="0" width="17" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="208" level="0" width="5" height="49"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="225" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="181" y="208" level="0" width="2" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="216" level="0" width="3" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="208" level="0" width="15" height="8"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="183,212 187,208 183,208"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="177,274 178,274 178,276 180,280 181,281 176,286 175,286 175,274"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="277" level="0" width="14" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="262" level="0" width="14" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="268" level="0" width="5" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="283" level="0" width="5" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="159" y="297" level="0" width="2" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="292" level="0" width="13" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="175" y="289" level="0" width="4" height="3"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="185,264 183,264 183,262 179,266 178,268 178,276 180,280 183,283 187,285 192,285 194,284 198,280 200,276 200,270 198,266 195,263 195,259 193,259 193,264 196,267 198,271 198,275 196,279 193,282 191,283 187,283 185,282 182,279 180,275 180,269 181,267 183,265"/>
+  <object group="TownZone" type="TownZone" x="193" y="256" level="0" width="21" height="3"/>
+  <object group="TownZone" type="TownZone" x="214" y="254" level="0" width="6" height="3"/>
+  <object group="TownZone" type="TownZone" x="215" y="225" level="0" width="5" height="29"/>
+  <object group="TownZone" type="TownZone" x="202" y="225" level="0" width="13" height="28"/>
+  <object group="TownZone" type="TownZone" x="203" y="253" level="0" width="4" height="3"/>
+  <object group="TownZone" type="TownZone" x="210" y="253" level="0" width="4" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="214" y="253" level="0" width="1" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="207" y="253" level="0" width="3" height="3"/>
+  <object group="Nav" type="Nav" level="0" geometry="polygon" points="193,220 195,218 193,218"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="195,256 195,220 260,220 258,218 195,218 193,220 193,256"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="300,132 297,132 297,131 295,131 294,130 288,130 288,125 300,125"/>
+  <object group="Vegitation" type="Vegitation" x="288" y="57" level="0" width="12" height="68"/>
+  <object group="Vegitation" type="Vegitation" x="294" y="17" level="0" width="6" height="40"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="0" level="0" width="19" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="278" y="13" level="0" width="3" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="279" y="0" level="0" width="2" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="261" y="0" level="0" width="18" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="264" y="13" level="0" width="10" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="264" y="10" level="0" width="5" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="264" y="5" level="0" width="4" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="261" y="5" level="0" width="3" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="259" y="6" level="0" width="2" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="16" level="0" width="18" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="15" level="0" width="18" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="14" level="0" width="8" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="13" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="0" level="0" width="1" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="0" level="0" width="9" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="267" y="17" level="0" width="2" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="267" y="25" level="0" width="2" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="265" y="29" level="0" width="4" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="31" level="0" width="17" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="239" y="28" level="0" width="9" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="33" level="0" width="21" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="248" y="28" level="0" width="6" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="17" level="0" width="2" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="254" y="17" level="0" width="6" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="254" y="22" level="0" width="3" height="1"/>
+  <object group="TownZone" type="TownZone" x="265" y="17" level="0" width="2" height="12"/>
+  <object group="TownZone" type="TownZone" x="254" y="23" level="0" width="11" height="8"/>
+  <object group="TownZone" type="TownZone" x="257" y="22" level="0" width="8" height="1"/>
+  <object group="TownZone" type="TownZone" x="260" y="17" level="0" width="5" height="5"/>
+  <object group="TownZone" type="TownZone" x="267" y="22" level="0" width="4" height="3"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="269,22 269,15 274,15 274,14 278,14 278,15 281,15 281,61 275,61 275,59 276,59 279,56 279,19 277,17 273,17 271,19 271,22"/>
+  <object group="TownZone" type="TownZone" x="255" y="35" level="0" width="8" height="13"/>
+  <object group="TownZone" type="TownZone" x="260" y="48" level="0" width="3" height="3"/>
+  <object group="TownZone" type="TownZone" x="263" y="49" level="0" width="6" height="2"/>
+  <object group="TownZone" type="TownZone" x="269" y="25" level="0" width="2" height="24"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="269,51 271,49 269,49"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="268,49 269,48 269,49"/>
+  <object group="TownZone" type="TownZone" x="283" y="45" level="0" width="11" height="12"/>
+  <object group="TownZone" type="TownZone" x="281" y="45" level="0" width="2" height="9"/>
+  <object group="TownZone" type="TownZone" x="283" y="57" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="282" y="34" level="0" width="12" height="8"/>
+  <object group="TownZone" type="TownZone" x="281" y="34" level="0" width="1" height="5"/>
+  <object group="TownZone" type="TownZone" x="285" y="17" level="0" width="9" height="9"/>
+  <object group="TownZone" type="TownZone" x="284" y="18" level="0" width="1" height="8"/>
+  <object group="TownZone" type="TownZone" x="282" y="22" level="0" width="2" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="26" level="0" width="13" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="17" level="0" width="1" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="282" y="17" level="0" width="2" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="39" level="0" width="1" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="282" y="42" level="0" width="12" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="282" y="59" level="0" width="6" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="54" level="0" width="2" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="281" y="59" level="0" width="1" height="2"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="263,49 268,49 269,48 269,35 263,35"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="125" level="0" width="42" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="226" y="125" level="0" width="13" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="221" y="125" level="0" width="5" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="190" y="125" level="0" width="31" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="196" y="110" level="0" width="5" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="190" y="110" level="0" width="6" height="15"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="196,110 192,106 190,106 190,110 195,110"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="285,125 285,73 284,72 282,72 282,67 288,67 288,125"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="297,132 291,132 291,130 294,130 295,131 297,131"/>
+  <object group="TownZone" type="TownZone" x="188" y="130" level="0" width="103" height="2"/>
+  <object group="TownZone" type="TownZone" x="188" y="102" level="0" width="2" height="28"/>
+  <object group="TownZone" type="TownZone" x="181" y="106" level="0" width="2" height="12"/>
+  <object group="TownZone" type="TownZone" x="183" y="106" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="161" y="129" level="0" width="17" height="3"/>
+  <object group="TownZone" type="TownZone" x="239" y="108" level="0" width="7" height="22"/>
+  <object group="TownZone" type="TownZone" x="246" y="108" level="0" width="39" height="17"/>
+  <object group="TownZone" type="TownZone" x="202" y="83" level="0" width="83" height="17"/>
+  <object group="TownZone" type="TownZone" x="283" y="74" level="0" width="2" height="9"/>
+  <object group="TownZone" type="TownZone" x="282" y="72" level="0" width="1" height="3"/>
+  <object group="TownZone" type="TownZone" x="283" y="100" level="0" width="2" height="8"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="281,108 283,106 283,108"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="283,102 281,100 283,100"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="283,81 281,83 283,83"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="283,77 281,75 281,72 282,72 282,75 283,75"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="281,72 281,61 282,61 282,72"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="275,61 275,75 281,75 281,61"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="202,100 200,98 200,85 202,83"/>
+  <object group="TownZone" type="TownZone" x="201" y="108" level="0" width="38" height="17"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="201,108 198,108 192,102 190,102 190,106 192,106 196,110 201,110"/>
+  <object group="TownZone" type="TownZone" x="188" y="83" level="0" width="4" height="19"/>
+  <object group="TownZone" type="TownZone" x="188" y="64" level="0" width="4" height="11"/>
+  <object group="TownZone" type="TownZone" x="202" y="59" level="0" width="73" height="16"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="202,75 200,73 200,61 202,59"/>
+  <object group="TownZone" type="TownZone" x="159" y="100" level="0" width="22" height="18"/>
+  <object group="TownZone" type="TownZone" x="181" y="100" level="0" width="7" height="6"/>
+  <object group="TownZone" type="TownZone" x="159" y="82" level="0" width="20" height="2"/>
+  <object group="TownZone" type="TownZone" x="159" y="84" level="0" width="4" height="16"/>
+  <object group="TownZone" type="TownZone" x="159" y="64" level="0" width="4" height="18"/>
+  <object group="TownZone" type="TownZone" x="163" y="64" level="0" width="25" height="2"/>
+  <object group="TownZone" type="TownZone" x="190" y="61" level="0" width="2" height="3"/>
+  <object group="TownZone" type="TownZone" x="161" y="59" level="0" width="29" height="2"/>
+  <object group="TownZone" type="TownZone" x="159" y="61" level="0" width="2" height="3"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="159,61 161,59 161,61"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="161,63 162,62 189,62 190,63 190,61 161,61"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="190,64 190,63 189,62 162,62 161,63 161,64"/>
+  <object group="Vegitation" type="Vegitation" x="162" y="126" level="0" width="16" height="3"/>
+  <object group="TownZone" type="TownZone" x="161" y="118" level="0" width="1" height="11"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="161,132 159,130 159,118 161,118"/>
+  <object group="TownZone" type="TownZone" x="235" y="49" level="0" width="25" height="2"/>
+  <object group="TownZone" type="TownZone" x="249" y="39" level="0" width="4" height="10"/>
+  <object group="TownZone" type="TownZone" x="238" y="47" level="0" width="3" height="2"/>
+  <object group="TownZone" type="TownZone" x="237" y="35" level="0" width="4" height="12"/>
+  <object group="TownZone" type="TownZone" x="241" y="35" level="0" width="5" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="253" y="48" level="0" width="7" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="253" y="35" level="0" width="2" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="35" level="0" width="7" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="246" y="39" level="0" width="3" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="241" y="47" level="0" width="5" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="47" level="0" width="1" height="2"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="236,49 235,48 235,33 236,32 237,31 238,31 239,31 239,35 237,35 237,49"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="235,51 233,49 233,32 236,29 238,25 238,21 236,17 233,14 231,13 226,13 224,14 221,17 220,19 220,25 222,29 225,32 225,49 223,51 221,51 216,51 216,47 221,47 221,49 222,49 223,48 223,42 222,42 221,41 221,40 223,40 223,36 220,36 220,33 223,33 223,32 220,29 218,25 218,18 219,16 224,11 232,11 235,13 237,15 240,19 240,26 239,28 239,31 237,31 235,33 235,48 236,49 235,49"/>
+  <object group="TownZone" type="TownZone" x="161" y="49" level="0" width="55" height="2"/>
+  <object group="TownZone" type="TownZone" x="185" y="9" level="0" width="20" height="23"/>
+  <object group="TownZone" type="TownZone" x="216" y="19" level="0" width="2" height="4"/>
+  <object group="TownZone" type="TownZone" x="215" y="23" level="0" width="2" height="2"/>
+  <object group="TownZone" type="TownZone" x="205" y="16" level="0" width="12" height="3"/>
+  <object group="TownZone" type="TownZone" x="205" y="15" level="0" width="9" height="1"/>
+  <object group="TownZone" type="TownZone" x="210" y="19" level="0" width="5" height="9"/>
+  <object group="TownZone" type="TownZone" x="215" y="19" level="0" width="1" height="4"/>
+  <object group="TownZone" type="TownZone" x="207" y="19" level="0" width="3" height="5"/>
+  <object group="TownZone" type="TownZone" x="205" y="19" level="0" width="2" height="15"/>
+  <object group="TownZone" type="TownZone" x="198" y="32" level="0" width="2" height="17"/>
+  <object group="TownZone" type="TownZone" x="200" y="32" level="0" width="5" height="2"/>
+  <object group="TownZone" type="TownZone" x="202" y="35" level="0" width="10" height="12"/>
+  <object group="TownZone" type="TownZone" x="204" y="47" level="0" width="2" height="2"/>
+  <object group="TownZone" type="TownZone" x="225" y="3" level="0" width="3" height="8"/>
+  <object group="TownZone" type="TownZone" x="228" y="3" level="0" width="4" height="7"/>
+  <object group="TownZone" type="TownZone" x="221" y="3" level="0" width="4" height="7"/>
+  <object group="TownZone" type="TownZone" x="240" y="19" level="0" width="12" height="6"/>
+  <object group="TownZone" type="TownZone" x="243" y="25" level="0" width="9" height="3"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="239,28 240,26 240,25 243,25 243,28"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="252,19 252,17 251,17 251,0 241,0 241,19"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="237,15 241,15 241,19 240,19"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="235,13 235,2 233,2 233,11 232,11"/>
+  <object group="Vegitation" type="Vegitation" x="228" y="10" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="232" y="3" level="0" width="1" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="0" level="0" width="4" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="215" y="0" level="0" width="22" height="2"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="237,15 235,13 235,2 237,2"/>
+  <object group="Vegitation" type="Vegitation" x="215" y="2" level="0" width="18" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="215" y="10" level="0" width="10" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="215" y="3" level="0" width="6" height="7"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="224,11 215,11 215,14 214,14 214,16 217,16 217,19 218,19 218,18 219,16"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="223,33 220,33 220,32 215,32 215,40 221,40 221,41 222,42 223,42 223,48 222,49 221,49 221,47 216,47 216,49 206,49 206,47 212,47 212,35 202,35 202,47 204,47 204,49 200,49 200,34 207,34 207,24 210,24 210,28 215,28 215,25 217,25 217,23 218,23 218,25 220,29 223,32"/>
+  <object group="Vegitation" type="Vegitation" x="205" y="0" level="0" width="10" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="165" y="0" level="0" width="40" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="195" y="34" level="0" width="3" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="189" y="47" level="0" width="6" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="194" y="43" level="0" width="1" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="34" level="0" width="19" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="48" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="35" level="0" width="4" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="184" y="48" level="0" width="2" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="183" y="9" level="0" width="2" height="23"/>
+  <object group="TownZone" type="TownZone" x="180" y="35" level="0" width="15" height="8"/>
+  <object group="TownZone" type="TownZone" x="180" y="43" level="0" width="14" height="4"/>
+  <object group="TownZone" type="TownZone" x="186" y="47" level="0" width="3" height="2"/>
+  <object group="TownZone" type="TownZone" x="180" y="47" level="0" width="6" height="1"/>
+  <object group="TownZone" type="TownZone" x="181" y="48" level="0" width="3" height="1"/>
+  <object group="TownZone" type="TownZone" x="163" y="38" level="0" width="11" height="9"/>
+  <object group="TownZone" type="TownZone" x="162" y="38" level="0" width="1" height="5"/>
+  <object group="TownZone" type="TownZone" x="170" y="17" level="0" width="11" height="15"/>
+  <object group="TownZone" type="TownZone" x="167" y="27" level="0" width="3" height="5"/>
+  <object group="TownZone" type="TownZone" x="169" y="17" level="0" width="1" height="5"/>
+  <object group="TownZone" type="TownZone" x="181" y="24" level="0" width="2" height="10"/>
+  <object group="TownZone" type="TownZone" x="175" y="32" level="0" width="6" height="2"/>
+  <object group="TownZone" type="TownZone" x="175" y="34" level="0" width="1" height="15"/>
+  <object group="TownZone" type="TownZone" x="174" y="43" level="0" width="1" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="181" y="9" level="0" width="2" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="9" level="0" width="15" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="174" y="32" level="0" width="1" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="32" level="0" width="13" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="25" level="0" width="6" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="163" y="22" level="0" width="4" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="174" y="44" level="0" width="1" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="162" y="47" level="0" width="12" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="46" level="0" width="2" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="47" level="0" width="1" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="38" level="0" width="1" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="162" y="43" level="0" width="1" height="1"/>
+  <object group="TownZone" type="TownZone" x="159" y="44" level="0" width="4" height="2"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="161,51 159,49 159,46 161,46 161,48 162,49 161,49"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="162,49 161,48 162,48"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="163,24 161,24 163,22"/>
+  <object group="Vegitation" type="Vegitation" x="167" y="25" level="0" width="3" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="167" y="22" level="0" width="3" height="2"/>
+  <object group="TownZone" type="TownZone" x="161" y="24" level="0" width="9" height="1"/>
+  <object group="TownZone" type="TownZone" x="164" y="17" level="0" width="5" height="5"/>
+  <object group="TownZone" type="TownZone" x="159" y="23" level="0" width="2" height="21"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="161,24 163,22 164,22 164,17 166,17 166,11 164,7 160,3 158,2 151,2 149,3 145,7 144,9 144,16 145,19 149,23 149,45 151,45 151,23 148,20 146,16 146,10 147,8 150,5 152,4 157,4 159,5 162,8 164,12 164,16 162,20 159,23 161,23"/>
+  <object group="TownZone" type="TownZone" x="149" y="45" level="0" width="2" height="85"/>
+  <object group="TownZone" type="TownZone" x="183" y="32" level="0" width="15" height="2"/>
+  <object group="TownZone" type="TownZone" x="215" y="36" level="0" width="8" height="4"/>
+  <object group="TownZone" type="TownZone" x="215" y="32" level="0" width="5" height="4"/>
+  <object group="TownZone" type="TownZone" x="170" y="42" level="0" width="4" height="5"/>
+  <object group="TownZone" type="TownZone" x="163" y="38" level="0" width="11" height="4"/>
+  <object group="TownZone" type="TownZone" x="163" y="42" level="0" width="7" height="5"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="178,271 175,271 175,262 183,262 179,266 178,268"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="177,289 183,283 187,285 192,285 194,284 195,283 205,283 205,291 206,292 222,292 223,291 223,268 222,267 199,267 198,266 195,263 228,263 228,300 179,300 179,289"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="198,280 198,281 205,281 205,269 200,269 200,276"/>
+  <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="195,283 198,280 198,281 205,281 205,269 200,269 200,270 198,266 199,267 222,267 223,268 223,291 222,292 206,292 205,291 205,283"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="195,259 195,263 228,263 228,220 220,220 220,257 214,257 214,259"/>
+  <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="203,256 203,253 202,253 202,256"/>
+  <object group="Vegitation" type="Vegitation" x="195" y="220" level="0" width="7" height="36"/>
+  <object group="Vegitation" type="Vegitation" x="202" y="220" level="0" width="18" height="5"/>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="162" y="118" level="0" width="21" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="163" y="95" level="0" width="24" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="163" y="85" level="0" width="15" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="163" y="77" level="0" width="15" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="163" y="67" level="0" width="24" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="220" y="20" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="226" y="13" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="235" y="21" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="271" y="22" level="0" width="3" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="276" y="22" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="276" y="35" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="276" y="47" level="0" width="3" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="parkingstall" group="ParkingStall" type="ParkingStall" x="249" y="45" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="249" y="150" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="275" y="152" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="275" y="193" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="251" y="193" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="274" y="227" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="253" y="233" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="274" y="255" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="251" y="255" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="251" y="270" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="274" y="270" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="220" y="158" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="188" y="158" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="175" y="157" level="0" width="3" height="4">
+   <template name="ParkingStallN"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="163" y="178" level="0" width="3" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="190" y="177" level="0" width="3" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="209" y="178" level="0" width="3" height="4">
+   <template name="ParkingStallS"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="179" y="226" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="179" y="244" level="0" width="4" height="3">
+   <template name="ParkingStallE"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="200" y="256" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="208" y="256" level="0" width="4" height="3">
+   <template name="ParkingStallW"/>
+  </object>
  </cell>
 </world>
