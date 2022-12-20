@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\m_alice_pack</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\f_alice_pack</m_FemaleModel>
+	<m_GUID>3fec8965-d13a-456e-98be-b935be45034d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Bags\ALICEpack_Festive</textureChoices>
+	<textureChoices>Bags\alicepack_green2</textureChoices>
+	<textureChoices>Bags\alicepack_green3</textureChoices>
+	<textureChoices>Bags\alicepack_green4</textureChoices>
+	<textureChoices>Bags\alicepack_green5</textureChoices>
+	<textureChoices>Bags\alicepack_green6</textureChoices>
+	<textureChoices>Bags\alicepack_green7</textureChoices>
+</clothingItem>

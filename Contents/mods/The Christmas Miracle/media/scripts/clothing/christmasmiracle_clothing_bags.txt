@@ -1,0 +1,67 @@
+module PeachChristmas {
+  imports {
+      Base
+  }	
+    item Bag_ALICEpack_Festive2
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Festive Alicepack,
+        ClothingItem = Bag_ALICEpack_Festive2,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	27,
+        Icon	=	AliceBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Festive2_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Festive2_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+    }
+    item Bag_DuffelBag_Festive2
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Festive Duffel Bag,
+        ClothingItem = Bag_DuffelBag_Festive2,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_Festive2_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_Festive2_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+    item Bag_DuffelBag_Festive3_TINT
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Festive Duffel Bag,
+        ClothingItem = Bag_DuffelBag_Festive3_TINT,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_Festive3_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_Festive3_RHandTINT holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }	
+}

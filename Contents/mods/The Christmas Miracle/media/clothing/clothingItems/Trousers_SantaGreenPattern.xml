@@ -2,12 +2,9 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>0718a5ec-3a83-4868-b42b-5ac979a328e7</m_GUID>
+	<m_GUID>b10327e7-e4a3-481a-881f-9192cb4aa9d3</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\trousers_mesh\trousers_santagreen</m_BaseTextures>
-	<m_BaseTextures>clothes\trousers_mesh\trousers_santagreen</m_BaseTextures>
-	<m_BaseTextures>clothes\trousers_mesh\trousers_santagreen</m_BaseTextures>
 	<m_BaseTextures>clothes\trousers_mesh\trousers_santagreenpattern</m_BaseTextures>
 </clothingItem>

@@ -22,12 +22,32 @@ module PeachChristmas {
         FabricType = Cotton,
         WorldStaticModel = JacketLong_Ground,		
     }
-    item JacketLong_SantaGreen
+    item JacketLong_SantaRedPattern
+    {
+ 	    DisplayCategory = Clothing,       
+		Type = Clothing,
+        DisplayName = Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaRedPattern,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaRed,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,		
+    }	
+    item JacketLong_SantaGreenPattern
     {
 	    DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Green Santa Suit Jacket,
-        ClothingItem = JacketLong_SantaGreen,
+        ClothingItem = JacketLong_SantaGreenPattern,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         Icon = JacketSantaGreen,

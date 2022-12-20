@@ -17,12 +17,27 @@ module PeachChristmas {
         FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,		
     }
-    item Trousers_SantaGReen
+    item Trousers_SantaRedPattern
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Red Santa Suit Pants,
+        ClothingItem = Trousers_SantaRedPattern,
+        BodyLocation = Pants,
+        Icon = TrousersSantaRed,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,		
+    }	
+    item Trousers_SantaGreenPattern
     {
         DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Green Santa Suit Pants,
-        ClothingItem = Trousers_SantaGReen,
+        ClothingItem = Trousers_SantaGreenPattern,
         BodyLocation = Pants,
         Icon = TrousersSantaGreen,
         BloodLocation = Trousers,

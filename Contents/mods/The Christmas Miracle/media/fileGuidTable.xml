@@ -3418,10 +3418,47 @@
 	</files>
 
 
+<!-- The Christmas Miracle Clothing-->
 	<files>
 		<path>media/clothing/clothingItems/Apron_Winter.xml</path>
 		<guid>225c4b19-2b8e-4c82-a874-382f50073003</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive2.xml</path>
+		<guid>3fec8965-d13a-456e-98be-b935be45034d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive2_LHand.xml</path>
+		<guid>b3df5b8f-214d-4271-9244-8383f54f55bb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ALICEpack_Festive2_RHand.xml</path>
+		<guid>cc58b931-0c9c-4876-bd9a-9840b9040185</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive2.xml</path>
+		<guid>21535cb8-9414-4f7d-90b1-d97f367370b7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive2_LHand.xml</path>
+		<guid>3769faa7-ef1b-4ef1-a155-a609d51c3553</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive2_RHand.xml</path>
+		<guid>aa0fac8f-82f3-4b5a-a762-45546c1efefc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive3_TINT.xml</path>
+		<guid>24036394-ca47-402e-8dfc-a1320d59159a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive3_RHandTINT.xml</path>
+		<guid>1680f03b-5031-45ec-943d-092af0c5b23e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_DuffelBag_Festive3_LHandTINT.xml</path>
+		<guid>b7bd3da5-5560-4f5e-99fe-4e87420c4105</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Beard_Long_Santa.xml</path>
 		<guid>88f40a07-40ea-4bc8-91bd-4b811f0126a0</guid>
@@ -3441,59 +3478,88 @@
 	<files>
 		<path>media/clothing/clothingItems/Gingerbreadman_Bod.xml</path>
 		<guid>32a00e4f5-8281-48ce-bb36-1099b0eb3c97</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatRedSpecial.xml</path>
+		<guid>a601a22d-061d-4c83-8913-fa485a93fcfb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatGreenSpecial.xml</path>
+		<guid>257ca50b-1d0d-4038-960f-4f097dd47747</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatOrange.xml</path>
+		<guid>c4706fb6-793b-47db-8506-d60bb0dca463</guid>
 	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatPurple.xml</path>
+		<guid>8ea775aa-57d8-4d2a-9c53-0a3b8737825b</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatTurquoise.xml</path>
+		<guid>be4f887f-0c4d-48c8-aae8-74626437a9b5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatWhite.xml</path>
+		<guid>939a5ed6-c891-413c-897d-3043214a54fd</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_SantaHatYellow.xml</path>
+		<guid>e024f19f-1199-4163-97ac-cf4ff26d7174</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SantaGreenPattern.xml</path>
+		<guid>b10327e7-e4a3-481a-881f-9192cb4aa9d3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SantaRedPattern.xml</path>
+		<guid>bc8a6d4e-c56c-4509-a64b-3c9d33df958e</guid>
+	</files>
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaYellow.xml</path>
 		<guid>ef77163d-f47f-4405-bf34-edc64630adc8</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/JacketLong_SantaYellow.xml</path>
-		<guid>feb08ce9-f0f3-4c98-8629-bb7de7736d82</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHatYellow.xml</path>
-		<guid>e024f19f-1199-4163-97ac-cf4ff26d7174</guid>
-	</files>
-		<files>
 		<path>media/clothing/clothingItems/Trousers_SantaWhite.xml</path>
 		<guid>5149a445-efdb-4d19-98f2-43c3a8b1e786</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/JacketLong_SantaWhite.xml</path>
-		<guid>ac9e78cb-5c30-4ebe-b457-310e5d956e07</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHatWhite.xml</path>
-		<guid>939a5ed6-c891-413c-897d-3043214a54fd</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaTurquoise.xml</path>
 		<guid>963ef1fc-2fda-45c9-b8c2-d02e1e1bdf64</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/JacketLong_SantaTurquoise.xml</path>
-		<guid>dfd28644-e23e-4ab1-9a03-c19c99392c66</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHatTurquoise.xml</path>
-		<guid>be4f887f-0c4d-48c8-aae8-74626437a9b5</guid>
-	</files>
-	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaPurple.xml</path>
 		<guid>b61048c2-ae81-46ae-951e-ba40c228b30a</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Trousers_SantaPink.xml</path>
+		<guid>d00b1fa8-1022-4768-88d1-ca5e479481fa</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaYellow.xml</path>
+		<guid>feb08ce9-f0f3-4c98-8629-bb7de7736d82</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaGreenPattern.xml</path>
+		<guid>228fa501-3b9c-448a-b953-64e91be528c5</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaRedPattern.xml</path>
+		<guid>a9ecb129-e889-46c7-99fe-fabf6e3dadc6</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaWhite.xml</path>
+		<guid>ac9e78cb-5c30-4ebe-b457-310e5d956e07</guid>
+	</files>		
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaTurquoise.xml</path>
+		<guid>dfd28644-e23e-4ab1-9a03-c19c99392c66</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/JacketLong_SantaPurple.xml</path>
 		<guid>4bf08fcf-6d23-4894-a804-8e0637be718d</guid>
 	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHatPurple.xml</path>
-		<guid>8ea775aa-57d8-4d2a-9c53-0a3b8737825b</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Trousers_SantaPink.xml</path>
-		<guid>d00b1fa8-1022-4768-88d1-ca5e479481fa</guid>
-	</files>
+
 	<files>
 		<path>media/clothing/clothingItems/JacketLong_SantaPink.xml</path>
 		<guid>26b6a650-b659-41cf-a5ca-e8530378798f</guid>
@@ -3509,10 +3575,6 @@
 	<files>
 		<path>media/clothing/clothingItems/JacketLong_SantaOrange.xml</path>
 		<guid>ae9e21f6-dafe-4168-a308-89c1728d97c3</guid>
-	</files>
-	<files>
-		<path>media/clothing/clothingItems/Hat_SantaHatOrange.xml</path>
-		<guid>c4706fb6-793b-47db-8506-d60bb0dca463</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaGrey.xml</path>
@@ -3534,6 +3596,10 @@
 		<path>media/clothing/clothingItems/Hat_SantaHatGrey.xml</path>
 		<guid>ccfa5dcd-a870-49c3-8fe6-56a6356e5189</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Spiffo_Rudolph.xml</path>
+		<guid>927fb98b-9fd7-48fb-8bf1-e8644588a137</guid>
+	</files>	
 	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaBlue.xml</path>
 		<guid>b42f758e-a330-4a44-acee-ede11f3ad59f</guid>

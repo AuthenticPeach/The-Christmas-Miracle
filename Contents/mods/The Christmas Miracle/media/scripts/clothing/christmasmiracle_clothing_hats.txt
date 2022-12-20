@@ -30,7 +30,7 @@ module PeachChristmas {
         Weight 			 = 0.5,
 		WorldStaticModel = WorldItem-StovePipeHat,
     }	
-	item Hat_SantaHat
+	item Hat_SantaHat_Special
 	{
 	    DisplayCategory = Accessory,		
 		Type = Clothing,
@@ -44,12 +44,12 @@ module PeachChristmas {
         Insulation = 0.80,
         WindResistance = 0.25,
     }
-	item Hat_SantaHatGreen
+	item Hat_SantaHatGreen_Special
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,
 		DisplayName = Green Santa Hat,
-		ClothingItem = Hat_SantaHatGreen,
+		ClothingItem = Hat_SantaHatGreenSpecial,
 		BodyLocation = Hat,
 		Icon = HatSantaGreen,
 		CanHaveHoles = false,
@@ -199,4 +199,19 @@ module PeachChristmas {
         Insulation = 0.80,
         WindResistance = 0.25,
     }
+	item Hat_Spiffo_Rudolph
+	{
+	    DisplayCategory = Accessory,
+		Type 			= Clothing,
+		DisplayName 	= Spiffo Ruldolph Suit Head,
+		ClothingItem 	= Hat_Spiffo_Rudolph,
+		BodyLocation 	= FullHat,
+		Icon 			= SpiffoHead,
+		CanHaveHoles 	= false,
+		ChanceToFall 	= 10,
+        BloodLocation 	= Head,
+        Insulation 		= 0.75,
+        WindResistance 	= 0.75,
+        WaterResistance = 0.75,
+    }	
 }

@@ -61,22 +61,22 @@
 		</m_items>		
 	</m_FemaleOutfits>
 	<m_FemaleOutfits> <m_Name>CM_Santa_Red</m_Name>
-		<m_Guid>a2d0a1ba-939d-48d1-a51d-af674c9f74a4</m_Guid>
+		<m_Guid>f93dd629-bb40-48da-a2b6-7f0daf5ef508</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_AllowTopTint>false</m_AllowTopTint>
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		<m_items>
-			<itemGUID>498c460c-cef2-4e76-a784-6252bd218e02</itemGUID>
+		<m_items> <!-- Red Pattern Santa Hat -->
+			<itemGUID>a601a22d-061d-4c83-8913-fa485a93fcfb</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>c423a3bb-d01b-40cc-bb27-ba615a51941f</itemGUID>
+		<m_items>  <!-- JacketLong_SantaRedPattern -->
+			<itemGUID>a9ecb129-e889-46c7-99fe-fabf6e3dadc6</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>f35d7354-2ccd-4329-97ab-8dd4947b667a</itemGUID>
-		</m_items>
-		<m_items>
+		<m_items>  <!-- Trousers_SantaRedPattern -->
+			<itemGUID>bc8a6d4e-c56c-4509-a64b-3c9d33df958e</itemGUID>
+		</m_items> 
+		<m_items>	<!-- Shoes_BlackBoots -->
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
 		<m_items> <!-- Black long gloves  -->
@@ -84,22 +84,22 @@
 		</m_items>
 	</m_FemaleOutfits>
 	<m_FemaleOutfits> <m_Name>CM_Santa_Green</m_Name>
-		<m_Guid>78008cd5-b10a-4402-84de-62b1d83208b4</m_Guid>
+		<m_Guid>5dafab3b-0f2b-4342-a4c5-06e74f2d454f</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
 		<m_AllowTopTint>false</m_AllowTopTint>
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		<m_items>
-			<itemGUID>bf681ec8-a092-4aa0-8f52-10665a25f1c3</itemGUID>
+		<m_items> <!-- Green Pattern Santa Hat -->
+			<itemGUID>257ca50b-1d0d-4038-960f-4f097dd47747</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>1cb0dd48-3578-435e-8677-2b9fa6d8e3f3</itemGUID>
+		<m_items>  <!-- Green Pattern Santa Jacket -->
+			<itemGUID>228fa501-3b9c-448a-b953-64e91be528c5</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>0718a5ec-3a83-4868-b42b-5ac979a328e7</itemGUID>
+		<m_items> <!-- Trousers_SantaGreenPattern -->
+			<itemGUID>b10327e7-e4a3-481a-881f-9192cb4aa9d3</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Shoes_BlackBoots -->
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
 		<m_items> <!-- Black long gloves  -->
@@ -340,9 +340,9 @@
 		<m_Guid>50870e1d-017b-4285-a654-ac1bb9e1cccd</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items>
+		<m_items>  <!-- Spiffo Reindeer Hat-->
 			<probability>0.5</probability>
-			<itemGUID>f4b55385-4529-4945-be6e-1ca97421a7fb</itemGUID>
+			<itemGUID>927fb98b-9fd7-48fb-8bf1-e8644588a137</itemGUID>
 		</m_items>
 		<m_items>
 			<itemGUID>50659e76-dc71-4398-9cc1-d3ab17bd8406</itemGUID>
@@ -639,9 +639,9 @@
 		<m_Guid>50870e1d-017b-4285-a654-ac1bb9e1cccd</m_Guid>
 		<m_Pants>false</m_Pants>
 		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_items>
+		<m_items>  <!-- Spiffo Reindeer Hat-->
 			<probability>0.5</probability>
-			<itemGUID>f4b55385-4529-4945-be6e-1ca97421a7fb</itemGUID>
+			<itemGUID>927fb98b-9fd7-48fb-8bf1-e8644588a137</itemGUID>
 		</m_items>
 		<m_items>
 			<itemGUID>50659e76-dc71-4398-9cc1-d3ab17bd8406</itemGUID>
