@@ -1,0 +1,20 @@
+module PeachChristmas {
+  imports {
+      Base
+  }	
+    item SpiffoSuitRudolph
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Spiffo Suit,
+        ClothingItem = SpiffoSuitRudolph,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = SpiffoSuit,
+        RunSpeedModifier = 0.7,
+        ScratchDefense = 10,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+}

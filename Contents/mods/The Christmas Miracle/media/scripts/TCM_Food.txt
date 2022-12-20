@@ -174,29 +174,7 @@ item HotChocolate
         Calories = 16.6,
 	FoodType            = Peppermint,
 	}
-    item Turkey
-	{
-		DisplayCategory 	= Food,		
-		HungerChange	=	-100,
-		Weight	=	1.0,
-		Type	=	Food,
-		IsCookable	=	TRUE,
-		DangerousUncooked	=	TRUE,
-		DaysTotallyRotten	=	4,
-		MinutesToBurn	=	80,
-		DisplayName	=	Turkey,
-		Icon	=	Turkey,
-		DaysFresh	=	4,
-		MinutesToCook	=	240,
-		FoodType    =   Meat,
-        Carbohydrates = 4,
-        Proteins = 1942,
-        Lipids = 503,
-        Calories = 12845,
-        BadInMicrowave = true,
-        GoodHot = true,
-        BadCold = true,
-	}
+
     item TurkeySlice
 	{
 		DisplayCategory 	= Food,		
@@ -245,29 +223,6 @@ item HotChocolate
         GoodHot = true,
         BadCold = true,
 	}
-    item ChristmasChicken
-	{
-		DisplayCategory 	= Food,		
-		HungerChange	=	-60,
-		Weight	=	0.5,
-		Type	=	Food,
-		IsCookable	=	TRUE,
-		DangerousUncooked	=	TRUE,
-		DaysTotallyRotten	=	4,
-		MinutesToBurn	=	80,
-		DisplayName	=	Chicken,
-		Icon	=	ChristmasChicken,
-		DaysFresh	=	2,
-		MinutesToCook	=	240,
-		FoodType    =   Meat,
-        Carbohydrates = 4,
-        Proteins = 1942,
-        Lipids = 503,
-        Calories = 12845,
-        BadInMicrowave = true,
-        GoodHot = true,
-        BadCold = true,
-  }
     item ChickenBreast 
 	{
 		DisplayCategory 	= Food,		
@@ -316,29 +271,7 @@ item HotChocolate
         GoodHot = true,
         BadCold = true,
 	}
-    item RoastDuck
-	{
-		DisplayCategory 	= Food,		
-		HungerChange	=	-100,
-		Weight	=	1.0,
-		Type	=	Food,
-		IsCookable	=	TRUE,
-		DangerousUncooked	=	TRUE,
-		DaysTotallyRotten	=	6,
-		MinutesToBurn	=	110,
-		DisplayName	=	Roast Duck,
-		Icon	=	RoastDuck,
-		DaysFresh	=	4,
-		MinutesToCook	=	85,
-		FoodType    =   Meat,
-        Carbohydrates = 0,
-        Proteins = 144,
-        Lipids = 215,
-        Calories = 2568,
-        BadInMicrowave = true,
-        GoodHot = true,
-        BadCold = true,
-	}
+
     item RoastDuckSlice
 	{
 		DisplayCategory 	= Food,		
@@ -387,29 +320,7 @@ item HotChocolate
         GoodHot = true,
         BadCold = true,
 	}
-    item PorkLoinRoast
-	{
-		DisplayCategory 	= Food,		
-		HungerChange	=	-100,
-		Weight	=	1.0,
-		Type	=	Food,
-		IsCookable	=	TRUE,
-		DangerousUncooked	=	TRUE,
-		DaysTotallyRotten	=	6,
-		MinutesToBurn	=	100,
-		DisplayName	=	PorkLoin Roast,
-		Icon	=	PorkLoinRoast,
-		DaysFresh	=	4,
-		MinutesToCook	=	80,
-		FoodType    =   Meat,
-        Carbohydrates = 0,
-        Proteins = 24,
-        Lipids = 12,
-        Calories = 211,
-        BadInMicrowave = true,
-        GoodHot = true,
-        BadCold = true,
-	}
+
     item PorkLoinRoastSlice
 	{
 		DisplayCategory 	= Food,		
@@ -454,29 +365,6 @@ item HotChocolate
         Proteins = 6,
         Lipids = 3,
         Calories = 52.75,
-        BadInMicrowave = true,
-        GoodHot = true,
-        BadCold = true,
-	}
-    item Turducken
-	{
-		DisplayCategory 	= Food,		
-		HungerChange	=	-175,
-		Weight	=	3.0,
-		Type	=	Food,
-		IsCookable	=	TRUE,
-		DangerousUncooked	=	TRUE,
-		DaysTotallyRotten	=	6,
-		MinutesToBurn	=	420,
-		DisplayName	=	Turducken,
-		Icon	=	Turducken,
-		DaysFresh	=	4,
-		MinutesToCook	=	360,
-		FoodType    =   Meat,
-        Carbohydrates = 144,
-        Proteins = 1884,
-        Lipids = 1284,
-        Calories = 9999, /***19680*/
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
@@ -670,41 +558,6 @@ item Fruitcake
         Calories = 200,
    	 }
 
-item ApplePie
-    {
-		DisplayCategory = Food,		
-        HungerChange	=	-40,
-	UnhappyChange	    =	    -15,
-        Weight	=	1.0,
-        Type	=	Food,
-        DaysTotallyRotten	=	8,
-        DisplayName	=	Apple Pie,
-        Icon	=	ApplePie,
-        DaysFresh	=	5,
-        Carbohydrates = 460,
-        Proteins = 29.8,
-        Lipids = 112,
-        Calories = 3283,
-        StaticModel = PieSlice,
-	GoodHot = true,
-    }
-item ApplePieSlice
-    {
-		DisplayCategory = Food,		
-        Type				=		Food,
-        HungerChange 		=		-10,
-        UnhappyChange	    =	    -10,
-        DisplayName			=		Apple Pie Slice,
-        Icon				=		ApplePieSlice,
-        Weight				=		0.2,
-        DaysFresh 			=		3,
-        DaysTotallyRotten 	=	 	5,
-        Carbohydrates = 115,
-        Proteins = 7.4,
-        Lipids = 28,
-        Calories = 821,
-        StaticModel = CakeSlice,
-    } 
 item PecanPie
     {
 		DisplayCategory = Food,		
@@ -740,41 +593,7 @@ item PecanPieSlice
         Calories = 1004,
         StaticModel = CakeSlice,
     }
-    item PiePumpkin2
-    {
-		DisplayCategory = Food,		
-        HungerChange		 =	    -10,
-	UnhappyChange	   	 =	    -15,
-        Weight			 =	0.2,
-        Type			 =	Food,
-        DaysTotallyRotten	 =	8,
-        DisplayName		 =	Pumpkin Pie Slice,
-        Icon			 =	PiePumpkin,
-        DaysFresh		 =	5,
-        Carbohydrates		 = 84,
-        Proteins		 = 10,
-        Lipids 			 = 24,
-        Calories 		 = 580,
-	GoodHot = true,
-    }
 
-item PumpkinPie
-    {
-		DisplayCategory = Food,		
-        Type			 	=		Food,
-        HungerChange 		 	=		-40,
-        UnhappyChange	   	 	=	    -10,
-        DisplayName			=		Pumpkin Pie,
-        Icon				=		PumpkinPie,
-        Weight				=		1.0,
-        DaysFresh 			=		3,
-        DaysTotallyRotten 		=	 	5,
-        Carbohydrates 			= 336,
-        Proteins 			= 40,
-        Lipids 				= 96,
-        Calories 			= 2320,
-        StaticModel 			= CakeSlice,
-    }
    item BagaRolls
 	{
 		DisplayCategory = Food,		
@@ -820,26 +639,26 @@ item PumpkinPie
     {
 		DisplayCategory = Food,		
         HungerChange		 =	    -7,
-	UnhappyChange	   	 =	    +7,
+		UnhappyChange	   	 =	    +7,
         Weight			 =	0.3,
         Type			 =	Food,
         DaysTotallyRotten	 =	8,
         DisplayName		 =	Gravy,
         Icon			 =	Gravy,
-	EvolvedRecipe = FestiveSandwich:5;Burger:5,
+		EvolvedRecipe 	 = FestiveSandwich:5;Burger:5,
         DaysFresh		 =	5,
         Carbohydrates		 = 16,
         Proteins		 = 6,
         Lipids 			 = 17,
         Calories 		 = 236,
-	GoodHot = true,
-	BadCold = true,
+		GoodHot = true,
+		BadCold = true,
     }
     item MashedPototoesNGravy
     {
 		DisplayCategory = Food,		
         HungerChange		 =	    -20,
-	UnhappyChange	   	 =	    -10,
+		UnhappyChange	   	 =	    -10,
         Weight			 =	0.5,
         Type			 =	Food,
         DaysTotallyRotten	 =	8,
@@ -850,8 +669,8 @@ item PumpkinPie
         Proteins		 = 12,
         Lipids 			 = 22,
         Calories 		 = 350,
-	GoodHot = true,
-	BadCold = true,
+		GoodHot = true,
+		BadCold = true,
     }
 item SweetPotato
 	{
@@ -886,32 +705,32 @@ item CandiedYams
 		DaysTotallyRotten 	=	 	28,
         	EvolvedRecipe       =       Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
         	ThirstChange	=	-3,
-		FoodType    =   Vegetables,
+			FoodType    =   Vegetables,
 		
-		Carbohydrates = 512,
+			Carbohydrates = 512,
        	 	Proteins = 64,
         	Lipids = 7.75,
-		Calories = 2560,
+			Calories = 2560,
 	}
     item Stuffing
 	{
-		DisplayCategory = Food,		
+		DisplayCategory 	= 		Food,		
 		Type				=		Food,
 		DisplayName			=		Stuffing,
 		Icon				=		Stuffing,
 		Weight				=		0.4,
 		HungerChange 			=		-25,
-		DaysFresh 			=		4,
+		DaysFresh 				=		4,
 		DaysTotallyRotten 		=	 	28,
-        	EvolvedRecipe      		=       	Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
-		FoodType    			=   		Vegetables,	
-        	Carbohydrates 			= 		130,
-       		Proteins 			= 		19,
-        	Lipids 				= 		6,
-        	Calories 			=		656,
-		BadInMicrowave = true,
-        	GoodHot = true,
-        	BadCold = true,
+        EvolvedRecipe      		=       Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+		FoodType    			=   	Vegetables,	
+        Carbohydrates 			= 		130,
+       	Proteins 			= 		19,
+        Lipids 				= 		6,
+        Calories 			=		656,
+		BadInMicrowave 		= true,
+        GoodHot 			= true,
+        BadCold 			= true,
 	}
     item CranberrySauceCan
 	{
@@ -923,7 +742,7 @@ item CandiedYams
 		DisplayName	=	Canned Cranberry Sauce,
 		Icon	=	CannedCranberrySauce,
 		EvolvedRecipe = FestiveSandwich:5;Burger:5,
-	Spice   =   true,
+		Spice   =   true,
         Carbohydrates = 432,
         Proteins = 2.4,
         Lipids = 1.6,
@@ -931,7 +750,7 @@ item CandiedYams
         Packaged = TRUE,
         StaticModel = CanClosed,
         CannedFood = TRUE,
- 	CantBeFrozen = TRUE,
+		CantBeFrozen = TRUE,
 	}
     item CandyPackage2
     {
@@ -948,67 +767,7 @@ item CandiedYams
     }
 /************************RECIPES************************/
 
-recipe Cut Turkey
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		Turkey,
-       		Result:TurkeySlice=4,
-		Sound:PutItemInBag,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Cut Chicken
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		ChristmasChicken,
-       		Result:ChickenBreast=4,
-		Sound:PutItemInBag,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Slice Duck
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		RoastDuck,
-       		Result:RoastDuckSlice=4,
-		Sound:PutItemInBag,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Cut Pork Loin Roast
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		PorkLoinRoast,
-       		Result:PorkLoinRoastSlice,
-		Sound:SliceBread,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Cut Turducken
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-		Turducken,
-       		Result:TurduckenSlice=5,
-		Sound:SliceBread,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Make Turducken
-    {
-		Turkey,
-		RoastDuck,
-		ChristmasChicken,
-       		Result:Turducken,
-		Sound:SliceBread,
-       		Time:50.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking10,
-    }
+
 recipe Prepare Hot Chocolate
     {
        		HotChocolatePacket,
@@ -1069,26 +828,6 @@ recipe Slice Pecan Pie
 		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
        		PecanPie,
        		Result:PecanPieSlice=4,
-		Sound:SliceBread,
-       		Time:40.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Slice Apple Pie
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		ApplePie,
-       		Result:ApplePieSlice=4,
-		Sound:SliceBread,
-       		Time:40.0,
-	   	Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-    }
-recipe Slice Pumpkin Pie
-    {
-		keep KitchenKnife/ButterKnife/BreadKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
-       		PumpkinPie,
-       		Result:PiePumpkin2=4,
 		Sound:SliceBread,
        		Time:40.0,
 	   	Category:Cooking,
@@ -1354,79 +1093,6 @@ recipe Slice Pumpkin Pie
         Type = Normal,
         DisplayName	= Map Capsule,
         Icon = MapCapsule,
-    }
-    item ClausIncMaterials
-    {
-      DisplayCategory = Household,		
-        Weight = 1.0,
-        Type = Normal,
-        DisplayName	= Claus Inc Materials,
-        Icon = ClausIncMaterials,
-    }
-    item Puddle
-    {
-      DisplayCategory = Junk,	
-        Weight = .01,
-        Type = Normal,
-        DisplayName	= Puddle,
-        Icon = Puddle,
-		Tooltip = Tooltip_Puddle,
-    }
-    item IceShards
-    {
-      DisplayCategory = Ammo,	
-        Count	=	1,
-        Weight	=	0.025,
-        AlwaysWelcomeGift	=	TRUE,
-        Type	=	Food,
-		ReplaceOnRotten = Puddle,
-        DisplayName	=	Ice Shard Ammo,
-		DaysFresh	=	1,
-        DaysTotallyRotten	=	2,
-        Icon		=	IceShardLoose,
-		Packaged 	= TRUE,
-    }
-
-    item IceShardBox
-    {
-        Weight		=	1,
-        AlwaysWelcomeGift	=	TRUE,
-        Type		=	Normal,
-        DisplayName	=	Box of Ice Shards,
-        DisplayCategory = 	Ammo,
-		Type		=	Food,
-		ReplaceOnRotten = Puddle,
-		DaysFresh	=	1,
-        DaysTotallyRotten	=	2,
-        Icon		=	BoxIceShard,
-		Packaged	 = TRUE,
-    }
-
-    item IceClip
-    {
-      DisplayCategory = Ammo,	
-        CanStack	=	FALSE,
-        Weight		=	0.2,
-        Type		=	Normal,
-        DisplayName	=	Ice Shard Magazine,
-        Icon		=	IceShardClip,
-        MaxAmmo 	= 100,
-        AmmoType 	= Base.IceShards,
-        StaticModel 	= GunMagazine,
-	Tooltip = Tooltip_IceShardClip1,
-    }
-    item IceClip2
-    {
-		DisplayCategory = Ammo,	
-        CanStack	=	FALSE,
-        Weight		=	0.2,
-        Type		=	Normal,
-        DisplayName	=	Ice Shard Magazine,
-        Icon		=	IceShardClip,
-        MaxAmmo 	= 50,
-        AmmoType 	= Base.IceShards,
-        StaticModel 	= GunMagazine,
-		Tooltip = Tooltip_IceShardClip2,
     }
 
 }

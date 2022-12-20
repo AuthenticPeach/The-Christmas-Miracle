@@ -3508,6 +3508,10 @@
 		<guid>e024f19f-1199-4163-97ac-cf4ff26d7174</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/SpiffoSuitRudolph.xml</path>
+		<guid>847241d9-f8ad-4e34-b2e7-5ffebac7d80f</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/Trousers_SantaGreenPattern.xml</path>
 		<guid>b10327e7-e4a3-481a-881f-9192cb4aa9d3</guid>
 	</files>

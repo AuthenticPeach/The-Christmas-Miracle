@@ -344,13 +344,13 @@
 			<probability>0.5</probability>
 			<itemGUID>927fb98b-9fd7-48fb-8bf1-e8644588a137</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>50659e76-dc71-4398-9cc1-d3ab17bd8406</itemGUID>
+		<m_items> <!-- Spiffo Reindeer Suit -->
+			<itemGUID>847241d9-f8ad-4e34-b2e7-5ffebac7d80f</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- SpiffoTail-->
 			<itemGUID>5fe680b9-6c78-44a6-9037-2087be56404c</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items>  <!-- Socks_Ankle-->
 			<probability>0.5</probability>
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
 			<subItems>
@@ -643,13 +643,13 @@
 			<probability>0.5</probability>
 			<itemGUID>927fb98b-9fd7-48fb-8bf1-e8644588a137</itemGUID>
 		</m_items>
-		<m_items>
-			<itemGUID>50659e76-dc71-4398-9cc1-d3ab17bd8406</itemGUID>
-		</m_items>
-		<m_items>
+		<m_items> <!-- Spiffo Reindeer Suit -->
+			<itemGUID>847241d9-f8ad-4e34-b2e7-5ffebac7d80f</itemGUID>
+		</m_items> 
+		<m_items> <!-- SpiffoTail-->
 			<itemGUID>5fe680b9-6c78-44a6-9037-2087be56404c</itemGUID>
 		</m_items>
-		<m_items>
+		<m_items> <!-- Socks_Ankle-->
 			<probability>0.5</probability>
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
 			<subItems>
@@ -657,4 +657,5 @@
 			</subItems>
 		</m_items>
 	</m_MaleOutfits>
+	
 </outfitManager>
