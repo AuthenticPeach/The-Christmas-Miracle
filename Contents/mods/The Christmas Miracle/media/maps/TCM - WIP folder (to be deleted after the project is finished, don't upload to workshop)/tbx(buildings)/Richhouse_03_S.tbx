@@ -1134,28 +1134,28 @@
  </furniture>
  <furniture corners="true">
   <entry orient="W">
-   <tile x="0" y="0" name="DylansBar01_043"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_059"/>
   </entry>
   <entry orient="N">
-   <tile x="0" y="0" name="DylansBar01_045"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_061"/>
   </entry>
   <entry orient="E">
-   <tile x="0" y="0" name="DylansBar01_047"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_063"/>
   </entry>
   <entry orient="S">
-   <tile x="0" y="0" name="DylansBar01_041"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_057"/>
   </entry>
   <entry orient="SW">
-   <tile x="0" y="0" name="DylansBar01_042"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_058"/>
   </entry>
   <entry orient="NW">
-   <tile x="0" y="0" name="DylansBar01_044"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_060"/>
   </entry>
   <entry orient="NE">
-   <tile x="0" y="0" name="DylansBar01_046"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_062"/>
   </entry>
   <entry orient="SE">
-   <tile x="0" y="0" name="DylansBar01_040"/>
+   <tile x="0" y="0" name="d_furniture_kitchen_01_056"/>
   </entry>
  </furniture>
  <furniture>
@@ -3089,6 +3089,32 @@
    <tile x="0" y="0" name="furniture_tables_low_01_003"/>
   </entry>
  </furniture>
+ <furniture corners="true">
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansBar01_043"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="DylansBar01_045"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="DylansBar01_047"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="DylansBar01_041"/>
+  </entry>
+  <entry orient="SW">
+   <tile x="0" y="0" name="DylansBar01_042"/>
+  </entry>
+  <entry orient="NW">
+   <tile x="0" y="0" name="DylansBar01_044"/>
+  </entry>
+  <entry orient="NE">
+   <tile x="0" y="0" name="DylansBar01_046"/>
+  </entry>
+  <entry orient="SE">
+   <tile x="0" y="0" name="DylansBar01_040"/>
+  </entry>
+ </furniture>
  <furniture>
   <entry orient="W">
    <tile x="0" y="0" name="furniture_more_ddd_01_061"/>
@@ -3316,7 +3342,7 @@
   <tile tile="walls_decoration_01_025"/>
  </user_tiles>
  <used_tiles>43 96 68 97 61 100 101 53 103 108 67 77 44 72 71 106 99 102 98 25 64 65 60 124 90 52 50 42 123 109 66 105 63 95 55 26 14 27 13 75 69 94 51 76 24 113 104 114 3 4 10 48 110 107 117 1 9 15 6 46 2 28 70 56 40 41 118 119 115 112 8 7 116 111 78 45 47 5 91 93 92 38 86 79 88 87 89 83 85 82 62 80 81 73 74 58 49 84 57 59 54 12 18 20 23 22 21 19 17 11 16 120 121 122 37 36 35 34 33 32 39 30 29 31</used_tiles>
- <used_furniture>56 57 58 27 59 60 61 62 63 64 11 65 66 67 68 69 70 71 16 72 6 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 9 89 90 91 15 92 93 94 44 13 95 96 97 98 99 100 101 102 32 103 8 40 104 105 106 107 108 109 110 111 112 113 114 5 115 116 117 118 119 120 121 2 1 4 122 123 124 125 0 126 127 18 128 129 130 131 132 133 134 135 136 137 138 139 3 12 140 141 142 143 144 145 146 147 148 149 21 150 151 43 45 152 19 153 154 48 155 156 157 29 158 51 159 160 33 52 53 54 34 24 25 26 31 28 10 35 36 37 38 39 161 20 22 30 23 40 46 47 49 50 41 162 7 17 55 14 163 42</used_furniture>
+ <used_furniture>56 57 58 27 59 60 61 62 63 64 11 65 66 67 68 69 70 71 16 72 6 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 9 89 90 91 15 92 93 94 44 13 95 96 97 98 99 100 101 102 32 103 8 40 104 105 106 107 108 109 110 111 112 113 114 5 115 116 117 118 119 120 121 2 1 4 122 123 124 125 0 126 127 18 128 129 130 131 132 133 134 135 136 137 138 139 3 12 140 141 142 143 144 145 146 147 148 149 21 150 151 43 45 152 19 153 154 48 155 156 157 29 158 51 159 160 33 52 53 54 34 24 25 26 31 28 161 35 36 37 38 39 162 20 22 30 23 40 46 47 49 50 41 163 7 17 55 14 164 42 10</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="88" InteriorWallTrim="79" Floor="74" GrimeFloor="75" GrimeWall="77"/>
  <room Name="emptyoutside" InternalName="emptyoutside" Color="255 110 0" InteriorWall="91" InteriorWallTrim="78" Floor="0" GrimeFloor="75" GrimeWall="77"/>
  <room Name="Dining Room" InternalName="diningroom" Color="255 0 128" InteriorWall="112" InteriorWallTrim="78" Floor="68" GrimeFloor="75" GrimeWall="77"/>
