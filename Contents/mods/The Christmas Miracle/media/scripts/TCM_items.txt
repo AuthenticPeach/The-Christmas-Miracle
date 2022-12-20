@@ -1,5 +1,7 @@
-module Base
-{
+module PeachChristmas {
+  imports {
+      Base
+  }
     /************************Normal************************/
 
    item SmallPresent
@@ -8,7 +10,7 @@ module Base
 		Weight	=	0.3,
 		Type	=	Normal,
 		DisplayName	=	Small Present,
-		Icon	=	Present1,
+		Icon	=	CM_Present1,
 		WorldStaticModel = WorldItem-PresentSmall,
 	}
    item MediumPresent
@@ -17,7 +19,7 @@ module Base
 		Weight	=	0.8,
 		Type	=	Normal,
 		DisplayName	=	Medium Present,
-		Icon	=	Present2,
+		Icon	=	CM_Present2,
 		WorldStaticModel = WorldItem-PresentMedium,		
 	}
   item LargePresent
@@ -26,7 +28,7 @@ module Base
 		Weight	=	1.5,
 		Type	=	Normal,
 		DisplayName	=	Large Present,
-		Icon	=	Present3,
+		Icon	=	CM_Present3,
 		WorldStaticModel = WorldItem-PresentLarge,		
 	}
    item Santa
@@ -69,6 +71,7 @@ module Base
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
 		Icon	=	SnowGlobe1,
+		WorldStaticModel = WorldItem-PresentLarge,			
 		}
    item SnowGlobe2
 	{
@@ -84,8 +87,7 @@ module Base
 		Weight	=	0.2,
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
-		Icon	=	SnowGlobe3,
-		
+		Icon	=	SnowGlobe3,	
 	}
 	item Lighter2
 	{

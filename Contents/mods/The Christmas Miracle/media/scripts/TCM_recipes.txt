@@ -64,7 +64,7 @@ recipe Open Map Capsule
     }
 recipe Unwrap Small Present
 	{
-	   destroy SmallPresent,
+	   destroy PeachChristmas.SmallPresent,
 
 	   Result:SheetPaper2,
 	   Time:120.0,
@@ -75,7 +75,7 @@ recipe Unwrap Small Present
 	}
 recipe Unwrap Medium Present
 	{
-	        destroy MediumPresent,
+	        destroy PeachChristmas.MediumPresent,
 	        Result:SheetPaper2,
 	        Time:120.0,
 	        OnCreate:recipe_unwrapTheMediumpresent,
@@ -85,7 +85,7 @@ recipe Unwrap Medium Present
 	}
 recipe Unwrap Large Present
     {
-	destroy LargePresent,
+	destroy PeachChristmas.LargePresent,
    	Result:SheetPaper2,
     	Time:120.0,
     	OnCreate:recipe_unwrapTheBigpresent,

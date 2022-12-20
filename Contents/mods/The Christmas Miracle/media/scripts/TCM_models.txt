@@ -48,6 +48,11 @@ module Base
 		mesh = WorldStaticModel\WorldItem_SnowMan,
 		texture = Body\SnowMan,
     }
+	model WorldItem-Snowglobe1
+    {
+		mesh = WorldStaticModel\WorldItem_SnowGlobe_01,
+		texture = Items\Snowglobe-1,
+    }
 
 	model IceAssaultRifle
 	{
