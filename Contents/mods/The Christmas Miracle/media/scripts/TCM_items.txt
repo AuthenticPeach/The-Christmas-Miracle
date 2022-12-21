@@ -106,50 +106,55 @@ module PeachChristmas {
 		StaticModel = Zippo,
 		ticksPerEquipUse = 110,
 	}
-    item MarchRidgeChristmasMap1
+    item ChristmasMap1
     {
         DisplayCategory 	= 			Cartography,	
-        Type				=			Normal,
-        DisplayName			=		    March Ridge Delivery Map,
+        Type				=			Map,
+        DisplayName			=		    Delivery Map,
         Icon				=			ChristmasMap1,
         Weight				=			0.05,
-        Map                 =           MarchRidgeChristmasMap1,
+        Map                 =           CedarHillChristmas1,
+		WorldStaticModel 	= 			CedarHillMap1,		
     }
-    item MarchRidgeChristmasMap2
+    item ChristmasMap2
     {
         DisplayCategory 	= 			Cartography,		
-        Type				=			Normal,
-        DisplayName			=		    March Ridge Delivery Map,
+        Type				=			Map,
+        DisplayName			=		    Delivery Map,
         Icon				=			ChristmasMap1,
         Weight				=			0.05,
-        Map                 =           MarchRidgeChristmasMap2,
+        Map                 =           CedarHillChristmas2,
+		WorldStaticModel 	= 			CedarHillMap2,				
     }
-    item MarchRidgeChristmasMap3
+    item ChristmasMap3
     {
         DisplayCategory 	= 			Cartography,		
-        Type				=			Normal,
-        DisplayName			=		    March Ridge Delivery Map,
+        Type				=			Map,
+        DisplayName			=		    Delivery Map,
         Icon				=			ChristmasMap1,
         Weight				=			0.05,
-        Map                 =           MarchRidgeChristmasMap3,
+        Map                 =           CedarHillChristmas3,
+		WorldStaticModel 	= 			CedarHillMap3,				
     }
-    item MarchRidgeChristmasMap4
+    item ChristmasMap4
     {
         DisplayCategory 	= 			Cartography,		
-        Type				=			Normal,
-        DisplayName			=		    March Ridge Delivery Map,
+        Type				=			Map,
+        DisplayName			=		    Delivery Map,
         Icon				=			ChristmasMap1,
         Weight				=			0.05,
-        Map                 =           MarchRidgeChristmasMap4,
+        Map                 =           CedarHillChristmas4,
+		WorldStaticModel 	= 			CedarHillMap4,				
     }
-    item MarchRidgeChristmasMap5
+    item ChristmasMap5
     {
         DisplayCategory 	= 			Cartography,		
-        Type				=			Normal,
-        DisplayName			=		    March Ridge Delivery Map,
+        Type				=			Map,
+        DisplayName			=		    Delivery Map,
         Icon				=			ChristmasMap1,
         Weight				=			0.05,
-        Map                 =           MarchRidgeChristmasMap5,
+        Map                 =           CedarHillChristmas5,
+		WorldStaticModel 	= 			CedarHillMap5,				
     }
     item Soccerball2
     {

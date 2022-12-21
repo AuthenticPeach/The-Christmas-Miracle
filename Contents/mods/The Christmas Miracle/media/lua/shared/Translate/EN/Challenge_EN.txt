@@ -5,8 +5,8 @@ Challenge_EN = {
 
 	Challenge_BlackFriday_name = "Black Friday",
 	Challenge_BlackFriday_desc = "It's 5 in the morning and you finished your Christmas shopping. You step outside and are met with the apocalypse. You have one large parking lot full of zombies between you and your car. <LINE> <LINE> With your hands full of presents for your friends and family, you have to decide between dropping them or not to get to your GREEN SUV alive. <LINE> <LINE> You didn't need that pair of shoes anyway.",
-
-	Challenge_ChristmasMiracleInfoBox = " <CENTRE> Deliver your presents before Christmas day! <LINE> <LINE> Wrap up warm. Baby, its cold outside!",
+	
+	Challenge_ChristmasMiracleInfoBox = "<CENTRE> Deliver your presents before Christmas day! <LINE> <LINE> Wrap up warm. Baby, its cold outside!",
 	Challenge_BlackFridayInfoBox = "<CENTRE>Get to your car, hurry!",
 }
 

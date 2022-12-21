@@ -143,19 +143,20 @@ item HotChocolate
 }
     item MintCandy2
     {
-	DisplayCategory 	= Food,		
+		DisplayCategory 	= Food,		
         Type				=		Food,
         DisplayName			=		Mint Candy,
         Icon				=		MintCandy,
         Weight				=		0.1,
-	EvolvedRecipe = HotChocolate:5,
+		EvolvedRecipe 		= 		HotChocolate:5,
         HungerChange 		=		-2,
         UnhappyChange	    =	    -10,
-        Carbohydrates = 15,
-        Proteins = 0,
-        Lipids = 0,
-        Calories = 60,
-	FoodType            = Peppermint,
+        Carbohydrates 		= 15,
+        Proteins 			= 0,
+        Lipids 				= 0,
+        Calories 			= 60,
+		FoodType            = Peppermint,
+		WorldStaticModel 	= MintCandy,	
     }
     item Candycane2
 	{
@@ -167,12 +168,13 @@ item HotChocolate
 		Type	=	Food,
 		DisplayName	=	Candy Cane,
 		Icon	=	Candycane,
-	EvolvedRecipe = HotChocolate:5,  
+		EvolvedRecipe = HotChocolate:5,  
         Carbohydrates = 4.33,
         Proteins = 0,
         Lipids = 0,
-        Calories = 16.6,
-	FoodType            = Peppermint,
+        Calories 		 = 16.6,
+		FoodType         = Peppermint,
+		WorldStaticModel = MintCandy,	
 	}
 
     item TurkeySlice
@@ -432,8 +434,9 @@ item HotChocolate
         Proteins = 40,
         Lipids = 39,
         Calories = 950,
-	Tooltip = Tooltip_CheesePizza,
-	GoodHot = true,
+		Tooltip = Tooltip_CheesePizza,
+		GoodHot = true,
+		WorldStaticModel = PizzaSlice_Ground,		
     }
 item CookieFrosted
 {
@@ -448,6 +451,7 @@ item CookieFrosted
         Proteins	    =		 1,
         Lipids		    = 		 8,
         Calories 	    = 	       165,
+		WorldStaticModel = Cookie_Chocolate_Ground,		
 }
 item FudgeSlice
 {
@@ -754,16 +758,17 @@ item CandiedYams
 	}
     item CandyPackage2
     {
-		DisplayCategory = Food,		
+		DisplayCategory 	= 		Food,		
         Type				=		Food,
         DisplayName			=		Candy Package,
         Icon				=		CandyPackagei,
         Weight				=		0.6,
-        Carbohydrates = 125,
-        Proteins = 0,
-        Lipids = 2.5,
-        Calories = 500,
-        PAckaged = TRUE,
+        Carbohydrates 		= 		125,
+        Proteins 		 	= 		0,
+        Lipids 			 	= 		2.5,
+        Calories 			= 		500,
+        PAckaged 		 	= 		TRUE,
+		WorldStaticModel	= 		CandyPackage,		
     }
 /************************RECIPES************************/
 
@@ -841,12 +846,12 @@ recipe Slice Pecan Pie
 	Type	=	Food,
 	DaysFresh	=	365,
 	DaysTotallyRotten	=	365,
-       Weight	=	0.1,
-    Type	=	Normal,
+        Weight	=	0.1,
         DisplayName	=	Cold Pack,
         Icon	=	Coldpack,
         Tooltip = Tooltip_ItemTraps,
-	Packaged = TRUE,
+		Packaged = TRUE,
+        WorldStaticModel = ColdPack,	
     }
     item ClausCounterSuitcase0
     {

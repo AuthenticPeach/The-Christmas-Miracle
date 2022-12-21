@@ -1,4 +1,4 @@
---This file is dedicated towards the functionality of the Hit-lists (Custom Annotated maps)
+--This file is dedicated towards the functionality of the Christmas Maps (Custom Annotated maps)
 require 'Maps/ISMapDefinitions'
 
 local MINZ = 0
@@ -17,52 +17,56 @@ local function overlayPNG(mapUI, x, y, scale, layerName, tex, alpha)
 end
 
 
-LootMaps.Init.MarchRidgeChristmasMap1 = function(mapUI)
+LootMaps.Init.CedarHillChristmas1 = function(mapUI)
 
-	-- Your custom initialization for MarchRidgeChristmasMap1
+	-- Your custom initialization for CedarHillChristmas1
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
-	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/marchridgemapChristmas1.png", 1.0)
+	-- Show only this area from the full map.
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+	overlayPNG(mapUI, 9660, 12458, 0.666, "lootMapPNG", "media/ui/LootableMaps/CedarHillChristmas1.png", 1.0) --x,y,scale
 
 end
 
-LootMaps.Init.MarchRidgeChristmasMap2 = function(mapUI)
+LootMaps.Init.CedarHillChristmas2 = function(mapUI)
 
-	-- Your custom initialization for MarchRidgeChristmasMap2
+	-- Your custom initialization for CedarHillChristmas2
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
-	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/marchridgemapChristmas2.png", 1.0)
+	-- Show only this area from the full map.
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+	overlayPNG(mapUI, 9660, 12458, 0.666, "lootMapPNG", "media/ui/LootableMaps/CedarHillChristmas2.png", 1.0) --x,y,scale
 
 end
 
-LootMaps.Init.MarchRidgeChristmasMap3 = function(mapUI)
+LootMaps.Init.CedarHillChristmas3 = function(mapUI)
 
-	-- Your custom initialization for MarchRidgeChristmasMap3
+	-- Your custom initialization for CedarHillChristmas3
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
-	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/marchridgemapChristmas3.png", 1.0)
+	-- Show only this area from the full map.
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+	overlayPNG(mapUI, 9660, 12458, 0.666, "lootMapPNG", "media/ui/LootableMaps/CedarHillChristmas3.png", 1.0) --x,y,scale
 
 end
 
-LootMaps.Init.MarchRidgeChristmasMap4 = function(mapUI)
+LootMaps.Init.CedarHillChristmas4 = function(mapUI)
 
-	-- Your custom initialization for MarchRidgeChristmasMap4
+	-- Your custom initialization for CedarHillChristmas4
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
-	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/marchridgemapChristmas4.png", 1.0)
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+	overlayPNG(mapUI, 9660, 12458, 0.666, "lootMapPNG", "media/ui/LootableMaps/CedarHillChristmas4.png", 1.0) --x,y,scale
 
 end
 
-LootMaps.Init.MarchRidgeChristmasMap5 = function(mapUI)
+LootMaps.Init.CedarHillChristmas5 = function(mapUI)
 
-	-- Your custom initialization for MarchRidgeChristmasMap5
+	-- Your custom initialization for CedarHillChristmas5
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
-	mapAPI:setBoundsInSquares(10540, 9240, 12990, 10480)
-	overlayPNG(mapUI, 10524, 9222, 1.0, "lootMapPNG", "media/ui/LootableMaps/marchridgemapChristmas5.png", 1.0)
+	-- Show only this area from the full map.
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+	overlayPNG(mapUI, 9660, 12458, 0.666, "lootMapPNG", "media/ui/LootableMaps/CedarHillChristmas5.png", 1.0) --x,y,scale
 
 end

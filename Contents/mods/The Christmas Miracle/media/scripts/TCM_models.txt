@@ -7,6 +7,31 @@ module Base
 		texture = weapons\2handed\CandyCane,
     }
 
+	model CedarHillMap1
+    {
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/CedarHillChristmas1.png,
+    }
+	model CedarHillMap2
+    {
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/CedarHillChristmas2.png,
+    }
+	model CedarHillMap3
+    {
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/CedarHillChristmas3.png,
+    }
+	model CedarHillMap4
+    {
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/CedarHillChristmas4.png,
+    }
+	model CedarHillMap5
+    {
+		mesh = WorldItems/Map,
+		texture = media/ui/LootableMaps/CedarHillChristmas5.png,
+    }	
 	model WorldItem-CandycaneGiant
     {
 		mesh = WorldStaticModel\WorldItem_GiantCandyCane,

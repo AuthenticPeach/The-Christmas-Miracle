@@ -3,17 +3,17 @@ module Base
 /************************RECIPES************************/
 recipe Make Ice Shard Ammo
    {
-	destroy ShardMaterials,
+	destroy PeachChristmas.ShardMaterials,
 	Time: 700.0,
-	Result: IceShards=100,
+	Result: PeachChristmas.IceShards=100,
 	Sound:IceShot2,
 	AnimNode:BlowTorchFloor,
 	Category:Christmas,
     }
 recipe Open Box of Ice Shard Ammo
     {
-        IceShardBox,
-        Result:IceShards=100,
+        PeachChristmas.IceShardBox,
+        Result:PeachChristmas.IceShards=100,
         Sound:Ice1,
 		Category:Christmas,
         Time:50.0,
@@ -22,17 +22,17 @@ recipe Open Box of Ice Shard Ammo
 
 recipe Place Ice Shard Ammo in Box
     {
-        556Bullets=100,
-        Result:IceShardBox,
+        PeachChristmas.IceShards=100,
+        Result:PeachChristmas.IceShardBox,
         Sound:PutItemInBag,
         Time:5.0,
 	Category:Christmas,
     StopOnWalk:false,	
     }	
-    }
+
 recipe Make The Sleigher
    {
-	destroy ClausIncMaterials,
+	destroy PeachChristmas.ClausIncMaterials,
 	Time: 700.0,
 	Result:Coldpack2,
 	OnCreate:recipe_makeTheSleigher,
@@ -42,7 +42,7 @@ recipe Make The Sleigher
     }
 recipe Make The BellRinger
    {
-	destroy ClausIncMaterials,
+	destroy PeachChristmas.ClausIncMaterials,
 	Time: 700.0,
 	Result:Coldpack2,
  	OnCreate:recipe_makeTheBellRinger,
@@ -53,14 +53,15 @@ recipe Make The BellRinger
 
 recipe Open Map Capsule
    {
-	destroy MapCapsule,
+	destroy PeachChristmas.MapCapsule,
 	Time: 50.0,
-	Result:RedPen,
+	Result:ChristmasMap3,
  	OnCreate:recipe_openMapCapsule,
 	Sound:ASMRthelid,
 	AnimNode:RipSheets,
 	Category:Christmas,
-    StopOnWalk:false,		
+    StopOnWalk:false,
+	RemoveResultItem:true,		
     }
 recipe Unwrap Small Present
 	{
