@@ -5,7 +5,7 @@ item ChristmasLights1
     {
         DisplayCategory = Furniture,
         Type            = Moveable,
-        Icon	=	Candycane,
+        Icon	=	FairyLights1,
         Weight              = 0.5,
         DisplayName        = Christmas Lights (Lower),
         WorldObjectSprite    = CH_Tiles_01_8,
@@ -15,7 +15,7 @@ item ChristmasLights2
     {
         DisplayCategory = Furniture,
         Type            = Moveable,
-        Icon	=	Candycane,
+        Icon	=	FairyLights1,
         Weight              = 0.5,
         DisplayName        = Christmas Lights (Upper),
         WorldObjectSprite    = CH_Tiles_01_13,
@@ -25,7 +25,7 @@ item ChristmasLights3
     {
         DisplayCategory = Furniture,
         Type            = Moveable,
-        Icon	=	Candycane,
+        Icon	=	FairyLights3,
         Weight              = 0.5,
         DisplayName        = White Fairy Lights,
         WorldObjectSprite    = CH_Tiles_01_19,
@@ -35,7 +35,7 @@ item ChristmasLights4
     {
         DisplayCategory = Furniture,
         Type            = Moveable,
-        Icon	=	Candycane,
+        Icon	=	FairyLights2,
         Weight              = 0.5,
         DisplayName        = Blue Fairy Lights,
         WorldObjectSprite    = CH_Tiles_01_21,
