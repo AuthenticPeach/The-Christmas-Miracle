@@ -1046,22 +1046,22 @@
   <feature>
    <geometry type="Polygon">
     <coordinates>
-     <point x="42" y="100"/>
-     <point x="52" y="100"/>
-     <point x="52" y="105"/>
-     <point x="50" y="105"/>
-     <point x="50" y="108"/>
-     <point x="52" y="108"/>
+     <point x="43" y="100"/>
+     <point x="51" y="100"/>
+     <point x="51" y="104"/>
+     <point x="51" y="105"/>
+     <point x="51" y="108"/>
+     <point x="53" y="108"/>
+     <point x="53" y="109"/>
      <point x="52" y="109"/>
-     <point x="51" y="109"/>
-     <point x="51" y="111"/>
      <point x="52" y="111"/>
-     <point x="52" y="112"/>
-     <point x="50" y="112"/>
-     <point x="50" y="115"/>
-     <point x="52" y="115"/>
-     <point x="52" y="120"/>
-     <point x="42" y="120"/>
+     <point x="53" y="111"/>
+     <point x="53" y="112"/>
+     <point x="51" y="112"/>
+     <point x="51" y="115"/>
+     <point x="51" y="116"/>
+     <point x="51" y="120"/>
+     <point x="43" y="120"/>
     </coordinates>
    </geometry>
    <properties>
@@ -1071,14 +1071,14 @@
   <feature>
    <geometry type="Polygon">
     <coordinates>
-     <point x="41" y="124"/>
-     <point x="49" y="124"/>
-     <point x="49" y="125"/>
+     <point x="42" y="124"/>
+     <point x="50" y="124"/>
      <point x="50" y="125"/>
+     <point x="51" y="125"/>
+     <point x="51" y="133"/>
      <point x="50" y="133"/>
-     <point x="49" y="133"/>
-     <point x="49" y="134"/>
-     <point x="41" y="134"/>
+     <point x="50" y="134"/>
+     <point x="42" y="134"/>
     </coordinates>
    </geometry>
    <properties>
@@ -1311,14 +1311,15 @@
      <point x="128" y="0"/>
      <point x="135" y="0"/>
      <point x="135" y="11"/>
-     <point x="119" y="11"/>
-     <point x="118" y="12"/>
-     <point x="118" y="15"/>
-     <point x="118" y="18"/>
-     <point x="107" y="18"/>
-     <point x="100" y="18"/>
+     <point x="144" y="11"/>
+     <point x="138" y="17"/>
+     <point x="126" y="17"/>
+     <point x="120" y="17"/>
+     <point x="118" y="17"/>
+     <point x="107" y="17"/>
+     <point x="101" y="17"/>
      <point x="99" y="19"/>
-     <point x="99" y="20"/>
+     <point x="98" y="20"/>
      <point x="98" y="21"/>
      <point x="98" y="37"/>
      <point x="89" y="37"/>
@@ -1487,11 +1488,11 @@
      <point x="44" y="0"/>
      <point x="50" y="0"/>
      <point x="61" y="0"/>
-     <point x="61" y="3"/>
+     <point x="62" y="0"/>
      <point x="63" y="0"/>
      <point x="77" y="0"/>
-     <point x="77" y="4"/>
-     <point x="79" y="1"/>
+     <point x="78" y="0"/>
+     <point x="79" y="0"/>
      <point x="88" y="0"/>
      <point x="102" y="0"/>
     </coordinates>
@@ -7285,6 +7286,390 @@
    </geometry>
    <properties>
     <property name="building" value="RestaurantsAndEntertainment"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="144" y="48"/>
+     <point x="145" y="47"/>
+     <point x="145" y="48"/>
+     <point x="144" y="48"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="145" y="46"/>
+     <point x="144" y="45"/>
+     <point x="145" y="45"/>
+     <point x="145" y="46"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="131" y="47"/>
+     <point x="132" y="48"/>
+     <point x="131" y="48"/>
+     <point x="131" y="47"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="131" y="46"/>
+     <point x="132" y="45"/>
+     <point x="131" y="45"/>
+     <point x="131" y="46"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="115" y="48"/>
+     <point x="116" y="47"/>
+     <point x="116" y="48"/>
+     <point x="115" y="48"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="116" y="46"/>
+     <point x="115" y="45"/>
+     <point x="116" y="45"/>
+     <point x="116" y="46"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="102" y="47"/>
+     <point x="103" y="48"/>
+     <point x="102" y="48"/>
+     <point x="102" y="47"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="102" y="46"/>
+     <point x="103" y="45"/>
+     <point x="102" y="45"/>
+     <point x="102" y="46"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="0" y="16"/>
+     <point x="10" y="16"/>
+     <point x="26" y="0"/>
+     <point x="20" y="0"/>
+     <point x="8" y="12"/>
+     <point x="0" y="12"/>
+     <point x="0" y="16"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="highway" value="tertiary"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="134"/>
+     <point x="55" y="134"/>
+     <point x="55" y="135"/>
+     <point x="54" y="135"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="124"/>
+     <point x="55" y="124"/>
+     <point x="55" y="125"/>
+     <point x="54" y="125"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="115"/>
+     <point x="55" y="115"/>
+     <point x="55" y="116"/>
+     <point x="54" y="116"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="105"/>
+     <point x="55" y="105"/>
+     <point x="55" y="106"/>
+     <point x="54" y="106"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="90"/>
+     <point x="55" y="90"/>
+     <point x="55" y="91"/>
+     <point x="54" y="91"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="54" y="82"/>
+     <point x="55" y="82"/>
+     <point x="55" y="83"/>
+     <point x="54" y="83"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="69" y="69"/>
+     <point x="76" y="69"/>
+     <point x="76" y="72"/>
+     <point x="69" y="72"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="95" y="40"/>
+     <point x="98" y="40"/>
+     <point x="98" y="48"/>
+     <point x="95" y="48"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="51" y="290"/>
+     <point x="46" y="289"/>
+     <point x="43" y="289"/>
+     <point x="42" y="283"/>
+     <point x="44" y="287"/>
+     <point x="51" y="287"/>
+     <point x="51" y="290"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="39" y="282"/>
+     <point x="37" y="277"/>
+     <point x="39" y="280"/>
+     <point x="42" y="280"/>
+     <point x="39" y="282"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="102" y="22"/>
+     <point x="104" y="22"/>
+     <point x="104" y="27"/>
+     <point x="102" y="27"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="143" y="22"/>
+     <point x="145" y="22"/>
+     <point x="145" y="26"/>
+     <point x="143" y="26"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="297" y="52"/>
+     <point x="298" y="51"/>
+     <point x="298" y="52"/>
+     <point x="297" y="52"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="295" y="15"/>
+     <point x="296" y="16"/>
+     <point x="296" y="15"/>
+     <point x="295" y="15"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="242" y="110"/>
+     <point x="243" y="110"/>
+     <point x="243" y="121"/>
+     <point x="242" y="121"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="242" y="86"/>
+     <point x="243" y="86"/>
+     <point x="243" y="97"/>
+     <point x="242" y="97"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="242" y="61"/>
+     <point x="243" y="61"/>
+     <point x="243" y="72"/>
+     <point x="242" y="72"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="85" y="173"/>
+     <point x="88" y="173"/>
+     <point x="88" y="194"/>
+     <point x="85" y="194"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="91" y="173"/>
+     <point x="94" y="173"/>
+     <point x="94" y="194"/>
+     <point x="91" y="194"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
+   </properties>
+  </feature>
+  <feature>
+   <geometry type="Polygon">
+    <coordinates>
+     <point x="90" y="202"/>
+     <point x="94" y="202"/>
+     <point x="94" y="205"/>
+     <point x="90" y="205"/>
+    </coordinates>
+   </geometry>
+   <properties>
+    <property name="natural" value="forest"/>
    </properties>
   </feature>
  </cell>
