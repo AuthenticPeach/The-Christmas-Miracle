@@ -22,7 +22,7 @@ table.insert(ZombiesZoneDefinition.Default,{name = "Ski", chance=100});
 table.insert(ZombiesZoneDefinition.Default,{name = "Bathrobe", chance=20});
 table.insert(ZombiesZoneDefinition.Default,{name = "CM_SpiffoReindeer", chance=8});
 
-table.insert(ZombiesZoneDefinition.Default,{name = "CM_Gingerbreadman", chance=2, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "CM_SnowMan", chance=2, gender="male"});
-table.insert(ZombiesZoneDefinition.Default,{name = "CM_Santa_Obese", chance=0.098, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "CM_Gingerbreadman", chance=8, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "CM_SnowMan", chance=8, gender="male"});
+table.insert(ZombiesZoneDefinition.Default,{name = "CM_Santa_Obese", chance=2, gender="male"});
 
