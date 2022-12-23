@@ -44,10 +44,7 @@
 		<m_Pants>false</m_Pants>
 		<m_items> <!-- Gingerbreadman body -->
 			<itemGUID>32a00e4f5-8281-48ce-bb36-1099b0eb3c97</itemGUID>
-		</m_items>
-		<m_items> <!-- Hat_SnowmanSPHat -->
-			<itemGUID>f5927eb2-8ebc-4df1-9e64-9b6b6f34fdf7</itemGUID>
-		</m_items>			
+		</m_items>		
 	</m_MaleOutfits>	
 	<m_FemaleOutfits> <m_Name>CM_SnowMan</m_Name>
 		<m_Guid>3cd646be-a92d-478f-accf-6d8772b87841</m_Guid>

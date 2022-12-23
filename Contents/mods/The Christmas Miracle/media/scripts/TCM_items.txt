@@ -63,6 +63,7 @@ module PeachChristmas {
 		Type	=	Normal,
 		DisplayName	=	Santa Spiffo,
 		Icon	=	SantaSpiffo2,
+		WorldStaticModel = WorldItem-SpiffoSanta,		
 	}
    item SnowGlobe1
 	{
@@ -71,7 +72,8 @@ module PeachChristmas {
 		Type	=	Normal,
 		DisplayName	=	Snow Globe,
 		Icon	=	SnowGlobe1,
-		WorldStaticModel = WorldItem-PresentLarge,			
+        AttachmentType   = 	SpiffoPlushie,		
+		WorldStaticModel = WorldItem-Snowglobe1,			
 		}
    item SnowGlobe2
 	{
@@ -105,6 +107,7 @@ module PeachChristmas {
 		cantBeConsolided = TRUE,
 		StaticModel = Zippo,
 		ticksPerEquipUse = 110,
+		WorldStaticModel = ZippoGround,			
 	}
     item ChristmasMap1
     {
@@ -174,6 +177,7 @@ module PeachChristmas {
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	SoccerBall,
+        WorldStaticModel = SoccerBall,		
     }
     item BasketBall2
     {
@@ -196,6 +200,7 @@ module PeachChristmas {
         TriggerExplosionTimer   =   40,
         ExtraDamage  =   0.001,
         ExplosionRange  =   2,
+        WorldStaticModel = BasketBall,		
     }
     item GolfBall2
     {
@@ -215,6 +220,7 @@ module PeachChristmas {
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	GolfBall,
+        WorldStaticModel = GolfBall,		
     }
     item Baseball2
     {
@@ -234,6 +240,7 @@ module PeachChristmas {
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	Baseball,
+        WorldStaticModel = BaseBall,		
     }
     item TennisBall2
     {
@@ -253,6 +260,7 @@ module PeachChristmas {
         MaxDamage	=	0,
         MaxHitCount	=	0,
         Icon	=	TennisBall,
+        WorldStaticModel = TennisBall,		
     }
    
 }

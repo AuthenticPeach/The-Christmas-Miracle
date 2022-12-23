@@ -218,9 +218,10 @@ module PeachChristmas {
         DisplayName	=	Ice Shard Magazine,
         Icon		=	IceShardClip,
         MaxAmmo 	= 100,
-        AmmoType 	= Base.IceShards,
+        AmmoType 	= PeachChristmas.IceShards,
         StaticModel 	= GunMagazine,
-	Tooltip = Tooltip_IceShardClip1,
+		Tooltip = Tooltip_IceShardClip1,
+        WorldStaticModel = Gun_Magazine_Ground,		
     }
     item IceClip2
     {
@@ -231,9 +232,10 @@ module PeachChristmas {
         DisplayName	=	Ice Shard Magazine,
         Icon		=	IceShardClip,
         MaxAmmo 	= 50,
-        AmmoType 	= Base.IceShards,
+        AmmoType 	= PeachChristmas.IceShards,
         StaticModel 	= GunMagazine,
 		Tooltip = Tooltip_IceShardClip2,
+        WorldStaticModel = Gun_Magazine_Ground,		
     }
 
 }

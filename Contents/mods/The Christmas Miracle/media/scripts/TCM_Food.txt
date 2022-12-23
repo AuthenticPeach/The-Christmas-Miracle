@@ -496,6 +496,7 @@ item GingerbreadMan
         	Proteins		= 4,
         	Lipids 			= 4,
         	Calories 		= 612,
+        WorldStaticModel = WorldItem-Gingerbreadman-Food,			
 	}
 item Buckeyes
 	{
@@ -1098,6 +1099,7 @@ recipe Slice Pecan Pie
         Type = Normal,
         DisplayName	= Map Capsule,
         Icon = MapCapsule,
+		WorldStaticModel	= 		WorldItem-MapCapsule,			
     }
 
 }

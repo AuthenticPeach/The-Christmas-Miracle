@@ -41,6 +41,16 @@ module Base
     {
 		mesh = WorldStaticModel\WorldItem_Gingerbreadman,
 		texture = Body\GingerbreadmanShrek,
+    }
+	model WorldItem-Gingerbreadman-Food
+    {
+		mesh = WorldStaticModel\WorldItem_Gingerbreadman_Food,
+		texture = Body\GingerbreadmanShrek,
+    }		
+	model WorldItem-MapCapsule
+    {
+		mesh = WorldStaticModel\WorldItem_MapCapsule,
+		texture = Items\MapCapsule,
     }	
 	model WorldItem-StovePipeHat
     {
@@ -67,11 +77,16 @@ module Base
     {
 		mesh = WorldStaticModel\WorldItem_Antlers,
 		texture = Clothes\Hats\ReindeerAntlers,
-    }	
+    }
 	model WorldItem-SnowMan
     {
 		mesh = WorldStaticModel\WorldItem_SnowMan,
 		texture = Body\SnowMan,
+    }	
+	model WorldItem-SpiffoSanta
+    {
+		mesh = WorldStaticModel\WorldItem_SpiffoSanta,
+		texture = Items\Snowglobe-1,
     }
 	model WorldItem-Snowglobe1
     {
