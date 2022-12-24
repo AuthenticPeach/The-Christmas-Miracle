@@ -34,10 +34,5 @@ description=
 description=
 description=[h2] Want some fun companion mods? Try These! [/h2]
 description=[url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829][img]https://i.ibb.co/6XS5fcb/AZposter200.png [/img][/url]
-description=
-description=
-description=Workshop ID: 2904836480
-description=Mod ID: TheChristmasMiracle
-description=Map Folder: The Christmas Miracle
 tags=Build 41;Clothing/Armor;Items;Map;Models;Pop Culture;Silly/Fun;Textures;Vehicles;Weapons
 visibility=public

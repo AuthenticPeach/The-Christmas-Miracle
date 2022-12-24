@@ -18,6 +18,11 @@ module PeachChristmas {
 		DisplayName = Gingerbread Man,
 		ClothingItem = Gingerbreadman_Bod,
 		BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,		
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.95,
+        WindResistance = 0.95,				
 		Icon = GingerbreadMan,
 		WorldStaticModel = WorldItem-Gingerbreadman,
 	}	
@@ -28,6 +33,11 @@ module PeachChristmas {
 		DisplayName = Snowman Body,
 		ClothingItem = Snowman_Body,
 		BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,		
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.95,
+        WindResistance = 0.95,		
 		Icon = SnowMan,
 		WorldStaticModel = WorldItem-SnowMan,
 	}

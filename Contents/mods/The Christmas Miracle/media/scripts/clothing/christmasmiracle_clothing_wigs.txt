@@ -9,6 +9,7 @@ module PeachChristmas {
 		DisplayName = Santa's Beard,  				
         ClothingItem = Beard_Long_Santa,
         BodyLocation = Necklace_Long,
-        Icon = Wig,
+        Icon = SantaBeard,
+		WorldStaticModel = WorldItem-SantaBeard,		
     }	
 }

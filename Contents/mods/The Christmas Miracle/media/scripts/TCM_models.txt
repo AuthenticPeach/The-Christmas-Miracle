@@ -31,12 +31,42 @@ module Base
     {
 		mesh = WorldItems/Map,
 		texture = media/ui/LootableMaps/CedarHillChristmas5.png,
+    }
+	model WorldItem-Buckeyes
+    {
+		mesh = WorldStaticModel\WorldItem_Buckeyes,
+		texture = Items\Buckeyes,
     }	
 	model WorldItem-CandycaneGiant
     {
 		mesh = WorldStaticModel\WorldItem_GiantCandyCane,
 		texture = weapons\2handed\CandyCane,
+    }
+	model WorldItem-CPretzel
+    {
+		mesh = WorldStaticModel\WorldItem_CPretzel,
+		texture = Items\ChocolatePretzel,
+    }		
+	model WorldItem-FrostedCookie
+    {
+		mesh = WorldStaticModel\WorldItem_FrostedCookie,
+		texture = Items\FrostedCookie,
     }	
+	model WorldItem-FudgeBlock
+    {
+		mesh = WorldStaticModel\WorldItem_FudgeBlock,
+		texture = Items\Fudge,
+    }
+	model WorldItem-FruitcakeSlice
+    {
+		mesh = WorldStaticModel\WorldItem_FruitcakeSlice,
+		texture = Items\Fruitcake,
+    }
+	model WorldItem-FruitcakeLoaf
+	{
+		mesh = WorldStaticModel\WorldItem_FruitcakeLoaf,
+		texture = Items\Fruitcake,
+    }		
 	model WorldItem-Gingerbreadman
     {
 		mesh = WorldStaticModel\WorldItem_Gingerbreadman,
@@ -51,6 +81,12 @@ module Base
     {
 		mesh = WorldStaticModel\WorldItem_MapCapsule,
 		texture = Items\MapCapsule,
+    }
+	model WorldItem-PizzaSliceCheese_Ground
+	{
+		mesh = WorldItems\PizzaSlice,
+		texture = Items\PizzaPizzaSliceCheese,
+		scale = 0.4,		
     }	
 	model WorldItem-StovePipeHat
     {
@@ -88,6 +124,11 @@ module Base
 		mesh = WorldStaticModel\WorldItem_SpiffoSanta,
 		texture = Items\Snowglobe-1,
     }
+	model WorldItem-SantaBeard
+    {
+		mesh = WorldStaticModel\WorldItem_SantaBeard,
+		texture = Clothes\Hairstyles\F_Hair_White,
+    }	
 	model WorldItem-Snowglobe1
     {
 		mesh = WorldStaticModel\WorldItem_SnowGlobe_01,

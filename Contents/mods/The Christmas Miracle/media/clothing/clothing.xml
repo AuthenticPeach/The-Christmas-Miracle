@@ -36,6 +36,10 @@
 		</m_items>
 		<m_items> <!-- Hat_SnowmanSPHat -->
 			<itemGUID>f5927eb2-8ebc-4df1-9e64-9b6b6f34fdf7</itemGUID>
+		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
 		</m_items>			
 	</m_MaleOutfits>
 	<m_MaleOutfits> <m_Name>CM_Gingerbreadman</m_Name>
@@ -67,6 +71,10 @@
 		<m_items> <!-- Red Pattern Santa Hat -->
 			<itemGUID>a601a22d-061d-4c83-8913-fa485a93fcfb</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>		
 		<m_items>  <!-- JacketLong_SantaRedPattern -->
 			<itemGUID>a9ecb129-e889-46c7-99fe-fabf6e3dadc6</itemGUID>
 		</m_items>
@@ -90,6 +98,10 @@
 		<m_items> <!-- Green Pattern Santa Hat -->
 			<itemGUID>257ca50b-1d0d-4038-960f-4f097dd47747</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items>  <!-- Green Pattern Santa Jacket -->
 			<itemGUID>228fa501-3b9c-448a-b953-64e91be528c5</itemGUID>
 		</m_items>
@@ -122,6 +134,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -145,6 +161,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -168,6 +188,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -191,6 +215,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -214,6 +242,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -237,6 +269,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -260,6 +296,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -283,6 +323,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -306,6 +350,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -329,6 +377,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -375,6 +427,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -398,6 +454,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -421,6 +481,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -444,6 +508,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -467,6 +535,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -490,6 +562,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -513,6 +589,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -536,6 +616,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -559,6 +643,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -582,6 +670,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -605,6 +697,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items>
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -628,6 +724,10 @@
 		<m_items>
 			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Black long gloves  -->
 			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
 		</m_items>
@@ -646,6 +746,10 @@
 		<m_items> <!-- SpiffoTail-->
 			<itemGUID>5fe680b9-6c78-44a6-9037-2087be56404c</itemGUID>
 		</m_items>
+		<m_items> <!-- Antlers -->
+			<probability>0.1</probability>		
+			<itemGUID>755bd09d-f27f-47c6-9699-7ecd25ed113c</itemGUID>
+		</m_items>			
 		<m_items> <!-- Socks_Ankle-->
 			<probability>0.5</probability>
 			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>

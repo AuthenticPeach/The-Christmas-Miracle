@@ -436,7 +436,7 @@ item HotChocolate
         Calories = 950,
 		Tooltip = Tooltip_CheesePizza,
 		GoodHot = true,
-		WorldStaticModel = PizzaSlice_Ground,		
+		WorldStaticModel = WorldItem-PizzaSliceCheese_Ground,		
     }
 item CookieFrosted
 {
@@ -451,7 +451,7 @@ item CookieFrosted
         Proteins	    =		 1,
         Lipids		    = 		 8,
         Calories 	    = 	       165,
-		WorldStaticModel = Cookie_Chocolate_Ground,		
+		WorldStaticModel = WorldItem-FrostedCookie,		
 }
 item FudgeSlice
 {
@@ -466,6 +466,7 @@ item FudgeSlice
         Proteins	    =		 0.5,
         Lipids		    = 		 3.6,
         Calories 	    = 	       140,
+		WorldStaticModel = WorldItem-FudgeBlock,			
 }
 item ChristmasPudding
 	{
@@ -512,6 +513,7 @@ item Buckeyes
         	Proteins		= 4,
         	Lipids 			= 2,
         	Calories 		= 170,
+        WorldStaticModel = WorldItem-Buckeyes,					
 	}
 item ChocolatePretzel
 	{
@@ -527,6 +529,7 @@ item ChocolatePretzel
         	Proteins		= 2,
         	Lipids 			= 1,
         	Calories 		= 130,
+        WorldStaticModel = WorldItem-CPretzel,					
 	}	
 item Fruitcake
 	{
@@ -540,11 +543,12 @@ item Fruitcake
 		Icon			=	Fruitcake,
 		DaysFresh		=	3,
 		FoodType    		=   NoExplicit,
-        	Carbohydrates = 99,
-        	Proteins = 17.7,
-        	Lipids = 6.66,
-        	Calories = 532,
-        	Packaged = TRUE,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        Packaged = TRUE,
+        WorldStaticModel = WorldItem-FruitcakeLoaf,				
 	}
  item FruitcakeSlice
    	 {
@@ -561,6 +565,7 @@ item Fruitcake
         Proteins = 7.5,
         Lipids = 2.5,
         Calories = 200,
+        WorldStaticModel = WorldItem-FruitcakeSlice,				
    	 }
 
 item PecanPie
