@@ -217,7 +217,6 @@ local pl = getPlayer();
 		    pl:getInventory():clear();
 
 			local inv = pl:getInventory();
-			--local bag = pl:getInventory():AddItem("Base.Bag_ALICEpack_Army");
 
 			--player stuff 
 			--give player Santa-Green Costume
@@ -295,77 +294,77 @@ local pl = getPlayer();
 			
 			--give player supplies
 			--randomized stuff
-			BlackFriday.supplies = {"Base.Candycane","Base.Chocolate","Base.SmallPresent","Base.SmallPresent","Base.SmallPresent", "Base.SmallPresent","Base.MediumPresent","Base.LargePresent"};
+			BlackFriday.supplies = {"Base.Candycane","Base.Chocolate","PeachChristmas.SmallPresent","PeachChristmas.SmallPresent","PeachChristmas.SmallPresent", "PeachChristmas.SmallPresent","PeachChristmas.MediumPresent","PeachChristmas.LargePresent"};
 			--BlackFriday.medsupplies = {"Base.AlcoholBandage","Base.Disinfectant","Base.Bandaid","Base.Antibiotics","Base.Pills","Base.SutureNeedle","Base.Tweezers"};
 			
 			-- static stuff bag
-			totebag1:getItemContainer():AddItem("Base.SmallPresent");
-			totebag1:getItemContainer():AddItem("Base.SmallPresent");
-			totebag1:getItemContainer():AddItem("Base.SmallPresent");
-			totebag1:getItemContainer():AddItem("Base.MediumPresent");
-			totebag1:getItemContainer():AddItem("Base.MediumPresent");
-			totebag1:getItemContainer():AddItem("Base.MediumPresent");
-			totebag1:getItemContainer():AddItem("Base.SmallPresent");
-			totebag1:getItemContainer():AddItem("Base.SmallPresent");
-			totebag1:getItemContainer():AddItem("Base.LargePresent");
-			totebag1:getItemContainer():AddItem("Base.LargePresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag1:getItemContainer():AddItem("PeachChristmas.LargePresent");
 			totebag1:getItemContainer():AddItem("Base.CookieChocolateChip");
-			totebag1:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag1:getItemContainer():AddItem("Base.ChocolatePretzel");
+			totebag1:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag1:getItemContainer():AddItem("PeachChristmas.ChocolatePretzel");
 			totebag1:getItemContainer():AddItem("Base.Candycane");
 			
 			totebag2:getItemContainer():AddItem("Base.Candycane");
-			totebag2:getItemContainer():AddItem("Base.Fudge");
-			totebag2:getItemContainer():AddItem("Base.Fudge");
-			totebag2:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag2:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag2:getItemContainer():AddItem("Base.SmallPresent");
-			totebag2:getItemContainer():AddItem("Base.SmallPresent");
-			totebag2:getItemContainer():AddItem("Base.SmallPresent");
-			totebag2:getItemContainer():AddItem("Base.MediumPresent");
-			totebag2:getItemContainer():AddItem("Base.MediumPresent");
-			totebag2:getItemContainer():AddItem("Base.MediumPresent");
-			totebag2:getItemContainer():AddItem("Base.LargePresent");
-			totebag2:getItemContainer():AddItem("Base.LargePresent");
-			totebag2:getItemContainer():AddItem("Base.CookieFrosted");
+			totebag2:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag2:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag2:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag2:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag2:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag2:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
 			totebag2:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag2:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag2:getItemContainer():AddItem("Base.CookieChocolateChip");
 			
 			totebag3:getItemContainer():AddItem("Base.Candycane");
-			totebag3:getItemContainer():AddItem("Base.Fudge");
-			totebag3:getItemContainer():AddItem("Base.Fudge");
-			totebag3:getItemContainer():AddItem("Base.CookieFrosted");
+			totebag3:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag3:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag3:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
 			totebag3:getItemContainer():AddItem("Base.Chocolate");
-			totebag3:getItemContainer():AddItem("Base.SmallPresent");
-			totebag3:getItemContainer():AddItem("Base.SmallPresent");
-			totebag3:getItemContainer():AddItem("Base.SmallPresent");
-			totebag3:getItemContainer():AddItem("Base.MediumPresent");
-			totebag3:getItemContainer():AddItem("Base.MediumPresent");
-			totebag3:getItemContainer():AddItem("Base.MediumPresent");
-			totebag3:getItemContainer():AddItem("Base.LargePresent");
-			totebag3:getItemContainer():AddItem("Base.LargePresent");
-			totebag3:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag3:getItemContainer():AddItem("Base.CookieFrosted");
+			totebag3:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag3:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag3:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
 			totebag3:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag3:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag3:getItemContainer():AddItem("Base.CookieChocolateChip");
 			
 			totebag4:getItemContainer():AddItem("Base.Candycane");
 			totebag4:getItemContainer():AddItem("Base.Chocolate");
-			totebag4:getItemContainer():AddItem("Base.Fudge");
-			totebag4:getItemContainer():AddItem("Base.Fudge");
-			totebag4:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag4:getItemContainer():AddItem("Base.CookieFrosted");
-			totebag4:getItemContainer():AddItem("Base.SmallPresent");
-			totebag4:getItemContainer():AddItem("Base.SmallPresent");
-			totebag4:getItemContainer():AddItem("Base.SmallPresent");
-			totebag4:getItemContainer():AddItem("Base.MediumPresent");
-			totebag4:getItemContainer():AddItem("Base.MediumPresent");
-			totebag4:getItemContainer():AddItem("Base.MediumPresent");
-			totebag4:getItemContainer():AddItem("Base.LargePresent");
-			totebag4:getItemContainer():AddItem("Base.LargePresent");
-			totebag4:getItemContainer():AddItem("Base.CookieFrosted");
+			totebag4:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag4:getItemContainer():AddItem("PeachChristmas.Fudge");
+			totebag4:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag4:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
+			totebag4:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.SmallPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.MediumPresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.LargePresent");
+			totebag4:getItemContainer():AddItem("PeachChristmas.CookieFrosted");
 			totebag4:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag4:getItemContainer():AddItem("Base.CookieChocolateChip");
 			totebag4:getItemContainer():AddItem("Base.CookieChocolateChip")
@@ -385,7 +384,7 @@ local pl = getPlayer();
 				--give player supplies
 					end
 			end
-			BlackFriday.supplies = {"Base.CookieFrosted","Base.Turkey","Base.Fruitcake","Base.TinnedSoup","Base.TunaTin","Base.WaterBottleFull","Base.Eggnog"};
+			BlackFriday.supplies = {"PeachChristmas.CookieFrosted","PeachChristmas.Turkey","PeachChristmas.Fruitcake","Base.TinnedSoup","Base.TunaTin","Base.WaterBottleFull","PeachChristmas.Eggnog"};
 			--static stuff
 			car:getPartById("TruckBed"):getItemContainer():AddItem("camping.CampingTentKit");
 			car:getPartById("TruckBed"):getItemContainer():AddItem("Base.PetrolCan");
@@ -403,9 +402,7 @@ addSound(getPlayer(), getPlayer():getX(), getPlayer():getY(), 0, 400, 400);
 pl:playSound("MetaScream");
 end
 BlackFriday.OnInitWorld = function()
---SandboxVars = require "Sandbox/SixMonthsLater" 
 	Events.OnGameStart.Add(BlackFriday.OnGameStart);
-	--clim:triggerKateBobIntroStorm(7087, 8368, 20, 0.75, 4, 180, 0.9);
 	BlackFriday.setSandBoxVars();
 end
 BlackFriday.setSandBoxVars = function()
@@ -425,8 +422,8 @@ BlackFriday.setSandBoxVars = function()
 	SandboxVars.MechanicsLoot = 1;
 	SandboxVars.LiteratureLoot = 1;
 	SandboxVars.MedicalLoot = 1;
-	SandboxVars.WeaponLoot = 1;
-	SandboxVars.OtherLoot = 1;
+	SandboxVars.WeaponLoot = 2;
+	SandboxVars.OtherLoot = 2;
 	SandboxVars.Temperature = 1;
 	SandboxVars.Rain = 5;
 	--    SandboxVars.erosion = 12

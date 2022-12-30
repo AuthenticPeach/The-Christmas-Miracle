@@ -28,7 +28,7 @@ module PeachChristmas {
 }
     item RumBottle
 	{
-	DisplayCategory 	= Food,		
+		DisplayCategory 	= Food,		
 		HungerChange	=	-10,
 		Weight	=	0.4,
 		AlwaysWelcomeGift	=	TRUE,
@@ -41,7 +41,7 @@ module PeachChristmas {
 		Icon		=	RumBottle,
 		EvolvedRecipe = ChristmasEggnog:5,
 		CustomContextMenu = Drink,
-		CustomEatSound = DrinkingFromBottle,
+		CustomEatSound = DrinkingFromBottleGlass,
         Carbohydrates = 0,
         Proteins = 0,
         Lipids = 0,
@@ -49,15 +49,17 @@ module PeachChristmas {
         Packaged = TRUE,
         CantBeFrozen = TRUE,
         StaticModel = BeerBottle,
-        EatType = popcan,
-	FoodType            = Rum,
+        EatType 		= Bourbon,
+		FoodType            = Liquor,
+		WorldStaticModel = WorldItem-RumBottle,
+		Tags = Liquor,		
 	}
     item ChristmasEggnog
 	{
-	DisplayCategory 	= Food,		
+	DisplayCategory 	= Food,
 	Type                = Food,
 	DisplayName         = Christmas Eggnog,
-	Alcoholic	=	TRUE,
+	Alcoholic			=TRUE,
 	Icon                = ChristmasEggnog,
 	Weight              = 0.2,
 	DaysFresh           = 4,
@@ -75,11 +77,12 @@ module PeachChristmas {
 	ReplaceOnUse	    = Mugl,
 	CustomEatSound      = PZ_DrinkingFromBottle,
 	FoodType            = NoExplicit,
-	StaticModel = Mug,
+	StaticModel 		= Mug,
+	WorldStaticModel 	= WorldItem-RumBottle,	
 	}
     item Champagne
    {
-	DisplayCategory 	= Food,	   
+		DisplayCategory 	= Food,	
         HungerChange	=	-20,
         Weight	=	1,
         Type	=	Food,
@@ -90,13 +93,16 @@ module PeachChristmas {
         ReplaceOnUse	=	WineEmpty,
         Icon	=	Champagne,
         CustomContextMenu = Drink,
-        CustomEatSound = DrinkingFromBottle,
+        CustomEatSound = DrinkingFromBottleGlass,
         Carbohydrates = 7.8,
         Proteins = 1.6,
         Lipids = 0,
         Calories = 505,
         Packaged = TRUE,
         CantBeFrozen = TRUE,
+		FoodType = Wine,
+		EatType = Bourbon,
+		WorldStaticModel = WorldItem-Champagne,		
         StaticModel = WhiteWineBottle,
     }
    item HotChocolatePacket
@@ -107,6 +113,7 @@ module PeachChristmas {
 		DisplayName	=	Hot Chocolate Packet,
 		Icon	=	HotChocolatePacket,
 		Packaged = TRUE,
+		WorldStaticModel = WorldItem-HotChocolatePacket,			
 }
 item HotChocolate
 	{
@@ -200,6 +207,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-TurkeySlice,		
 	}
     item TurkeySliceCranberry
 	{
@@ -224,6 +232,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-TurkeySliceCranberry,				
 	}
     item ChickenBreast 
 	{
@@ -297,6 +306,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-DuckSlice,				
 	}
     item RoastDuckSliceCranberry
 	{
@@ -321,6 +331,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-DuckSliceCranberry,			
 	}
 
     item PorkLoinRoastSlice
@@ -346,6 +357,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-PorkloinRoastSlice,		
 	}
     item PorkLoinRoastSliceCranberry
 	{
@@ -370,6 +382,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-PorkloinRoastCranberry,		
 	}
     item TurduckenSlice
 	{
@@ -394,6 +407,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-TurduckenSlice,		
 	}
     item TurduckenSliceCranberry
 	{
@@ -418,6 +432,7 @@ item HotChocolate
         BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-TurduckenSliceCranberry,
 	}
     item CheesePizza
     {
@@ -702,6 +717,7 @@ item SweetPotato
 	    BadInMicrowave = true,
         GoodHot = true,
         BadCold = true,
+		WorldStaticModel = WorldItem-SweetPotato,		
 	}
 item CandiedYams
 	{

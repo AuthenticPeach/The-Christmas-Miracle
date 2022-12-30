@@ -42,11 +42,29 @@ module Base
 		mesh = WorldStaticModel\WorldItem_GiantCandyCane,
 		texture = weapons\2handed\CandyCane,
     }
+	model WorldItem-Champagne
+    {
+        mesh = WorldItems/Wine,
+        texture = Items\ChampagneBottle,
+        scale = 0.4,
+    }	
 	model WorldItem-CPretzel
     {
 		mesh = WorldStaticModel\WorldItem_CPretzel,
 		texture = Items\ChocolatePretzel,
-    }		
+    }
+	model WorldItem-DuckSlice
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/DuckSlice,
+        scale = 0.4,
+	}
+	model WorldItem-DuckSliceCranberry
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/DuckSliceCranberry,
+        scale = 0.4,
+	}		
 	model WorldItem-FrostedCookie
     {
 		mesh = WorldStaticModel\WorldItem_FrostedCookie,
@@ -76,6 +94,11 @@ module Base
     {
 		mesh = WorldStaticModel\WorldItem_Gingerbreadman_Food,
 		texture = Body\GingerbreadmanShrek,
+    }
+	model WorldItem-HotChocolatePacket
+    {
+		mesh = WorldStaticModel\WorldItem_HotChocolatePacket,
+		texture = Items\HotChocolatepacket,
     }		
 	model WorldItem-MapCapsule
     {
@@ -88,12 +111,23 @@ module Base
 		texture = Items\PizzaPizzaSliceCheese,
 		scale = 0.4,		
     }	
+	model WorldItem-PorkloinRoastSlice
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/PorkLoinSlice,
+        scale = 0.4,
+	}
+	model WorldItem-PorkloinRoastCranberry
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/PorkLoinSliceCranberry,
+        scale = 0.4,
+	}		
 	model WorldItem-StovePipeHat
     {
 		mesh = WorldStaticModel\WorldItem_StovePipeHat,
 		texture = Clothes\Hats\StovePipeHatRed,
     }
-
 	model WorldItem-PresentLarge
     {
 		mesh = WorldStaticModel\WorldItem_CM_LargePresent,
@@ -114,6 +148,12 @@ module Base
 		mesh = WorldStaticModel\WorldItem_Antlers,
 		texture = Clothes\Hats\ReindeerAntlers,
     }
+	model WorldItem-RumBottle
+    {
+        mesh = WorldItems/WhiskeyBottle,
+        texture = Items\RumBottle,
+        scale = 0.4,
+    }	
 	model WorldItem-SnowMan
     {
 		mesh = WorldStaticModel\WorldItem_SnowMan,
@@ -134,7 +174,35 @@ module Base
 		mesh = WorldStaticModel\WorldItem_SnowGlobe_01,
 		texture = Items\Snowglobe-1,
     }
-
+	model WorldItem-SweetPotato
+    {
+		mesh = WorldStaticModel\WorldItem_SweetPotato,
+		texture = Items\SweetPotato,
+    }
+	model WorldItem-TurduckenSlice
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/TurduckenSlice,
+        scale = 0.4,
+	}
+	model WorldItem-TurduckenSliceCranberry
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/TurduckenSliceCranberry,
+        scale = 0.4,
+	}
+	model WorldItem-TurkeySlice
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/TurkeySlice,
+        scale = 0.4,
+	}
+	model WorldItem-TurkeySliceCranberry
+	{
+		mesh = WorldItems/BaloneySlice,
+		texture = WorldItems/TurkeySliceCranberry,
+        scale = 0.4,
+	}	
 	model IceAssaultRifle
 	{
 		mesh = Weapons/Firearm/AssaultRifle,

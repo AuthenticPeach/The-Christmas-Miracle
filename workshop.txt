@@ -14,6 +14,7 @@ description= [*] Adds 15 new unique zombie outfits and redefines the zombie popu
 description=
 description= [*] Adds a bunch of Christmas-themed food items
 description= [*] Adds two super-weapons to the game that can be obtained in the Christmas Miracle challenge
+description= [*] Retextures a bunch of the vanilla weapons to have a more festive look. 
 description= [*] Changes the Main Menu picture
 description=
 description= [*] Adds present loot boxes to the game - each have a loot table of 100 items - you can also re-wrap the presents with adhesive tape and twine.
@@ -34,5 +35,6 @@ description=
 description=
 description=[h2] Want some fun companion mods? Try These! [/h2]
 description=[url=https://steamcommunity.com/workshop/filedetails/?id=2530389024][img] https://imgur.com/c2etyho.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458631365&searchtext=expanded+helis][img]https://imgur.com/7cfSt7Q.png [/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829][img]https://i.ibb.co/6XS5fcb/AZposter200.png [/img][/url]
+description=
 tags=Build 41;Clothing/Armor;Items;Map;Models;Pop Culture;Silly/Fun;Textures;Vehicles;Weapons
 visibility=public
